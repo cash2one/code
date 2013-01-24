@@ -1,9 +1,15 @@
 #include <iostream>
 #include <stdexcept>
 
-using namespace std;
+using std::cout;
+using std::endl;
+using std::cerr;
+using std::exception;
+using std::copy;
 
-template <class T> class vector_t
+namespace wty
+{
+template <class T> class vector
 {
 private:
     T* data;
@@ -11,11 +17,11 @@ private:
     T* limit;
     int size_max;
 public:
-    vector_t():data(NULL),avail(NULL),limit(NULL),size_max(2)
+    vector():data(NULL),avail(NULL),limit(NULL),size_max(2)
     {
     };
 
-    vector_t(int n, const T& u)
+    vector(int n, const T& u)
     {
         try{
             T* tmp = new T[n*2];
@@ -37,7 +43,7 @@ public:
 
     };
 
-    vector_t(const vector_t& other):data(NULL),avail(NULL),limit(NULL),size_max(2)
+    vector(const vector& other):data(NULL),avail(NULL),limit(NULL),size_max(2)
     {
         T* tmp = other.data;
         
@@ -47,7 +53,7 @@ public:
         }
     };
 
-    ~vector_t()
+    ~vector()
     {
         if(data != NULL)
         {
@@ -56,7 +62,7 @@ public:
         cout << "destory success" << endl;
     };
 
-    vector_t& operator= (const vector_t& other)
+    vector& operator= (const vector& other)
     {
         T* tmp = other.data;
         clear();        
@@ -200,7 +206,7 @@ public:
         T* tmp(avail);
         if(position > avail || position < data)
         {
-            throw overflow_error("pointer error");
+            cout << "pointer error" << endl;
             return ;
         }
         push_back(*avail);
@@ -216,7 +222,7 @@ public:
     {
         if(position > avail || position < data)
         {
-            throw overflow_error("pointer error");
+            cout << "pointer error" << endl;
             return ;
         }
         for(int i = 0; i < n; i++)
@@ -232,7 +238,7 @@ public:
 
         if(position > avail || position < data)
         {
-            throw overflow_error("pointer error");
+            cout << "pointer error" << endl;
             return ;
         }
         if(first == NULL || last == NULL)
@@ -255,3 +261,4 @@ public:
         }
     }
 };
+}

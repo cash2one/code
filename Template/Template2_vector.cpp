@@ -1,32 +1,17 @@
 #include <iostream>
-#include <vector>
 #include "Template2_vector.h"
 
-using namespace std;
+using std::cout;
+using std::endl;
+using wty::vector;
 
 int main()
 { 
-    vector_t<int> vt1;
-    //vt1.assign(5,200);
-    //vt1.clear();
-    for(int i = 1; i < 5; i++)
-    {
-        vt1.push_back(200*i);
-    }
-    vector_t<int> vt2(vt1);
-    for(int i = 1; i < 6; i++)
-    {
-        vt2.push_back(10*i);
-    }
-    vt1 = vt2;
-    /*
-    try{
-        vt2.insert(vt2.begin()+6,11);
-    }catch(exception &x){
-        cerr << x.what() << endl;        
-    }
-    */
+    vector<int> vt1;
+    vector<int> vt2;
 
+    vt1.push_back(2);
+    vt2.push_back(3);
     //vt1.insert(vt1.begin(),3,22);
     //vt1.insert(vt1.begin()+1,vt2.begin()+1,vt2.begin()+3);
     //vt1.pop_back();
