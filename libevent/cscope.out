@@ -1,0 +1,536 @@
+cscope 15 $HOME/workspace/code/libevent -q 0000000078 0000002844
+	@socket_libevent.c
+
+1 
+	~<¡dio.h
+>
+
+2 
+	~<¡ršg.h
+>
+
+3 
+	~<¡dlib.h
+>
+
+4 
+	~<Ãtš‘/š.h
+>
+
+5 
+	~<Ãtš‘/tý.h
+>
+
+6 
+	~<ev’t.h
+>
+
+7 
+	~<sys/ty³s.h
+>
+
+8 
+	~<sys/sock‘.h
+>
+
+9 
+	~<”ºo.h
+>
+
+10 
+	~<fúŽ.h
+>
+
+13 
+	gLi¡’PÜt
+ = 8080;
+
+14 
+	gLi¡’Addr
+ = 
+INADDR_ANY
+;
+
+15 
+	gMaxCÚÃùiÚs
+ = 1024;
+
+17 
+	gS”v”Sock‘
+;
+
+19 
+ev’t
+ 
+	gS”v”Ev’t
+;
+
+23 
+	$S‘NÚblock
+(
+fd
+)
+
+25 
+æags
+;
+
+27 ià((
+æags
+ = 
+	`fúŽ
+(
+fd
+, 
+F_GETFL
+)) == -1) {
+
+31 ià(
+	`fúŽ
+(
+fd
+, 
+F_SETFL
+, 
+æags
+ | 
+O_NONBLOCK
+) == -1) {
+
+35 
+	}
+}
+
+38 
+	$S”v”R—d
+(
+fd
+, 
+ev
+, *
+¬g
+)
+
+40 
+þ›Á
+ *þ›Á = (þ›Á *)
+¬g
+;
+
+41 
+u_ch¬
+ 
+buf
+[8196];
+
+42 
+Ën
+, 
+wËn
+;
+
+45 
+Ën
+ = 
+	`»ad
+(
+fd
+, 
+buf
+, (buf));
+
+46 ià(
+Ën
+ == 0) {
+
+48 
+	`´štf
+("disconnected\n");
+
+49 
+	`þo£
+(
+fd
+);
+
+50 
+	`ev’t_d–
+(&
+S”v”Ev’t
+);
+
+51 
+	`ä“
+(
+þ›Á
+);
+
+53 } ià(
+Ën
+ < 0) {
+
+55 
+	`´štf
+("sock‘ faž %s\n", 
+	`¡»¼Ü
+(
+”ºo
+));
+
+56 
+	`þo£
+(
+fd
+);
+
+57 
+	`ev’t_d–
+(&
+S”v”Ev’t
+);
+
+58 
+	`ä“
+(
+þ›Á
+);
+
+66 
+wËn
+ = 
+	`wr™e
+(
+fd
+, 
+buf
+, 
+Ën
+);
+
+67 ià(
+wËn
+ < 
+Ën
+) {
+
+68 
+	`´štf
+("not‡ll data write backo client\n");
+
+70 
+	}
+}
+
+78 
+	$S”v”Acû±
+(
+fd
+, 
+ev
+, *
+¬g
+)
+
+80 
+cfd
+;
+
+81 
+sockaddr_š
+ 
+addr
+;
+
+82 
+sockËn_t
+ 
+add¾’
+ = (
+addr
+);
+
+83 
+yes
+ = 1;
+
+84 
+»tv®
+;
+
+89 
+cfd
+ = 
+	`acû±
+(
+fd
+, (
+sockaddr
+ *)&
+addr
+, &
+add¾’
+);
+
+90 ià(
+cfd
+ == -1) {
+
+91 
+	`´štf
+("accept(): can‚ot‡ccept client connection");
+
+94 ià(
+	`S‘NÚblock
+(
+cfd
+) == -1) {
+
+95 
+	`þo£
+(
+cfd
+);
+
+104 ià(
+	`£tsockÝt
+(
+cfd
+, 
+IPPROTO_TCP
+, 
+TCP_NODELAY
+, &
+yes
+, (yes)) == -1) {
+
+105 
+	`´štf
+("£tsockÝt(): TCP_NODELAY %s\n", 
+	`¡»¼Ü
+(
+”ºo
+));
+
+106 
+	`þo£
+(
+cfd
+);
+
+110 
+	`ev’t_£t
+(&
+S”v”Ev’t
+, 
+cfd
+, 
+EV_READ
+ | 
+EV_PERSIST
+, 
+S”v”R—d
+, 
+NULL
+);
+
+111 
+	`ev’t_add
+(&
+S”v”Ev’t
+, 
+NULL
+);
+
+114 
+	}
+}
+
+115 
+	$NewSock‘
+()
+
+117 
+sockaddr_š
+ 
+§
+;
+
+124 
+S”v”Sock‘
+ = 
+	`sock‘
+(
+AF_INET
+, 
+SOCK_STREAM
+, 0);
+
+125 ià(
+S”v”Sock‘
+ == -1) {
+
+126 
+	`´štf
+("socket(): can‚ot create server socket\n");
+
+129 ià(
+	`S‘NÚblock
+(
+S”v”Sock‘
+) == -1) {
+
+134 
+	`mem£t
+(&
+§
+, 0, (sa));
+
+135 
+§
+.
+sš_çmžy
+ = 
+AF_INET
+;
+
+137 
+§
+.
+sš_pÜt
+ = 
+	`htÚs
+(
+Li¡’PÜt
+);
+
+139 
+§
+.
+sš_addr
+.
+s_addr
+ = 
+	`htÚl
+(
+Li¡’Addr
+);
+
+150 ià(
+	`bšd
+(
+S”v”Sock‘
+, (
+sockaddr
+*)&
+§
+, (sa)) == -1) {
+
+151 
+	`þo£
+(
+S”v”Sock‘
+);
+
+152 
+	`´štf
+("bind(): can‚ot bind server socket");
+
+158 ià(
+	`li¡’
+(
+S”v”Sock‘
+, 
+MaxCÚÃùiÚs
+) == -1) {
+
+159 
+	`´štf
+("listen(): can‚ot†isten server socket");
+
+160 
+	`þo£
+(
+S”v”Sock‘
+);
+
+181 
+	`ev’t_£t
+(&
+S”v”Ev’t
+, 
+S”v”Sock‘
+, 
+EV_READ
+ | 
+EV_PERSIST
+, 
+S”v”Acû±
+, 
+NULL
+);
+
+183 ià(
+	`ev’t_add
+(&
+S”v”Ev’t
+, 0) == -1) {
+
+184 
+	`´štf
+("event_add(): can‚ot‡dd‡cceptƒvent into†ibevent");
+
+185 
+	`þo£
+(
+S”v”Sock‘
+);
+
+189 
+	}
+}
+
+191 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+193 
+»tv®
+;
+
+196 
+	`ev’t_š™
+();
+
+198 
+»tv®
+ = 
+	`NewSock‘
+();
+
+199 ià(
+»tv®
+ == -1) {
+
+200 
+	`ex™
+(-1);
+
+203 
+	`ev’t_di¥©ch
+();
+
+206 
+	}
+}
+
+	@
+1
+.
+0
+1
+18
+socket_libevent.c
