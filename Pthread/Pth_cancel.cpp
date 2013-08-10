@@ -50,8 +50,8 @@ int main()
 
 void *thrd_func1(void *arg)
 {
-    //  pthread_setcancelstate(PTHREAD_CANCEL_DISABLE,NULL);
-    pthread_setcancelstate(PTHREAD_CANCEL_ENABLE,NULL); // 设置其他线程可以cancel掉此线程
+    //pthread_setcancelstate(PTHREAD_CANCEL_DISABLE,NULL);  // 设置其他线程不可以cancel此线程
+    pthread_setcancelstate(PTHREAD_CANCEL_ENABLE,NULL);     // 设置其他线程可以cancel此线程
 
     while(1)
     {

@@ -1,3 +1,4 @@
+// wty:2012/10/13   Pth_attr
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -26,11 +27,10 @@ void usr()
     pthread_attr_init(&attr);           //初始化线程属性结构
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);   //设置attr结构为分离
     pthread_create(&pid1, &attr, task1, NULL);         //创建线程，返回线程号给pid1,线程属性设置为attr的属性，线程函数入口为task1，参数为NULL
-    pthread_create(&pid2, &attr, task2, NULL);  
-    //pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
-    //pthread_create(&pid2, &attr, task2, NULL);
+    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
+    pthread_create(&pid2, &attr, task2, NULL);
     //前台工作
-    //ret=pthread_join(pid2, &p);         //等待pid2返回，返回值赋给p
+    ret=pthread_join(pid2, &p);         //等待pid2返回，返回值赋给p
     printf("after pthread2:ret=%d,p=%d\n", ret,(intptr_t)p);          
 }
 
@@ -47,6 +47,5 @@ void* task2(void *arg2)
 {
     printf("thread2 begin.\n");
     sleep(4);
-    pthread_create(&pid2, &attr, task2, NULL);
     pthread_exit((void *)2);
 }

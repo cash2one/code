@@ -20,9 +20,9 @@ int main()
     void *tret;
 
     srand((int)time(0));
-    // 创建快速互斥锁（默认），锁的编号返回给mutex    
+    // 创建快速互斥锁(默认),锁的编号返回给mutex    
     pthread_mutex_init(&mutex,NULL);
-    // 创建THREAD_NUM个线程，每个线程号返回给&thread[no]，每个线程的入口函数均为thrd_func，参数为
+    // 创建THREAD_NUM个线程,每个线程号返回给&thread[no],每个线程的入口函数均为thrd_func
     for(no=0;no<THREAD_NUM;no++)
     {
         if(pthread_create(&thread[no],NULL,thrd_func,(void*)no)!=0) 

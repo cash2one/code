@@ -23,7 +23,7 @@ int main()
     srand((int)time(0)); 
     sem_init(&sem[0],0,0);
     sem_init(&sem[1],0,0);
-    sem_init(&sem[2],0,1);
+    sem_init(&sem[2],0,1);      // 把最先执行的线程信号量设为1,其他为0
     for(no=0;no<THREAD_NUM;no++)
     {
         // wty: (void *)no 换成 &no的话,3个线程共用一个no
@@ -65,7 +65,7 @@ void *thrd_func(void *arg)
     int thrd_num = (intptr_t)arg; 
     int delay_time,count;
 
-    // 带有阻塞的p操作
+    // 带有阻塞的p操作,所有线程信号量减1,只有初始信号量为1的线程没有被阻塞
     sem_wait(&sem[thrd_num]);
     printf("Thread %d is starting.\n",thrd_num);
     for(count=0;count<REPEAT_TIMES;count++) 
@@ -78,7 +78,7 @@ void *thrd_func(void *arg)
     // 对前一个信号量进行V操作
     // 由于只有最后一个信号量初始化为1，其余均为0
     // 故线程执行的顺序将为逆序
-    //sem_post(&sem[thrd_num - 1]);    // 为什么不这样写
+    //sem_post(&sem[thrd_num - 1]);    // 为什么不这样写,可能为负
     sem_post(&sem[(thrd_num+THREAD_NUM-1)%THREAD_NUM]);   
     // 线程主动结束
     pthread_exit(NULL); 

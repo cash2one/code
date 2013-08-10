@@ -48,7 +48,7 @@ int main()
     return 0;
 }
 
-void *thrd_func(void *arg)
+void *thrd_func(void *arg)      // 线程函数可重入
 {
     int *thrd_num = (int*)arg;
     int delay_time = 0;
