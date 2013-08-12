@@ -36,12 +36,11 @@ void *product(void *arg)
     {
         // 用sleep的数量可以调节生产和消费的速度，便于观察
         sleep(1);
-        //sleep(1);
 
         sem_wait(&empty_sem);
-        pthread_mutex_lock(&mutex);
-        //这二句如果颠倒的话,可能出现一种异常情况,
-        //当进入了缓冲区为满时,颠倒之后会对缓冲区先加锁,然后,进程由于缓冲区为买没法生产产品,在这里被阻塞,而消费者又无法获得缓冲区的锁进入缓冲区,因而会出现死锁
+        pthread_mutex_lock(&mutex);         // 生产者和消费者不同时对缓冲区操作
+        // 这二句如果颠倒的话,可能出现一种异常情况,
+        // 当进入了缓冲区为满时,颠倒之后会对缓冲区先加锁,然后,进程由于缓冲区为满没法生产产品,在这里被阻塞,而消费者又无法获得缓冲区的锁进入缓冲区,因而会出现死锁
         in = in % M;
         printf("product%d in %d. like: \t", id, in);
 
@@ -62,11 +61,10 @@ void *prochase(void *arg)
         // 用sleep的数量可以调节生产和消费的速度，便于观察
         sleep(2);
 
-        sem_wait(&full_sem);       //  这二句如果颠倒的话,可能出现一种异常情况,
-
-        //当进入了缓冲区为空时,颠倒之后会对缓冲区先加锁,然后,进程由于缓冲区为空没发消费产品,在这里被阻塞,而生产者又无法获得缓冲区的锁进入缓冲区,因而会出现死锁
-        pthread_mutex_lock(&mutex);
-
+        sem_wait(&full_sem);      
+        pthread_mutex_lock(&mutex);   
+        // 这二句如果颠倒的话,可能出现一种异常情况,
+        // 当进入了缓冲区为空时,颠倒之后会对缓冲区先加锁,然后,进程由于缓冲区为空没发消费产品,在这里被阻塞,而生产者又无法获得缓冲区的锁进入缓冲区,因而会出现死锁
         out = out % M;
         printf("prochase%d in %d. like: \t", id, out);
 
@@ -95,7 +93,7 @@ int main()
         printf("sem init failed \n");
         exit(1);
     }
-    //初始化互斥信号量
+    // 初始化互斥信号量
     int ini3 = pthread_mutex_init(&mutex, NULL);
     if(ini3 != 0)
     {
@@ -109,7 +107,7 @@ int main()
         printf("product%d creation failed \n", i);
         exit(1);
     }
-    //创建N个消费者线程
+    // 创建N个消费者线程
     ret= pthread_create(&id2, NULL, prochase, NULL);
     if(ret != 0)
     {
@@ -117,7 +115,7 @@ int main()
         exit(1);
     }
     printf("waiting pthread_join...\n");
-    //销毁线程
+    // 销毁线程
     pthread_join(id1,NULL);
     pthread_join(id2,NULL);
 
