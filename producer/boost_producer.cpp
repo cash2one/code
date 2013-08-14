@@ -43,7 +43,7 @@ void b_thrd::lock_thrd()
 
 void b_thrd::unlock_thrd()
 {
-    if(pthread_mutex_lock(&m_mutex) != 0)
+    if(pthread_mutex_unlock(&m_mutex) != 0)
         cout << "unlock_thrd error. tid:" << m_tid << endl;
 }
 
@@ -61,37 +61,38 @@ void* b_thrd::run_thrd(void* arg)
 {
     b_thrd* thrd = static_cast<b_thrd*>(arg); 
 
-    //cout << "thrd " << m_tid << " is running." << endl;
-    //lock_thrd();
+    cout << "thrd_name:" << thrd->m_thrd_name << ", tid:" << thrd->m_tid << " is running." << endl;
+    thrd->lock_thrd();
     thrd->m_func();
-    //unlock_thrd();
-    //pthread_exit(NULL);
+    thrd->unlock_thrd();
+    pthread_exit(NULL);
 
     return NULL;
 }
 
 boost::circular_buffer<int> cir_buf(10);
+int buffer[10] = {0};
 
 void cout_buf()
 {
-    for(int i; i < cir_buf.max_size(); i++)
-        cout << "buf = " << cir_buf[i] << " " << endl;
+    cout << "buffer:" << endl;
+    for(int i = 0; i < cir_buf.size(); i++)
+        cout << cir_buf[i] << " ";
+    cout << endl;
 }
 
 void prod_func()
 {
     if(!cir_buf.full())
-    {
-        cir_buf.push_back();
-    }
+        cir_buf.push_back(1);
+    cout_buf();
 }
 
 void coms_func()
 {
-    if(!cir_buf.empty())    
-    {
+    if(!cir_buf.empty())
         cir_buf.pop_front();            
-    }
+    cout_buf();
 }
 
 int main()
@@ -102,12 +103,20 @@ int main()
 
     func = boost::bind(&prod_func);
     b_thrd prod_thrd(func, "producer", g_mutex);
-    //func = boost::bind(&coms_func);
-    //b_thrd coms_thrd(&func, "comsumer", g_mutex);
-
     prod_thrd.create_thrd();
-    //coms_thrd.create_thrd(); 
-    
+    b_thrd prod_thrd1(func, "producer", g_mutex);
+    prod_thrd1.create_thrd();
+    b_thrd prod_thrd2(func, "producer", g_mutex);
+    prod_thrd2.create_thrd();
+
+    func = boost::bind(&coms_func);
+    b_thrd coms_thrd(func, "comsumer", g_mutex);
+    coms_thrd.create_thrd(); 
+    b_thrd coms_thrd1(func, "comsumer", g_mutex);
+    coms_thrd1.create_thrd(); 
+
+    while(1){}
+
     pthread_mutex_destroy(&g_mutex);
 
     return 0;
