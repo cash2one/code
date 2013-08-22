@@ -1,0 +1,1781 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_DATA_READ	./http-internal.h	/^	ALL_DATA_READ = 1,$/;"	e	language:C++	enum:message_read_status
+APPEND16	./evdns.c	1377;"	d	language:C	file:
+APPEND16	./evdns.c	1877;"	d	language:C	file:
+APPEND32	./evdns.c	1384;"	d	language:C	file:
+APPEND32	./evdns.c	1878;"	d	language:C	file:
+CHUNKS	./test/regress_http.c	/^static char const* const CHUNKS[] = {$/;"	v	language:C	file:
+CIRCLEQ_EMPTY	./compat/sys/queue.h	401;"	d	language:C++
+CIRCLEQ_END	./compat/sys/queue.h	398;"	d	language:C++
+CIRCLEQ_ENTRY	./compat/sys/queue.h	387;"	d	language:C++
+CIRCLEQ_FIRST	./compat/sys/queue.h	396;"	d	language:C++
+CIRCLEQ_FOREACH	./compat/sys/queue.h	404;"	d	language:C++
+CIRCLEQ_FOREACH_REVERSE	./compat/sys/queue.h	409;"	d	language:C++
+CIRCLEQ_HEAD	./compat/sys/queue.h	378;"	d	language:C++
+CIRCLEQ_HEAD_INITIALIZER	./compat/sys/queue.h	384;"	d	language:C++
+CIRCLEQ_INIT	./compat/sys/queue.h	417;"	d	language:C++
+CIRCLEQ_INSERT_AFTER	./compat/sys/queue.h	422;"	d	language:C++
+CIRCLEQ_INSERT_BEFORE	./compat/sys/queue.h	432;"	d	language:C++
+CIRCLEQ_INSERT_HEAD	./compat/sys/queue.h	442;"	d	language:C++
+CIRCLEQ_INSERT_TAIL	./compat/sys/queue.h	452;"	d	language:C++
+CIRCLEQ_LAST	./compat/sys/queue.h	397;"	d	language:C++
+CIRCLEQ_NEXT	./compat/sys/queue.h	399;"	d	language:C++
+CIRCLEQ_PREV	./compat/sys/queue.h	400;"	d	language:C++
+CIRCLEQ_REMOVE	./compat/sys/queue.h	462;"	d	language:C++
+CIRCLEQ_REPLACE	./compat/sys/queue.h	475;"	d	language:C++
+CLASS_INET	./evdns.c	159;"	d	language:C	file:
+CLOCK_PROF	./compat/sys/_libevent_time.h	156;"	d	language:C++
+CLOCK_REALTIME	./compat/sys/_libevent_time.h	154;"	d	language:C++
+CLOCK_VIRTUAL	./compat/sys/_libevent_time.h	155;"	d	language:C++
+CLOSE_SOCKET	./evdns.c	380;"	d	language:C	file:
+DATA_CORRUPTED	./http-internal.h	/^	DATA_CORRUPTED = -1,$/;"	e	language:C++	enum:message_read_status
+DEFAULT_NFDS	./evport.c	84;"	d	language:C	file:
+DNS_ERR_FORMAT	./evdns.h	173;"	d	language:C++
+DNS_ERR_NONE	./evdns.h	171;"	d	language:C++
+DNS_ERR_NOTEXIST	./evdns.h	178;"	d	language:C++
+DNS_ERR_NOTIMPL	./evdns.h	180;"	d	language:C++
+DNS_ERR_REFUSED	./evdns.h	183;"	d	language:C++
+DNS_ERR_SERVERFAILED	./evdns.h	176;"	d	language:C++
+DNS_ERR_SHUTDOWN	./evdns.h	191;"	d	language:C++
+DNS_ERR_TIMEOUT	./evdns.h	189;"	d	language:C++
+DNS_ERR_TRUNCATED	./evdns.h	185;"	d	language:C++
+DNS_ERR_UNKNOWN	./evdns.h	187;"	d	language:C++
+DNS_IPv4_A	./evdns.h	193;"	d	language:C++
+DNS_IPv6_AAAA	./evdns.h	195;"	d	language:C++
+DNS_NO_SEARCH	./evdns.h	467;"	d	language:C++
+DNS_OPTIONS_ALL	./evdns.h	202;"	d	language:C++
+DNS_OPTION_MISC	./evdns.h	201;"	d	language:C++
+DNS_OPTION_NAMESERVERS	./evdns.h	200;"	d	language:C++
+DNS_OPTION_SEARCH	./evdns.h	199;"	d	language:C++
+DNS_PTR	./evdns.h	194;"	d	language:C++
+DNS_QUERY_NO_SEARCH	./evdns.h	197;"	d	language:C++
+DNS_USE_FTIME_FOR_ID	./WIN32-Code/config.h	8;"	d	language:C++
+DST_AUST	./compat/sys/_libevent_time.h	72;"	d	language:C++
+DST_CAN	./compat/sys/_libevent_time.h	76;"	d	language:C++
+DST_EET	./compat/sys/_libevent_time.h	75;"	d	language:C++
+DST_MET	./compat/sys/_libevent_time.h	74;"	d	language:C++
+DST_NONE	./compat/sys/_libevent_time.h	70;"	d	language:C++
+DST_USA	./compat/sys/_libevent_time.h	71;"	d	language:C++
+DST_WET	./compat/sys/_libevent_time.h	73;"	d	language:C++
+ERR_FORMAT	./http.c	1892;"	d	language:C	file:
+ERR_FORMAT	./http.c	1911;"	d	language:C	file:
+ERR_FORMAT	./http.c	2209;"	d	language:C	file:
+ERR_FORMAT	./http.c	2228;"	d	language:C	file:
+EVBUFFER_DATA	./event.h	977;"	d	language:C++
+EVBUFFER_EOF	./event.h	753;"	d	language:C++
+EVBUFFER_ERROR	./event.h	754;"	d	language:C++
+EVBUFFER_INITIAL_LENGTH	./test/regress.c	1028;"	d	language:C	file:
+EVBUFFER_INPUT	./event.h	978;"	d	language:C++
+EVBUFFER_LENGTH	./event.h	976;"	d	language:C++
+EVBUFFER_MAX_READ	./buffer.c	388;"	d	language:C	file:
+EVBUFFER_OUTPUT	./event.h	979;"	d	language:C++
+EVBUFFER_READ	./event.h	751;"	d	language:C++
+EVBUFFER_TIMEOUT	./event.h	755;"	d	language:C++
+EVBUFFER_WRITE	./event.h	752;"	d	language:C++
+EVCON_CONNECTING	./http-internal.h	/^	EVCON_CONNECTING,	\/**< tries to currently connect *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_DISCONNECTED	./http-internal.h	/^	EVCON_DISCONNECTED,	\/**< not currently connected not trying either*\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_HTTP_EOF	./http-internal.h	/^	EVCON_HTTP_EOF,$/;"	e	language:C++	enum:evhttp_connection_error
+EVCON_HTTP_INVALID_HEADER	./http-internal.h	/^	EVCON_HTTP_INVALID_HEADER$/;"	e	language:C++	enum:evhttp_connection_error
+EVCON_HTTP_TIMEOUT	./http-internal.h	/^	EVCON_HTTP_TIMEOUT,$/;"	e	language:C++	enum:evhttp_connection_error
+EVCON_IDLE	./http-internal.h	/^	EVCON_IDLE,		\/**< connection is established *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_READING_BODY	./http-internal.h	/^	EVCON_READING_BODY,	\/**< reading request\/response body *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_READING_FIRSTLINE	./http-internal.h	/^	EVCON_READING_FIRSTLINE,\/**< reading Request-Line (incoming conn) or$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_READING_HEADERS	./http-internal.h	/^	EVCON_READING_HEADERS,	\/**< reading request\/response headers *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_READING_TRAILER	./http-internal.h	/^	EVCON_READING_TRAILER,	\/**< reading request\/response chunked trailer *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVCON_WRITING	./http-internal.h	/^	EVCON_WRITING		\/**< writing request\/response headers\/body *\/$/;"	e	language:C++	enum:evhttp_connection_state
+EVDNS_ADDITIONAL_SECTION	./evdns.h	494;"	d	language:C++
+EVDNS_ANSWER_SECTION	./evdns.h	492;"	d	language:C++
+EVDNS_AUTHORITY_SECTION	./evdns.h	493;"	d	language:C++
+EVDNS_CLASS_INET	./evdns.h	508;"	d	language:C++
+EVDNS_LOG_CHECK	./evdns.c	407;"	d	language:C	file:
+EVDNS_LOG_CHECK	./evdns.c	409;"	d	language:C	file:
+EVDNS_LOG_DEBUG	./evdns.c	120;"	d	language:C	file:
+EVDNS_LOG_WARN	./evdns.c	121;"	d	language:C	file:
+EVDNS_QTYPE_ALL	./evdns.h	506;"	d	language:C++
+EVDNS_QTYPE_AXFR	./evdns.h	505;"	d	language:C++
+EVDNS_TYPE_A	./evdns.h	496;"	d	language:C++
+EVDNS_TYPE_AAAA	./evdns.h	503;"	d	language:C++
+EVDNS_TYPE_CNAME	./evdns.h	498;"	d	language:C++
+EVDNS_TYPE_MX	./evdns.h	501;"	d	language:C++
+EVDNS_TYPE_NS	./evdns.h	497;"	d	language:C++
+EVDNS_TYPE_PTR	./evdns.h	500;"	d	language:C++
+EVDNS_TYPE_SOA	./evdns.h	499;"	d	language:C++
+EVDNS_TYPE_TXT	./evdns.h	502;"	d	language:C++
+EVENTDNS_H	./evdns.h	161;"	d	language:C++
+EVENTS_PER_GETN	./evport.c	92;"	d	language:C	file:
+EVENT_FD	./event.h	253;"	d	language:C++
+EVENT_NO_STRUCT	./test/regress.gen.c	13;"	d	language:C	file:
+EVENT_SIGNAL	./event.h	252;"	d	language:C++
+EVHTTP_BASE_SET	./http.c	193;"	d	language:C	file:
+EVHTTP_CON_CLOSEDETECT	./http-internal.h	72;"	d	language:C++
+EVHTTP_CON_INCOMING	./http-internal.h	70;"	d	language:C++
+EVHTTP_CON_OUTGOING	./http-internal.h	71;"	d	language:C++
+EVHTTP_PROXY_REQUEST	./evhttp.h	202;"	d	language:C++
+EVHTTP_REQUEST	./evhttp.h	/^enum evhttp_request_kind { EVHTTP_REQUEST, EVHTTP_RESPONSE };$/;"	e	language:C++	enum:evhttp_request_kind
+EVHTTP_REQ_GET	./evhttp.h	/^enum evhttp_cmd_type { EVHTTP_REQ_GET, EVHTTP_REQ_POST, EVHTTP_REQ_HEAD };$/;"	e	language:C++	enum:evhttp_cmd_type
+EVHTTP_REQ_HEAD	./evhttp.h	/^enum evhttp_cmd_type { EVHTTP_REQ_GET, EVHTTP_REQ_POST, EVHTTP_REQ_HEAD };$/;"	e	language:C++	enum:evhttp_cmd_type
+EVHTTP_REQ_OWN_CONNECTION	./evhttp.h	201;"	d	language:C++
+EVHTTP_REQ_POST	./evhttp.h	/^enum evhttp_cmd_type { EVHTTP_REQ_GET, EVHTTP_REQ_POST, EVHTTP_REQ_HEAD };$/;"	e	language:C++	enum:evhttp_cmd_type
+EVHTTP_RESPONSE	./evhttp.h	/^enum evhttp_request_kind { EVHTTP_REQUEST, EVHTTP_RESPONSE };$/;"	e	language:C++	enum:evhttp_request_kind
+EVLIST_ACTIVE	./event.h	188;"	d	language:C++
+EVLIST_ALL	./event.h	193;"	d	language:C++
+EVLIST_INIT	./event.h	190;"	d	language:C++
+EVLIST_INSERTED	./event.h	186;"	d	language:C++
+EVLIST_INTERNAL	./event.h	189;"	d	language:C++
+EVLIST_SIGNAL	./event.h	187;"	d	language:C++
+EVLIST_TIMEOUT	./event.h	185;"	d	language:C++
+EVLIST_X_KQINKERNEL	./kqueue.c	67;"	d	language:C	file:
+EVLOOP_NONBLOCK	./event.h	378;"	d	language:C++
+EVLOOP_ONCE	./event.h	377;"	d	language:C++
+EVRPC_GENERATE	./evrpc.h	179;"	d	language:C++
+EVRPC_HEADER	./evrpc.h	154;"	d	language:C++
+EVRPC_HOOK_TYPE	./evrpc.h	/^enum EVRPC_HOOK_TYPE {$/;"	g	language:C++
+EVRPC_INPUT	./evrpc.h	/^	EVRPC_INPUT,		\/**< apply the function to an input hook *\/$/;"	e	language:C++	enum:EVRPC_HOOK_TYPE
+EVRPC_MAKE_REQUEST	./evrpc.h	387;"	d	language:C++
+EVRPC_OUTPUT	./evrpc.h	/^	EVRPC_OUTPUT		\/**< apply the function to an output hook *\/$/;"	e	language:C++	enum:EVRPC_HOOK_TYPE
+EVRPC_REGISTER	./evrpc.h	295;"	d	language:C++
+EVRPC_REGISTER_OBJECT	./evrpc.h	240;"	d	language:C++
+EVRPC_REQUEST_DONE	./evrpc.h	233;"	d	language:C++
+EVRPC_REQUEST_HTTP	./evrpc.h	223;"	d	language:C++
+EVRPC_STATUS_ERR_BADPAYLOAD	./evrpc.h	331;"	d	language:C++
+EVRPC_STATUS_ERR_HOOKABORTED	./evrpc.h	333;"	d	language:C++
+EVRPC_STATUS_ERR_NONE	./evrpc.h	329;"	d	language:C++
+EVRPC_STATUS_ERR_TIMEOUT	./evrpc.h	330;"	d	language:C++
+EVRPC_STATUS_ERR_UNSTARTED	./evrpc.h	332;"	d	language:C++
+EVRPC_STRUCT	./evrpc.h	113;"	d	language:C++
+EVRPC_STRUCT	./test/regress_rpc.c	/^MessageCb(EVRPC_STRUCT(Message)* rpc, void *arg)$/;"	f	language:C	file:
+EVRPC_STRUCT	./test/regress_rpc.c	/^NeverReplyCb(EVRPC_STRUCT(NeverReply)* rpc, void *arg)$/;"	f	language:C	file:
+EVRPC_UNREGISTER	./evrpc.h	314;"	d	language:C++
+EVRPC_URI_PREFIX	./evrpc-internal.h	34;"	d	language:C++
+EVTAG_ADD	./test/regress.gen.h	20;"	d	language:C++
+EVTAG_ASSIGN	./test/regress.gen.h	14;"	d	language:C++
+EVTAG_ASSIGN	./test/regress.gen.h	17;"	d	language:C++
+EVTAG_GET	./test/regress.gen.h	15;"	d	language:C++
+EVTAG_GET	./test/regress.gen.h	18;"	d	language:C++
+EVTAG_HAS	./test/regress.gen.h	12;"	d	language:C++
+EVTAG_LEN	./test/regress.gen.h	21;"	d	language:C++
+EVUTIL_CLOSESOCKET	./evutil.h	104;"	d	language:C++
+EVUTIL_CLOSESOCKET	./evutil.h	106;"	d	language:C++
+EVUTIL_SET_SOCKET_ERROR	./evutil.h	111;"	d	language:C++
+EVUTIL_SET_SOCKET_ERROR	./evutil.h	115;"	d	language:C++
+EVUTIL_SOCKET_ERROR	./evutil.h	110;"	d	language:C++
+EVUTIL_SOCKET_ERROR	./evutil.h	114;"	d	language:C++
+EV_CHECK_FMT	./log.h	31;"	d	language:C++
+EV_CHECK_FMT	./log.h	33;"	d	language:C++
+EV_CHECK_FMT	./log.h	49;"	d	language:C++
+EV_PERSIST	./event.h	199;"	d	language:C++
+EV_READ	./event.h	196;"	d	language:C++
+EV_SIGNAL	./event.h	198;"	d	language:C++
+EV_TIMEOUT	./event.h	195;"	d	language:C++
+EV_WRITE	./event.h	197;"	d	language:C++
+FDI_HAS_EVENTS	./evport.c	106;"	d	language:C	file:
+FDI_HAS_READ	./evport.c	104;"	d	language:C	file:
+FDI_HAS_WRITE	./evport.c	105;"	d	language:C	file:
+FDI_TO_SYSEVENTS	./evport.c	107;"	d	language:C	file:
+FD_CLOSEONEXEC	./epoll.c	100;"	d	language:C	file:
+FD_CLOSEONEXEC	./epoll.c	95;"	d	language:C	file:
+FD_CLOSEONEXEC	./signal.c	87;"	d	language:C	file:
+FD_CLOSEONEXEC	./signal.c	92;"	d	language:C	file:
+FD_SET_ALLOC_SIZE	./WIN32-Code/win32.c	128;"	d	language:C	file:
+GET16	./evdns.c	1037;"	d	language:C	file:
+GET16	./evdns.c	761;"	d	language:C	file:
+GET32	./evdns.c	1036;"	d	language:C	file:
+GET32	./evdns.c	760;"	d	language:C	file:
+GET8	./evdns.c	1038;"	d	language:C	file:
+GET8	./evdns.c	762;"	d	language:C	file:
+GetNetworkParams_fn_t	./evdns.c	/^typedef DWORD(WINAPI *GetNetworkParams_fn_t)(FIXED_INFO *, DWORD*);$/;"	t	language:C	file:
+GotErrorCb	./test/regress_rpc.c	/^GotErrorCb(struct evrpc_status *status,$/;"	f	language:C	file:	signature:(struct evrpc_status *status, struct msg *msg, struct kill *kill, void *arg)
+GotKillCb	./test/regress_rpc.c	/^GotKillCb(struct evrpc_status *status,$/;"	f	language:C	file:	signature:(struct evrpc_status *status, struct msg *msg, struct kill *kill, void *arg)
+GotKillCbTwo	./test/regress_rpc.c	/^GotKillCbTwo(struct evrpc_status *status,$/;"	f	language:C	file:	signature:(struct evrpc_status *status, struct msg *msg, struct kill *kill, void *arg)
+HAVE_FCNTL_H	./WIN32-Code/config.h	35;"	d	language:C++
+HAVE_MEMORY_H	./WIN32-Code/config.h	68;"	d	language:C++
+HAVE_SIGNAL	./WIN32-Code/config.h	95;"	d	language:C++
+HAVE_SIGNAL_H	./WIN32-Code/config.h	98;"	d	language:C++
+HAVE_STDARG_H	./WIN32-Code/config.h	101;"	d	language:C++
+HAVE_STDLIB_H	./WIN32-Code/config.h	107;"	d	language:C++
+HAVE_STRINGS_H	./WIN32-Code/config.h	110;"	d	language:C++
+HAVE_STRING_H	./WIN32-Code/config.h	113;"	d	language:C++
+HAVE_STRUCT_IN6_ADDR	./WIN32-Code/config.h	125;"	d	language:C++
+HAVE_TIMERCMP	./WIN32-Code/config.h	167;"	d	language:C++
+HAVE_TIMERISSET	./WIN32-Code/config.h	170;"	d	language:C++
+HOST_NAME_MAX	./evdns.c	124;"	d	language:C	file:
+HTTP_BADREQUEST	./evhttp.h	60;"	d	language:C++
+HTTP_CONNECT_TIMEOUT	./http-internal.h	13;"	d	language:C++
+HTTP_DEFAULTPORT	./http-internal.h	18;"	d	language:C++
+HTTP_MOVEPERM	./evhttp.h	57;"	d	language:C++
+HTTP_MOVETEMP	./evhttp.h	58;"	d	language:C++
+HTTP_NOCONTENT	./evhttp.h	56;"	d	language:C++
+HTTP_NOTFOUND	./evhttp.h	61;"	d	language:C++
+HTTP_NOTMODIFIED	./evhttp.h	59;"	d	language:C++
+HTTP_OK	./evhttp.h	55;"	d	language:C++
+HTTP_PREFIX	./http-internal.h	17;"	d	language:C++
+HTTP_READ_TIMEOUT	./http-internal.h	15;"	d	language:C++
+HTTP_SERVUNAVAIL	./evhttp.h	62;"	d	language:C++
+HTTP_WRITE_TIMEOUT	./http-internal.h	14;"	d	language:C++
+INITIAL_NEVENTS	./epoll.c	112;"	d	language:C	file:
+INITIAL_NFILES	./epoll.c	111;"	d	language:C	file:
+INPUT	./evrpc.h	446;"	d	language:C++
+ISDIGIT	./evdns.c	383;"	d	language:C	file:
+ISSPACE	./evdns.c	382;"	d	language:C	file:
+ITIMER_PROF	./compat/sys/_libevent_time.h	136;"	d	language:C++
+ITIMER_REAL	./compat/sys/_libevent_time.h	134;"	d	language:C++
+ITIMER_VIRTUAL	./compat/sys/_libevent_time.h	135;"	d	language:C++
+KILL_ACTION	./test/regress.gen.h	/^  KILL_ACTION=2,$/;"	e	language:C++	enum:kill_
+KILL_HOW_OFTEN	./test/regress.gen.h	/^  KILL_HOW_OFTEN=3,$/;"	e	language:C++	enum:kill_
+KILL_MAX_TAGS	./test/regress.gen.h	/^  KILL_MAX_TAGS$/;"	e	language:C++	enum:kill_
+KILL_WEAPON	./test/regress.gen.h	/^  KILL_WEAPON=65825,$/;"	e	language:C++	enum:kill_
+LIST_EMPTY	./compat/sys/queue.h	159;"	d	language:C++
+LIST_END	./compat/sys/queue.h	158;"	d	language:C++
+LIST_ENTRY	./compat/sys/queue.h	148;"	d	language:C++
+LIST_FIRST	./compat/sys/queue.h	157;"	d	language:C++
+LIST_FOREACH	./compat/sys/queue.h	162;"	d	language:C++
+LIST_HEAD	./compat/sys/queue.h	140;"	d	language:C++
+LIST_HEAD_INITIALIZER	./compat/sys/queue.h	145;"	d	language:C++
+LIST_INIT	./compat/sys/queue.h	170;"	d	language:C++
+LIST_INSERT_AFTER	./compat/sys/queue.h	174;"	d	language:C++
+LIST_INSERT_BEFORE	./compat/sys/queue.h	182;"	d	language:C++
+LIST_INSERT_HEAD	./compat/sys/queue.h	189;"	d	language:C++
+LIST_NEXT	./compat/sys/queue.h	160;"	d	language:C++
+LIST_REMOVE	./compat/sys/queue.h	196;"	d	language:C++
+LIST_REPLACE	./compat/sys/queue.h	203;"	d	language:C++
+MAX_ADDRS	./evdns.c	151;"	d	language:C	file:
+MAX_EPOLL_TIMEOUT_MSEC	./epoll.c	109;"	d	language:C	file:
+MAX_LABELS	./evdns.c	1301;"	d	language:C	file:
+MAX_NEVENTS	./epoll.c	113;"	d	language:C	file:
+MIN	./evdns.c	129;"	d	language:C	file:
+MIN	./evdns.c	130;"	d	language:C	file:
+MIN	./http.c	189;"	d	language:C	file:
+MORE_DATA_EXPECTED	./http-internal.h	/^	MORE_DATA_EXPECTED = 0,$/;"	e	language:C++	enum:message_read_status
+MSG_ATTACK	./test/regress.gen.h	/^  MSG_ATTACK=3,$/;"	e	language:C++	enum:msg_
+MSG_FROM_NAME	./test/regress.gen.h	/^  MSG_FROM_NAME=1,$/;"	e	language:C++	enum:msg_
+MSG_MAX_TAGS	./test/regress.gen.h	/^  MSG_MAX_TAGS$/;"	e	language:C++	enum:msg_
+MSG_RUN	./test/regress.gen.h	/^  MSG_RUN=4,$/;"	e	language:C++	enum:msg_
+MSG_TO_NAME	./test/regress.gen.h	/^  MSG_TO_NAME=2,$/;"	e	language:C++	enum:msg_
+NEVENT	./WIN32-Code/win32.c	233;"	d	language:C	file:
+NEVENT	./devpoll.c	88;"	d	language:C	file:
+NEVENT	./kqueue.c	69;"	d	language:C	file:
+NEVENT	./test/test-time.c	31;"	d	language:C	file:
+NEXT_TOKEN	./evdns.c	2698;"	d	language:C	file:
+NEXT_TOKEN	./evdns.c	2732;"	d	language:C	file:
+NFDBITS	./select.c	65;"	d	language:C	file:
+NFDBITS	./select.c	66;"	d	language:C	file:
+NI_MAXHOST	./http.c	100;"	d	language:C	file:
+NI_MAXSERV	./http.c	99;"	d	language:C	file:
+NI_MAXSERV	./test/regress_http.c	106;"	d	language:C	file:
+NI_NUMERICHOST	./http.c	102;"	d	language:C	file:
+NI_NUMERICSERV	./http.c	103;"	d	language:C	file:
+OFFSET_OF	./evdns.c	289;"	d	language:C	file:
+OUTPUT	./evrpc.h	449;"	d	language:C++
+PACKAGE	./WIN32-Code/config.h	182;"	d	language:C++
+PACKAGE_BUGREPORT	./WIN32-Code/config.h	185;"	d	language:C++
+PACKAGE_NAME	./WIN32-Code/config.h	188;"	d	language:C++
+PACKAGE_STRING	./WIN32-Code/config.h	191;"	d	language:C++
+PACKAGE_TARNAME	./WIN32-Code/config.h	194;"	d	language:C++
+PACKAGE_VERSION	./WIN32-Code/config.h	197;"	d	language:C++
+POST_DATA	./test/regress_http.c	671;"	d	language:C	file:
+PTR_TO_UDATA	./kqueue.c	58;"	d	language:C	file:
+PTR_TO_UDATA	./kqueue.c	60;"	d	language:C	file:
+RB_AUGMENT	./WIN32-Code/tree.h	1009;"	d	language:C++
+RB_AUGMENT	./WIN32-Code/tree.h	332;"	d	language:C++
+RB_AUGMENT	./WIN32-Code/win32.c	46;"	d	language:C	file:
+RB_BLACK	./WIN32-Code/tree.h	303;"	d	language:C++
+RB_BLACK	./WIN32-Code/tree.h	980;"	d	language:C++
+RB_COLOR	./WIN32-Code/tree.h	316;"	d	language:C++
+RB_COLOR	./WIN32-Code/tree.h	993;"	d	language:C++
+RB_EMPTY	./WIN32-Code/tree.h	318;"	d	language:C++
+RB_EMPTY	./WIN32-Code/tree.h	995;"	d	language:C++
+RB_ENTRY	./WIN32-Code/tree.h	305;"	d	language:C++
+RB_ENTRY	./WIN32-Code/tree.h	982;"	d	language:C++
+RB_FIND	./WIN32-Code/tree.h	1344;"	d	language:C++
+RB_FIND	./WIN32-Code/tree.h	667;"	d	language:C++
+RB_FOREACH	./WIN32-Code/tree.h	1349;"	d	language:C++
+RB_FOREACH	./WIN32-Code/tree.h	672;"	d	language:C++
+RB_GENERATE	./WIN32-Code/tree.h	1066;"	d	language:C++
+RB_GENERATE	./WIN32-Code/tree.h	389;"	d	language:C++
+RB_HEAD	./WIN32-Code/tree.h	291;"	d	language:C++
+RB_HEAD	./WIN32-Code/tree.h	968;"	d	language:C++
+RB_INF	./WIN32-Code/tree.h	1340;"	d	language:C++
+RB_INF	./WIN32-Code/tree.h	663;"	d	language:C++
+RB_INIT	./WIN32-Code/tree.h	299;"	d	language:C++
+RB_INIT	./WIN32-Code/tree.h	976;"	d	language:C++
+RB_INITIALIZER	./WIN32-Code/tree.h	296;"	d	language:C++
+RB_INITIALIZER	./WIN32-Code/tree.h	973;"	d	language:C++
+RB_INSERT	./WIN32-Code/tree.h	1342;"	d	language:C++
+RB_INSERT	./WIN32-Code/tree.h	665;"	d	language:C++
+RB_LEFT	./WIN32-Code/tree.h	313;"	d	language:C++
+RB_LEFT	./WIN32-Code/tree.h	990;"	d	language:C++
+RB_MAX	./WIN32-Code/tree.h	1347;"	d	language:C++
+RB_MAX	./WIN32-Code/tree.h	670;"	d	language:C++
+RB_MIN	./WIN32-Code/tree.h	1346;"	d	language:C++
+RB_MIN	./WIN32-Code/tree.h	669;"	d	language:C++
+RB_NEGINF	./WIN32-Code/tree.h	1339;"	d	language:C++
+RB_NEGINF	./WIN32-Code/tree.h	662;"	d	language:C++
+RB_NEXT	./WIN32-Code/tree.h	1345;"	d	language:C++
+RB_NEXT	./WIN32-Code/tree.h	668;"	d	language:C++
+RB_PARENT	./WIN32-Code/tree.h	315;"	d	language:C++
+RB_PARENT	./WIN32-Code/tree.h	992;"	d	language:C++
+RB_PROTOTYPE	./WIN32-Code/tree.h	1053;"	d	language:C++
+RB_PROTOTYPE	./WIN32-Code/tree.h	376;"	d	language:C++
+RB_RED	./WIN32-Code/tree.h	304;"	d	language:C++
+RB_RED	./WIN32-Code/tree.h	981;"	d	language:C++
+RB_REMOVE	./WIN32-Code/tree.h	1343;"	d	language:C++
+RB_REMOVE	./WIN32-Code/tree.h	666;"	d	language:C++
+RB_RIGHT	./WIN32-Code/tree.h	314;"	d	language:C++
+RB_RIGHT	./WIN32-Code/tree.h	991;"	d	language:C++
+RB_ROOT	./WIN32-Code/tree.h	317;"	d	language:C++
+RB_ROOT	./WIN32-Code/tree.h	994;"	d	language:C++
+RB_ROTATE_LEFT	./WIN32-Code/tree.h	1012;"	d	language:C++
+RB_ROTATE_LEFT	./WIN32-Code/tree.h	335;"	d	language:C++
+RB_ROTATE_RIGHT	./WIN32-Code/tree.h	1032;"	d	language:C++
+RB_ROTATE_RIGHT	./WIN32-Code/tree.h	355;"	d	language:C++
+RB_SET	./WIN32-Code/tree.h	320;"	d	language:C++
+RB_SET	./WIN32-Code/tree.h	997;"	d	language:C++
+RB_SET_BLACKRED	./WIN32-Code/tree.h	1003;"	d	language:C++
+RB_SET_BLACKRED	./WIN32-Code/tree.h	326;"	d	language:C++
+REQUEST_CANCELED	./http-internal.h	/^	REQUEST_CANCELED = -2$/;"	e	language:C++	enum:message_read_status
+RUN_FIXED_BYTES	./test/regress.gen.h	/^  RUN_FIXED_BYTES=3,$/;"	e	language:C++	enum:run_
+RUN_HOW	./test/regress.gen.h	/^  RUN_HOW=1,$/;"	e	language:C++	enum:run_
+RUN_MAX_TAGS	./test/regress.gen.h	/^  RUN_MAX_TAGS$/;"	e	language:C++	enum:run_
+RUN_SOME_BYTES	./test/regress.gen.h	/^  RUN_SOME_BYTES=2,$/;"	e	language:C++	enum:run_
+SECONDS	./test/regress.c	81;"	d	language:C	file:
+SERVICES_KEY	./evdns.c	2934;"	d	language:C	file:
+SHUT_WR	./test/regress.c	84;"	d	language:C	file:
+SHUT_WR	./test/test-eof.c	57;"	d	language:C	file:
+SIGFPE_REQ	./WIN32-Code/win32.c	/^volatile double SIGFPE_REQ = 0.0f;$/;"	v	language:C
+SIMPLEQ_EMPTY	./compat/sys/queue.h	233;"	d	language:C++
+SIMPLEQ_END	./compat/sys/queue.h	232;"	d	language:C++
+SIMPLEQ_ENTRY	./compat/sys/queue.h	223;"	d	language:C++
+SIMPLEQ_FIRST	./compat/sys/queue.h	231;"	d	language:C++
+SIMPLEQ_FOREACH	./compat/sys/queue.h	236;"	d	language:C++
+SIMPLEQ_HEAD	./compat/sys/queue.h	214;"	d	language:C++
+SIMPLEQ_HEAD_INITIALIZER	./compat/sys/queue.h	220;"	d	language:C++
+SIMPLEQ_INIT	./compat/sys/queue.h	244;"	d	language:C++
+SIMPLEQ_INSERT_AFTER	./compat/sys/queue.h	261;"	d	language:C++
+SIMPLEQ_INSERT_HEAD	./compat/sys/queue.h	249;"	d	language:C++
+SIMPLEQ_INSERT_TAIL	./compat/sys/queue.h	255;"	d	language:C++
+SIMPLEQ_NEXT	./compat/sys/queue.h	234;"	d	language:C++
+SIMPLEQ_REMOVE_HEAD	./compat/sys/queue.h	267;"	d	language:C++
+SKIP_NAME	./evdns.c	1035;"	d	language:C	file:
+SKIP_NAME	./evdns.c	849;"	d	language:C	file:
+SLIST_EMPTY	./compat/sys/queue.h	108;"	d	language:C++
+SLIST_END	./compat/sys/queue.h	107;"	d	language:C++
+SLIST_ENTRY	./compat/sys/queue.h	97;"	d	language:C++
+SLIST_FIRST	./compat/sys/queue.h	106;"	d	language:C++
+SLIST_FOREACH	./compat/sys/queue.h	111;"	d	language:C++
+SLIST_HEAD	./compat/sys/queue.h	88;"	d	language:C++
+SLIST_HEAD_INITIALIZER	./compat/sys/queue.h	93;"	d	language:C++
+SLIST_INIT	./compat/sys/queue.h	119;"	d	language:C++
+SLIST_INSERT_AFTER	./compat/sys/queue.h	123;"	d	language:C++
+SLIST_INSERT_HEAD	./compat/sys/queue.h	128;"	d	language:C++
+SLIST_NEXT	./compat/sys/queue.h	109;"	d	language:C++
+SLIST_REMOVE_HEAD	./compat/sys/queue.h	133;"	d	language:C++
+SPLAY_ASSEMBLE	./WIN32-Code/tree.h	105;"	d	language:C++
+SPLAY_ASSEMBLE	./WIN32-Code/tree.h	782;"	d	language:C++
+SPLAY_EMPTY	./WIN32-Code/tree.h	755;"	d	language:C++
+SPLAY_EMPTY	./WIN32-Code/tree.h	78;"	d	language:C++
+SPLAY_ENTRY	./WIN32-Code/tree.h	69;"	d	language:C++
+SPLAY_ENTRY	./WIN32-Code/tree.h	746;"	d	language:C++
+SPLAY_FIND	./WIN32-Code/tree.h	278;"	d	language:C++
+SPLAY_FIND	./WIN32-Code/tree.h	955;"	d	language:C++
+SPLAY_FOREACH	./WIN32-Code/tree.h	285;"	d	language:C++
+SPLAY_FOREACH	./WIN32-Code/tree.h	962;"	d	language:C++
+SPLAY_GENERATE	./WIN32-Code/tree.h	156;"	d	language:C++
+SPLAY_GENERATE	./WIN32-Code/tree.h	833;"	d	language:C++
+SPLAY_HEAD	./WIN32-Code/tree.h	57;"	d	language:C++
+SPLAY_HEAD	./WIN32-Code/tree.h	734;"	d	language:C++
+SPLAY_INF	./WIN32-Code/tree.h	274;"	d	language:C++
+SPLAY_INF	./WIN32-Code/tree.h	951;"	d	language:C++
+SPLAY_INIT	./WIN32-Code/tree.h	65;"	d	language:C++
+SPLAY_INIT	./WIN32-Code/tree.h	742;"	d	language:C++
+SPLAY_INITIALIZER	./WIN32-Code/tree.h	62;"	d	language:C++
+SPLAY_INITIALIZER	./WIN32-Code/tree.h	739;"	d	language:C++
+SPLAY_INSERT	./WIN32-Code/tree.h	276;"	d	language:C++
+SPLAY_INSERT	./WIN32-Code/tree.h	953;"	d	language:C++
+SPLAY_LEFT	./WIN32-Code/tree.h	752;"	d	language:C++
+SPLAY_LEFT	./WIN32-Code/tree.h	75;"	d	language:C++
+SPLAY_LINKLEFT	./WIN32-Code/tree.h	770;"	d	language:C++
+SPLAY_LINKLEFT	./WIN32-Code/tree.h	93;"	d	language:C++
+SPLAY_LINKRIGHT	./WIN32-Code/tree.h	776;"	d	language:C++
+SPLAY_LINKRIGHT	./WIN32-Code/tree.h	99;"	d	language:C++
+SPLAY_MAX	./WIN32-Code/tree.h	282;"	d	language:C++
+SPLAY_MAX	./WIN32-Code/tree.h	959;"	d	language:C++
+SPLAY_MIN	./WIN32-Code/tree.h	280;"	d	language:C++
+SPLAY_MIN	./WIN32-Code/tree.h	957;"	d	language:C++
+SPLAY_NEGINF	./WIN32-Code/tree.h	273;"	d	language:C++
+SPLAY_NEGINF	./WIN32-Code/tree.h	950;"	d	language:C++
+SPLAY_NEXT	./WIN32-Code/tree.h	279;"	d	language:C++
+SPLAY_NEXT	./WIN32-Code/tree.h	956;"	d	language:C++
+SPLAY_PROTOTYPE	./WIN32-Code/tree.h	114;"	d	language:C++
+SPLAY_PROTOTYPE	./WIN32-Code/tree.h	791;"	d	language:C++
+SPLAY_REMOVE	./WIN32-Code/tree.h	277;"	d	language:C++
+SPLAY_REMOVE	./WIN32-Code/tree.h	954;"	d	language:C++
+SPLAY_RIGHT	./WIN32-Code/tree.h	753;"	d	language:C++
+SPLAY_RIGHT	./WIN32-Code/tree.h	76;"	d	language:C++
+SPLAY_ROOT	./WIN32-Code/tree.h	754;"	d	language:C++
+SPLAY_ROOT	./WIN32-Code/tree.h	77;"	d	language:C++
+SPLAY_ROTATE_LEFT	./WIN32-Code/tree.h	764;"	d	language:C++
+SPLAY_ROTATE_LEFT	./WIN32-Code/tree.h	87;"	d	language:C++
+SPLAY_ROTATE_RIGHT	./WIN32-Code/tree.h	758;"	d	language:C++
+SPLAY_ROTATE_RIGHT	./WIN32-Code/tree.h	81;"	d	language:C++
+STDC_HEADERS	./WIN32-Code/config.h	200;"	d	language:C++
+SWAP	./buffer.c	91;"	d	language:C	file:
+TAILQ_EMPTY	./compat/sys/queue.h	301;"	d	language:C++
+TAILQ_END	./compat/sys/queue.h	294;"	d	language:C++
+TAILQ_END	./event-internal.h	81;"	d	language:C++
+TAILQ_ENTRY	./compat/sys/queue.h	284;"	d	language:C++
+TAILQ_ENTRY	./event.h	204;"	d	language:C++
+TAILQ_ENTRY	./event.h	267;"	d	language:C++
+TAILQ_FIRST	./compat/sys/queue.h	293;"	d	language:C++
+TAILQ_FIRST	./event-internal.h	80;"	d	language:C++
+TAILQ_FOREACH	./compat/sys/queue.h	304;"	d	language:C++
+TAILQ_FOREACH	./event-internal.h	83;"	d	language:C++
+TAILQ_FOREACH_REVERSE	./compat/sys/queue.h	309;"	d	language:C++
+TAILQ_HEAD	./compat/sys/queue.h	275;"	d	language:C++
+TAILQ_HEAD_INITIALIZER	./compat/sys/queue.h	281;"	d	language:C++
+TAILQ_INIT	./compat/sys/queue.h	317;"	d	language:C++
+TAILQ_INSERT_AFTER	./compat/sys/queue.h	339;"	d	language:C++
+TAILQ_INSERT_BEFORE	./compat/sys/queue.h	349;"	d	language:C++
+TAILQ_INSERT_BEFORE	./event-internal.h	87;"	d	language:C++
+TAILQ_INSERT_HEAD	./compat/sys/queue.h	322;"	d	language:C++
+TAILQ_INSERT_TAIL	./compat/sys/queue.h	332;"	d	language:C++
+TAILQ_LAST	./compat/sys/queue.h	296;"	d	language:C++
+TAILQ_NEXT	./compat/sys/queue.h	295;"	d	language:C++
+TAILQ_NEXT	./event-internal.h	82;"	d	language:C++
+TAILQ_PREV	./compat/sys/queue.h	299;"	d	language:C++
+TAILQ_REMOVE	./compat/sys/queue.h	356;"	d	language:C++
+TAILQ_REPLACE	./compat/sys/queue.h	365;"	d	language:C++
+TEST1	./test/regress.c	80;"	d	language:C	file:
+TEST_MAX_INT	./test/regress.c	1357;"	d	language:C	file:
+TEST_NAME	./evdns.c	854;"	d	language:C	file:
+TIMER_ABSTIME	./compat/sys/_libevent_time.h	159;"	d	language:C++
+TIMER_RELTIME	./compat/sys/_libevent_time.h	158;"	d	language:C++
+TIMESPEC_TO_TIMEVAL	./compat/sys/_libevent_time.h	61;"	d	language:C++
+TIMEVAL_TO_TIMESPEC	./compat/sys/_libevent_time.h	57;"	d	language:C++
+TIME_WITH_SYS_TIME	./WIN32-Code/config.h	203;"	d	language:C++
+TO_SERVER_REQUEST	./evdns.c	293;"	d	language:C	file:
+TRY	./evdns.c	2943;"	d	language:C	file:
+TRY	./evdns.c	2989;"	d	language:C	file:
+TYPE_A	./evdns.c	154;"	d	language:C	file:
+TYPE_AAAA	./evdns.c	157;"	d	language:C	file:
+TYPE_CNAME	./evdns.c	155;"	d	language:C	file:
+TYPE_PTR	./evdns.c	156;"	d	language:C	file:
+VERSION	./WIN32-Code/config.h	206;"	d	language:C++
+WIN32_LEAN_AND_MEAN	./event.c	32;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./event.c	34;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./event.h	178;"	d	language:C++
+WIN32_LEAN_AND_MEAN	./event.h	180;"	d	language:C++
+WIN32_LEAN_AND_MEAN	./event_tagging.c	40;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./event_tagging.c	43;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./evhttp.h	37;"	d	language:C++
+WIN32_LEAN_AND_MEAN	./evhttp.h	40;"	d	language:C++
+WIN32_LEAN_AND_MEAN	./evrpc.c	32;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./evrpc.c	35;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./evutil.c	33;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./evutil.c	35;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./log.c	45;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./log.c	47;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./signal.c	34;"	d	language:C	file:
+WIN32_LEAN_AND_MEAN	./signal.c	37;"	d	language:C	file:
+WIN_NS_9X_KEY	./evdns.c	2935;"	d	language:C	file:
+WIN_NS_NT_KEY	./evdns.c	2936;"	d	language:C	file:
+XFREE	./WIN32-Code/win32.c	52;"	d	language:C	file:
+_EVENT_CONFIG_H_	./WIN32-Code/event-config.h	7;"	d	language:C++
+_EVENT_DEFINED_TQENTRY	./event.h	203;"	d	language:C++
+_EVENT_DEFINED_TQENTRY	./event.h	270;"	d	language:C++
+_EVENT_DNS_USE_GETTIMEOFDAY_FOR_ID	./WIN32-Code/event-config.h	15;"	d	language:C++
+_EVENT_HAVE_FCNTL_H	./WIN32-Code/event-config.h	39;"	d	language:C++
+_EVENT_HAVE_MEMORY_H	./WIN32-Code/event-config.h	72;"	d	language:C++
+_EVENT_HAVE_SIGNAL	./WIN32-Code/event-config.h	99;"	d	language:C++
+_EVENT_HAVE_SIGNAL_H	./WIN32-Code/event-config.h	102;"	d	language:C++
+_EVENT_HAVE_STDARG_H	./WIN32-Code/event-config.h	105;"	d	language:C++
+_EVENT_HAVE_STDLIB_H	./WIN32-Code/event-config.h	111;"	d	language:C++
+_EVENT_HAVE_STRINGS_H	./WIN32-Code/event-config.h	114;"	d	language:C++
+_EVENT_HAVE_STRING_H	./WIN32-Code/event-config.h	117;"	d	language:C++
+_EVENT_HAVE_STRUCT_IN6_ADDR	./WIN32-Code/event-config.h	129;"	d	language:C++
+_EVENT_HAVE_SYS_STAT_H	./WIN32-Code/event-config.h	153;"	d	language:C++
+_EVENT_HAVE_TIMERCMP	./WIN32-Code/event-config.h	171;"	d	language:C++
+_EVENT_HAVE_TIMERISSET	./WIN32-Code/event-config.h	174;"	d	language:C++
+_EVENT_H_	./event.h	28;"	d	language:C++
+_EVENT_INTERNAL_H_	./event-internal.h	28;"	d	language:C++
+_EVENT_LOG_DEBUG	./event.h	351;"	d	language:C++
+_EVENT_LOG_ERR	./event.h	354;"	d	language:C++
+_EVENT_LOG_MSG	./event.h	352;"	d	language:C++
+_EVENT_LOG_WARN	./event.h	353;"	d	language:C++
+_EVENT_PACKAGE	./WIN32-Code/event-config.h	186;"	d	language:C++
+_EVENT_PACKAGE_BUGREPORT	./WIN32-Code/event-config.h	189;"	d	language:C++
+_EVENT_PACKAGE_NAME	./WIN32-Code/event-config.h	192;"	d	language:C++
+_EVENT_PACKAGE_STRING	./WIN32-Code/event-config.h	195;"	d	language:C++
+_EVENT_PACKAGE_TARNAME	./WIN32-Code/event-config.h	198;"	d	language:C++
+_EVENT_PACKAGE_VERSION	./WIN32-Code/event-config.h	201;"	d	language:C++
+_EVENT_STDC_HEADERS	./WIN32-Code/event-config.h	204;"	d	language:C++
+_EVENT_TIME_WITH_SYS_TIME	./WIN32-Code/event-config.h	207;"	d	language:C++
+_EVENT_VERSION	./WIN32-Code/event-config.h	210;"	d	language:C++
+_EVENT___func__	./WIN32-Code/event-config.h	224;"	d	language:C++
+_EVENT_inline	./WIN32-Code/event-config.h	221;"	d	language:C++
+_EVENT_socklen_t	./WIN32-Code/event-config.h	233;"	d	language:C++
+_EVHTTP_H_	./evhttp.h	28;"	d	language:C++
+_EVRPC_H_	./evrpc.h	28;"	d	language:C++
+_EVRPC_INTERNAL_H_	./evrpc-internal.h	28;"	d	language:C++
+_EVSIGNAL_H_	./evsignal.h	28;"	d	language:C++
+_EVUTIL_H_	./evutil.h	28;"	d	language:C++
+_FORTIFY_SOURCE	./evdns.c	78;"	d	language:C	file:
+_GNU_SOURCE	./buffer.c	39;"	d	language:C	file:
+_GNU_SOURCE	./evdns.c	58;"	d	language:C	file:
+_GNU_SOURCE	./kqueue.c	33;"	d	language:C	file:
+_HTTP_H_	./http-internal.h	11;"	d	language:C++
+_LOG_H_	./log.h	28;"	d	language:C++
+_MIN_HEAP_H_	./min_heap.h	28;"	d	language:C++
+_REGRESS_H_	./test/regress.h	28;"	d	language:C++
+_STRLCPY_INTERNAL_H_	./strlcpy-internal.h	2;"	d	language:C++
+_SYS_QUEUE_H_	./compat/sys/queue.h	36;"	d	language:C++
+_SYS_TIME_H_	./compat/sys/_libevent_time.h	36;"	d	language:C++
+_SYS_TREE_H_	./WIN32-Code/tree.h	28;"	d	language:C++
+_SYS_TREE_H_	./WIN32-Code/tree.h	705;"	d	language:C++
+___REGRESS_RPC_	./test/regress.gen.h	6;"	d	language:C++
+__func__	./WIN32-Code/config.h	210;"	d	language:C++
+__func__	./WIN32-Code/config.h	212;"	d	language:C++
+__func__	./test/regress.gen.c	17;"	d	language:C	file:
+__kill_base	./test/regress.gen.c	/^static struct kill_access_ __kill_base = {$/;"	v	language:C	typeref:struct:kill_access_	file:
+__msg_base	./test/regress.gen.c	/^static struct msg_access_ __msg_base = {$/;"	v	language:C	typeref:struct:msg_access_	file:
+__run_base	./test/regress.gen.c	/^static struct run_access_ __run_base = {$/;"	v	language:C	typeref:struct:run_access_	file:
+_buf	./event_tagging.c	/^static struct evbuffer *_buf;	\/* not thread safe *\/$/;"	v	language:C	typeref:struct:evbuffer	file:
+_evdns_log	./evdns.c	/^_evdns_log(int warn, const char *fmt, ...)$/;"	f	language:C	file:	signature:(int warn, const char *fmt, ...)
+_evdns_nameserver_add_impl	./evdns.c	/^_evdns_nameserver_add_impl(unsigned long int address, int port) {$/;"	f	language:C	file:	signature:(unsigned long int address, int port)
+_event_debugx	./log.c	/^_event_debugx(const char *fmt, ...)$/;"	f	language:C	signature:(const char *fmt, ...)
+_event_strlcpy	./strlcpy.c	/^_event_strlcpy(dst, src, siz)$/;"	f	language:C
+_evrpc_hooks	./evrpc-internal.h	/^struct _evrpc_hooks {$/;"	s	language:C++
+_evsignal_restore_handler	./signal.c	/^_evsignal_restore_handler(struct event_base *base, int evsignal)$/;"	f	language:C	signature:(struct event_base *base, int evsignal)
+_evsignal_set_handler	./signal.c	/^_evsignal_set_handler(struct event_base *base,$/;"	f	language:C	signature:(struct event_base *base, int evsignal, void (*handler)(int))
+_warn_helper	./log.c	/^_warn_helper(int severity, int log_errno, const char *fmt, va_list ap)$/;"	f	language:C	file:	signature:(int severity, int log_errno, const char *fmt, va_list ap)
+a	./evdns.c	/^		} a;$/;"	m	language:C	union:reply::__anon1	typeref:struct:reply::__anon1::__anon2	file:
+a	./min_heap.h	/^    unsigned n, a;$/;"	m	language:C++	struct:min_heap
+aaaa	./evdns.c	/^		} aaaa;$/;"	m	language:C	union:reply::__anon1	typeref:struct:reply::__anon1::__anon3	file:
+accept_socket	./http.c	/^accept_socket(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+action_assign	./test/regress.gen.h	/^  int (*action_assign)(struct kill *, const char *);$/;"	m	language:C++	struct:kill_access_
+action_data	./test/regress.gen.h	/^  char *action_data;$/;"	m	language:C++	struct:kill
+action_get	./test/regress.gen.h	/^  int (*action_get)(struct kill *, char * *);$/;"	m	language:C++	struct:kill_access_
+action_set	./test/regress.gen.h	/^  ev_uint8_t action_set;$/;"	m	language:C++	struct:kill
+activequeues	./event-internal.h	/^	struct event_list **activequeues;$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::event_list
+add	./event-internal.h	/^	int (*add)(void *, struct event *);$/;"	m	language:C++	struct:eventop
+additional	./evdns.c	/^	struct server_reply_item *additional; \/* linked list of additional RRs *\/$/;"	m	language:C	struct:server_request	typeref:struct:server_request::server_reply_item	file:
+addr	./evdns.c	/^	struct sockaddr_storage addr; \/* Where to send the response *\/$/;"	m	language:C	struct:server_request	typeref:struct:server_request::sockaddr_storage	file:
+addrcount	./evdns.c	/^			u32 addrcount;$/;"	m	language:C	struct:reply::__anon1::__anon2	file:
+addrcount	./evdns.c	/^			u32 addrcount;$/;"	m	language:C	struct:reply::__anon1::__anon3	file:
+address	./evdns.c	/^	u32 address;$/;"	m	language:C	struct:nameserver	file:
+address	./http-internal.h	/^	char *address;			\/* address to connect to *\/$/;"	m	language:C++	struct:evhttp_connection
+address_is_correct	./evdns.c	/^address_is_correct(struct nameserver *ns, struct sockaddr *sa, socklen_t slen)$/;"	f	language:C	file:	signature:(struct nameserver *ns, struct sockaddr *sa, socklen_t slen)
+addresses	./evdns.c	/^			struct in6_addr addresses[MAX_ADDRS];$/;"	m	language:C	struct:reply::__anon1::__anon3	typeref:struct:reply::__anon1::__anon3::in6_addr	file:
+addresses	./evdns.c	/^			u32 addresses[MAX_ADDRS];$/;"	m	language:C	struct:reply::__anon1::__anon2	file:
+addrinfo	./http.c	/^struct addrinfo {$/;"	s	language:C	file:
+addrlen	./evdns.c	/^	socklen_t addrlen; \/* length of addr *\/$/;"	m	language:C	struct:server_request	file:
+ai_addr	./http.c	/^	struct sockaddr *ai_addr;$/;"	m	language:C	struct:addrinfo	typeref:struct:addrinfo::sockaddr	file:
+ai_addrlen	./http.c	/^	size_t ai_addrlen;$/;"	m	language:C	struct:addrinfo	file:
+ai_family	./http.c	/^	int ai_family;$/;"	m	language:C	struct:addrinfo	file:
+ai_next	./http.c	/^	struct addrinfo *ai_next;$/;"	m	language:C	struct:addrinfo	typeref:struct:addrinfo::addrinfo	file:
+ai_protocol	./http.c	/^	int ai_protocol;$/;"	m	language:C	struct:addrinfo	file:
+ai_socktype	./http.c	/^	int ai_socktype;$/;"	m	language:C	struct:addrinfo	file:
+answer	./evdns.c	/^	struct server_reply_item *answer; \/* linked list of answer RRs *\/$/;"	m	language:C	struct:server_request	typeref:struct:server_request::server_reply_item	file:
+arg	./event.c	/^	void *arg;$/;"	m	language:C	struct:event_once	file:
+attack_assign	./test/regress.gen.h	/^  int (*attack_assign)(struct msg *, const struct kill*);$/;"	m	language:C++	struct:msg_access_
+attack_data	./test/regress.gen.h	/^  struct kill* attack_data;$/;"	m	language:C++	struct:msg	typeref:struct:msg::kill
+attack_get	./test/regress.gen.h	/^  int (*attack_get)(struct msg *, struct kill* *);$/;"	m	language:C++	struct:msg_access_
+attack_set	./test/regress.gen.h	/^  ev_uint8_t attack_set;$/;"	m	language:C++	struct:msg
+authority	./evdns.c	/^	struct server_reply_item *authority; \/* linked list of authority RRs *\/$/;"	m	language:C	struct:server_request	typeref:struct:server_request::server_reply_item	file:
+base	./evdns.c	/^	struct evdns_server_request base;$/;"	m	language:C	struct:server_request	typeref:struct:server_request::evdns_server_request	file:
+base	./evrpc-internal.h	/^	struct event_base *base;$/;"	m	language:C++	struct:evrpc_pool	typeref:struct:evrpc_pool::event_base
+base	./evrpc.h	/^	struct evrpc_base *base;$/;"	m	language:C++	struct:evrpc	typeref:struct:evrpc::evrpc_base
+base	./http-internal.h	/^	struct event_base *base;$/;"	m	language:C++	struct:evhttp	typeref:struct:evhttp::event_base
+base	./http-internal.h	/^	struct event_base *base;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::event_base
+base	./test/regress.gen.h	/^  struct kill_access_ *base;$/;"	m	language:C++	struct:kill	typeref:struct:kill::kill_access_
+base	./test/regress.gen.h	/^  struct msg_access_ *base;$/;"	m	language:C++	struct:msg	typeref:struct:msg::msg_access_
+base	./test/regress.gen.h	/^  struct run_access_ *base;$/;"	m	language:C++	struct:run	typeref:struct:run::run_access_
+base	./test/regress_http.c	/^static struct event_base *base;$/;"	v	language:C	typeref:struct:event_base	file:
+bind_address	./http-internal.h	/^	char *bind_address;		\/* address to use for binding the src *\/$/;"	m	language:C++	struct:evhttp_connection
+bind_ev	./http-internal.h	/^	struct event  bind_ev;$/;"	m	language:C++	struct:evhttp_bound_socket	typeref:struct:evhttp_bound_socket::event
+bind_port	./http-internal.h	/^	u_short bind_port;		\/* local port for binding the src *\/$/;"	m	language:C++	struct:evhttp_connection
+bind_socket	./http.c	/^bind_socket(const char *address, u_short port, int reuse)$/;"	f	language:C	file:	signature:(const char *address, u_short port, int reuse)
+bind_socket_ai	./http.c	/^bind_socket_ai(struct addrinfo *ai, int reuse)$/;"	f	language:C	file:	signature:(struct addrinfo *ai, int reuse)
+both	./test/regress.c	/^struct both {$/;"	s	language:C	file:
+break_cb	./test/regress.c	/^break_cb(int fd, short events, void *arg)$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+buffer	./event.h	/^	u_char *buffer;         \/\/! zark: buffer指向有效数据的内存区域.$/;"	m	language:C++	struct:evbuffer
+bufferevent	./event.h	/^struct bufferevent {$/;"	s	language:C++
+bufferevent_add	./evbuffer.c	/^bufferevent_add(struct event *ev, int timeout)$/;"	f	language:C	file:	signature:(struct event *ev, int timeout)
+bufferevent_base_set	./evbuffer.c	/^bufferevent_base_set(struct event_base *base, struct bufferevent *bufev)$/;"	f	language:C	signature:(struct event_base *base, struct bufferevent *bufev)
+bufferevent_disable	./evbuffer.c	/^bufferevent_disable(struct bufferevent *bufev, short event)$/;"	f	language:C	signature:(struct bufferevent *bufev, short event)
+bufferevent_enable	./evbuffer.c	/^bufferevent_enable(struct bufferevent *bufev, short event)$/;"	f	language:C	signature:(struct bufferevent *bufev, short event)
+bufferevent_free	./evbuffer.c	/^bufferevent_free(struct bufferevent *bufev)$/;"	f	language:C	signature:(struct bufferevent *bufev)
+bufferevent_new	./evbuffer.c	/^bufferevent_new(int fd, evbuffercb readcb, evbuffercb writecb,$/;"	f	language:C	signature:(int fd, evbuffercb readcb, evbuffercb writecb, everrorcb errorcb, void *cbarg)
+bufferevent_priority_set	./evbuffer.c	/^bufferevent_priority_set(struct bufferevent *bufev, int priority)$/;"	f	language:C	signature:(struct bufferevent *bufev, int priority)
+bufferevent_read	./evbuffer.c	/^bufferevent_read(struct bufferevent *bufev, void *data, size_t size)$/;"	f	language:C	signature:(struct bufferevent *bufev, void *data, size_t size)
+bufferevent_read_pressure_cb	./evbuffer.c	/^bufferevent_read_pressure_cb(struct evbuffer *buf, size_t old, size_t now,$/;"	f	language:C	signature:(struct evbuffer *buf, size_t old, size_t now, void *arg)
+bufferevent_readcb	./evbuffer.c	/^bufferevent_readcb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+bufferevent_setcb	./evbuffer.c	/^bufferevent_setcb(struct bufferevent *bufev,$/;"	f	language:C	signature:(struct bufferevent *bufev, evbuffercb readcb, evbuffercb writecb, everrorcb errorcb, void *cbarg)
+bufferevent_setfd	./evbuffer.c	/^bufferevent_setfd(struct bufferevent *bufev, int fd)$/;"	f	language:C	signature:(struct bufferevent *bufev, int fd)
+bufferevent_settimeout	./evbuffer.c	/^bufferevent_settimeout(struct bufferevent *bufev,$/;"	f	language:C	signature:(struct bufferevent *bufev, int timeout_read, int timeout_write)
+bufferevent_setwatermark	./evbuffer.c	/^bufferevent_setwatermark(struct bufferevent *bufev, short events,$/;"	f	language:C	signature:(struct bufferevent *bufev, short events, size_t lowmark, size_t highmark)
+bufferevent_write	./evbuffer.c	/^bufferevent_write(struct bufferevent *bufev, const void *data, size_t size)$/;"	f	language:C	signature:(struct bufferevent *bufev, const void *data, size_t size)
+bufferevent_write_buffer	./evbuffer.c	/^bufferevent_write_buffer(struct bufferevent *bufev, struct evbuffer *buf)$/;"	f	language:C	signature:(struct bufferevent *bufev, struct evbuffer *buf)
+bufferevent_writecb	./evbuffer.c	/^bufferevent_writecb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+callbacks	./http-internal.h	/^	TAILQ_HEAD(httpcbq, evhttp_cb) callbacks;$/;"	m	language:C++	struct:evhttp
+called	./sample/signal-test.c	/^int called = 0;$/;"	v	language:C
+called	./test/regress.c	/^static int called;$/;"	v	language:C	file:
+called	./test/test-eof.c	/^int called = 0;$/;"	v	language:C
+called	./test/test-time.c	/^int called = 0;$/;"	v	language:C
+called	./test/test-weof.c	/^int called = 0;$/;"	v	language:C
+cb	./event.c	/^	void (*cb)(int, short, void *);$/;"	m	language:C	struct:event_once	file:
+cb	./event.h	/^	void (*cb)(struct evbuffer *, size_t, size_t, void *);$/;"	m	language:C++	struct:evbuffer
+cb	./evhttp.h	/^	void (*cb)(struct evhttp_request *, void *);$/;"	m	language:C++	struct:evhttp_request
+cb	./evrpc.h	/^	void (*cb)(struct evrpc_req_generic *, void *);$/;"	m	language:C++	struct:evrpc
+cb	./evrpc.h	/^	void (*cb)(struct evrpc_status*, void *request, void *reply, void *arg);$/;"	m	language:C++	struct:evrpc_request_wrapper
+cb	./http-internal.h	/^						   void (*cb)(struct evhttp_connection *, void *);$/;"	m	language:C++	struct:evhttp_connection
+cb	./http-internal.h	/^	void (*cb)(struct evhttp_request *req, void *);$/;"	m	language:C++	struct:evhttp_cb
+cb_arg	./evhttp.h	/^	void *cb_arg;$/;"	m	language:C++	struct:evhttp_request
+cb_arg	./evrpc.h	/^	void *cb_arg;$/;"	m	language:C++	struct:evrpc
+cb_arg	./evrpc.h	/^	void *cb_arg;$/;"	m	language:C++	struct:evrpc_request_wrapper
+cb_arg	./http-internal.h	/^	void *cb_arg;$/;"	m	language:C++	struct:evhttp_connection
+cbarg	./event.h	/^	void *cbarg;$/;"	m	language:C++	struct:bufferevent
+cbarg	./event.h	/^	void *cbarg;$/;"	m	language:C++	struct:evbuffer
+cbarg	./http-internal.h	/^	void *cbarg;$/;"	m	language:C++	struct:evhttp_cb
+changes	./devpoll.c	/^	struct pollfd *changes;$/;"	m	language:C	struct:devpollop	typeref:struct:devpollop::pollfd	file:
+changes	./kqueue.c	/^	struct kevent *changes;$/;"	m	language:C	struct:kqop	typeref:struct:kqop::kevent	file:
+check_event	./evport.c	/^check_event(port_event_t* pevt)$/;"	f	language:C	file:	signature:(port_event_t* pevt)
+check_event	./evport.c	228;"	d	language:C	file:
+check_evportop	./evport.c	/^check_evportop(struct evport_data *evpd)$/;"	f	language:C	file:	signature:(struct evport_data *evpd)
+check_evportop	./evport.c	227;"	d	language:C	file:
+check_selectop	./select.c	/^check_selectop(struct selectop *sop)$/;"	f	language:C	file:	signature:(struct selectop *sop)
+check_selectop	./select.c	142;"	d	language:C	file:
+child_signal_cb	./test/regress.c	/^child_signal_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+choked	./evdns.c	/^	char choked;  \/* true if we have an EAGAIN from this server's socket *\/$/;"	m	language:C	struct:nameserver	file:
+choked	./evdns.c	/^	char choked; \/* Are we currently blocked from writing? *\/$/;"	m	language:C	struct:evdns_server_port	file:
+chunk_cb	./evhttp.h	/^	void (*chunk_cb)(struct evhttp_request *, void *);$/;"	m	language:C++	struct:evhttp_request
+chunk_req_state	./test/regress_http.c	/^struct chunk_req_state {$/;"	s	language:C	file:
+chunked	./evhttp.h	/^	int chunked;$/;"	m	language:C++	struct:evhttp_request
+class	./evdns.c	/^	u16 class : 16; \/* The RR class (usually CLASS_INET) *\/$/;"	m	language:C	struct:server_reply_item	file:
+cleanup_test	./test/regress.c	/^cleanup_test(void)$/;"	f	language:C	file:	signature:(void)
+clockinfo	./compat/sys/_libevent_time.h	/^struct clockinfo {$/;"	s	language:C++
+close	./evdns.c	147;"	d	language:C	file:
+close_detect_cb	./test/regress_http.c	/^close_detect_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+close_detect_done	./test/regress_http.c	/^close_detect_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+close_detect_launch	./test/regress_http.c	/^close_detect_launch(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+close_ev	./http-internal.h	/^	struct event close_ev;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::event
+closecb	./http-internal.h	/^	void (*closecb)(struct evhttp_connection *, void *);$/;"	m	language:C++	struct:evhttp_connection
+closecb_arg	./http-internal.h	/^	void *closecb_arg;$/;"	m	language:C++	struct:evhttp_connection
+closing	./evdns.c	/^	char closing; \/* Are we trying to close this port, pending writes? *\/$/;"	m	language:C	struct:evdns_server_port	file:
+combined_read_cb	./test/regress.c	/^combined_read_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+combined_write_cb	./test/regress.c	/^combined_write_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+common	./evrpc-internal.h	/^	struct _evrpc_hooks common;$/;"	m	language:C++	struct:evrpc_base	typeref:struct:evrpc_base::_evrpc_hooks
+common	./evrpc-internal.h	/^	struct _evrpc_hooks common;$/;"	m	language:C++	struct:evrpc_pool	typeref:struct:evrpc_pool::_evrpc_hooks
+compare	./WIN32-Code/win32.c	/^compare(struct event_entry *a, struct event_entry *b)$/;"	f	language:C	file:	signature:(struct event_entry *a, struct event_entry *b)
+config_nameserver_from_reg_key	./evdns.c	/^config_nameserver_from_reg_key(HKEY key, const char *subkey)$/;"	f	language:C	file:	signature:(HKEY key, const char *subkey)
+connections	./evrpc-internal.h	/^	struct evconq connections;$/;"	m	language:C++	struct:evrpc_pool	typeref:struct:evrpc_pool::evconq
+connections	./http-internal.h	/^        struct evconq connections;$/;"	m	language:C++	struct:evhttp	typeref:struct:evhttp::evconq
+count	./test/bench.c	/^static int count, writes, fired;$/;"	v	language:C	file:
+count	./test/regress.c	/^	int count;$/;"	m	language:C	struct:test_pri_event	file:
+current_base	./event.c	/^struct event_base *current_base = NULL;$/;"	v	language:C	typeref:struct:event_base
+data	./evdns.c	/^	void *data; \/* The contents of the RR *\/$/;"	m	language:C	struct:server_reply_item	file:
+data	./evdns.c	/^	} data;$/;"	m	language:C	struct:reply	typeref:union:reply::__anon1	file:
+datalen	./evdns.c	/^	u16 datalen; \/* Length of data; -1 if data is a label *\/$/;"	m	language:C	struct:server_reply_item	file:
+dealloc	./event-internal.h	/^	void (*dealloc)(struct event_base *, void *);$/;"	m	language:C++	struct:eventop
+debug_ntoa	./evdns.c	/^debug_ntoa(u32 address)$/;"	f	language:C	file:	signature:(u32 address)
+decode_int_internal	./event_tagging.c	/^decode_int_internal(ev_uint32_t *pnumber, struct evbuffer *evbuf, int dodrain)$/;"	f	language:C	file:	signature:(ev_uint32_t *pnumber, struct evbuffer *evbuf, int dodrain)
+decode_tag_internal	./event_tagging.c	/^decode_tag_internal(ev_uint32_t *ptag, struct evbuffer *evbuf, int dodrain)$/;"	f	language:C	file:	signature:(ev_uint32_t *ptag, struct evbuffer *evbuf, int dodrain)
+default_transaction_id_fn	./evdns.c	/^default_transaction_id_fn(void)$/;"	f	language:C	file:	signature:(void)
+del	./event-internal.h	/^	int (*del)(void *, struct event *);$/;"	m	language:C++	struct:eventop
+delayed_client	./test/regress_http.c	/^static struct evhttp_connection *delayed_client;$/;"	v	language:C	typeref:struct:evhttp_connection	file:
+detect_monotonic	./event.c	/^detect_monotonic(void)$/;"	f	language:C	file:	signature:(void)
+devpoll_add	./devpoll.c	/^devpoll_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+devpoll_commit	./devpoll.c	/^devpoll_commit(struct devpollop *devpollop)$/;"	f	language:C	file:	signature:(struct devpollop *devpollop)
+devpoll_dealloc	./devpoll.c	/^devpoll_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+devpoll_del	./devpoll.c	/^devpoll_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+devpoll_dispatch	./devpoll.c	/^devpoll_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+devpoll_init	./devpoll.c	/^devpoll_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+devpoll_queue	./devpoll.c	/^devpoll_queue(struct devpollop *devpollop, int fd, int events) {$/;"	f	language:C	file:	signature:(struct devpollop *devpollop, int fd, int events)
+devpoll_recalc	./devpoll.c	/^devpoll_recalc(struct event_base *base, void *arg, int max)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, int max)
+devpollop	./devpoll.c	/^struct devpollop {$/;"	s	language:C	file:
+devpollops	./devpoll.c	/^const struct eventop devpollops = {$/;"	v	language:C	typeref:struct:eventop
+dispatch	./event-internal.h	/^	int (*dispatch)(struct event_base *, void *, struct timeval *);$/;"	m	language:C++	struct:eventop
+dns_err	./test/regress_dns.c	/^static int dns_err = 0;$/;"	v	language:C	file:
+dns_gethostbyaddr	./test/regress_dns.c	/^dns_gethostbyaddr(void)$/;"	f	language:C	file:	signature:(void)
+dns_gethostbyname	./test/regress_dns.c	/^dns_gethostbyname(void)$/;"	f	language:C	file:	signature:(void)
+dns_gethostbyname6	./test/regress_dns.c	/^dns_gethostbyname6(void)$/;"	f	language:C	file:	signature:(void)
+dns_gethostbyname_cb	./test/regress_dns.c	/^dns_gethostbyname_cb(int result, char type, int count, int ttl,$/;"	f	language:C	file:	signature:(int result, char type, int count, int ttl, void *addresses, void *arg)
+dns_ok	./test/regress_dns.c	/^static int dns_ok = 0;$/;"	v	language:C	file:
+dns_question_class	./evdns.h	/^	int dns_question_class;$/;"	m	language:C++	struct:evdns_server_question
+dns_question_class	./evdns.h	487;"	d	language:C++
+dns_server	./test/regress_dns.c	/^dns_server(void)$/;"	f	language:C	file:	signature:(void)
+dns_server_gethostbyname_cb	./test/regress_dns.c	/^dns_server_gethostbyname_cb(int result, char type, int count, int ttl,$/;"	f	language:C	file:	signature:(int result, char type, int count, int ttl, void *addresses, void *arg)
+dns_server_request_cb	./test/regress_dns.c	/^dns_server_request_cb(struct evdns_server_request *req, void *data)$/;"	f	language:C	file:	signature:(struct evdns_server_request *req, void *data)
+dns_suite	./test/regress_dns.c	/^dns_suite(void)$/;"	f	language:C	signature:(void)
+dnslabel_clear	./evdns.c	/^dnslabel_clear(struct dnslabel_table *table)$/;"	f	language:C	file:	signature:(struct dnslabel_table *table)
+dnslabel_entry	./evdns.c	/^struct dnslabel_entry { char *v; off_t pos; };$/;"	s	language:C	file:
+dnslabel_table	./evdns.c	/^struct dnslabel_table {$/;"	s	language:C	file:
+dnslabel_table_add	./evdns.c	/^dnslabel_table_add(struct dnslabel_table *table, const char *label, off_t pos)$/;"	f	language:C	file:	signature:(struct dnslabel_table *table, const char *label, off_t pos)
+dnslabel_table_get_pos	./evdns.c	/^dnslabel_table_get_pos(const struct dnslabel_table *table, const char *label)$/;"	f	language:C	file:	signature:(const struct dnslabel_table *table, const char *label)
+dnslabel_table_init	./evdns.c	/^dnslabel_table_init(struct dnslabel_table *table)$/;"	f	language:C	file:	signature:(struct dnslabel_table *table)
+dnsname_to_labels	./evdns.c	/^dnsname_to_labels(u8 *const buf, size_t buf_len, off_t j,$/;"	f	language:C	file:	signature:(u8 *const buf, size_t buf_len, off_t j, const char *name, const int name_len, struct dnslabel_table *table)
+do_fd_clear	./WIN32-Code/win32.c	/^do_fd_clear(struct win32op *op, struct event_entry *ent, int read)$/;"	f	language:C	file:	signature:(struct win32op *op, struct event_entry *ent, int read)
+do_fd_set	./WIN32-Code/win32.c	/^do_fd_set(struct win32op *op, struct event_entry *ent, int read)$/;"	f	language:C	file:	signature:(struct win32op *op, struct event_entry *ent, int read)
+done	./evrpc.h	/^	void (*done)(struct evrpc_req_generic* rpc); $/;"	m	language:C++	struct:evrpc_req_generic
+dpfd	./devpoll.c	/^	int dpfd;$/;"	m	language:C	struct:devpollop	file:
+ed_fds	./evport.c	/^	struct fd_info *ed_fds;		\/* allocated fdi table 		 *\/$/;"	m	language:C	struct:evport_data	typeref:struct:evport_data::fd_info	file:
+ed_nevents	./evport.c	/^	int		ed_nevents;	\/* number of allocated fdi's 	 *\/$/;"	m	language:C	struct:evport_data	file:
+ed_pending	./evport.c	/^	int ed_pending[EVENTS_PER_GETN]; \/* fd's with pending events *\/$/;"	m	language:C	struct:evport_data	file:
+ed_port	./evport.c	/^	int 		ed_port;	\/* event port for system events  *\/$/;"	m	language:C	struct:evport_data	file:
+enabled	./event.h	/^	short enabled;	\/* events that are currently enabled *\/$/;"	m	language:C++	struct:bufferevent
+encode_int	./event_tagging.c	/^encode_int(struct evbuffer *evbuf, ev_uint32_t number)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t number)
+epfd	./epoll.c	/^	int epfd;$/;"	m	language:C	struct:epollop	file:
+epoll_add	./epoll.c	/^epoll_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+epoll_create	./epoll_sub.c	/^epoll_create(int size)$/;"	f	language:C	signature:(int size)
+epoll_ctl	./epoll_sub.c	/^epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)$/;"	f	language:C	signature:(int epfd, int op, int fd, struct epoll_event *event)
+epoll_dealloc	./epoll.c	/^epoll_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+epoll_del	./epoll.c	/^epoll_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+epoll_dispatch	./epoll.c	/^epoll_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+epoll_init	./epoll.c	/^epoll_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+epoll_recalc	./epoll.c	/^epoll_recalc(struct event_base *base, void *arg, int max)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, int max)
+epoll_wait	./epoll_sub.c	/^epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout)$/;"	f	language:C	signature:(int epfd, struct epoll_event *events, int maxevents, int timeout)
+epollop	./epoll.c	/^struct epollop {$/;"	s	language:C	file:
+epollops	./epoll.c	/^const struct eventop epollops = {$/;"	v	language:C	typeref:struct:eventop
+error	./evrpc.h	/^	int error;$/;"	m	language:C++	struct:evrpc_status
+error_is_eagain	./evdns.c	/^error_is_eagain(int err)$/;"	f	language:C	file:	signature:(int err)
+error_is_eagain	./evdns.c	378;"	d	language:C	file:
+errorcb	./event.h	/^	everrorcb errorcb;$/;"	m	language:C++	struct:bufferevent
+errorcb	./test/regress.c	/^errorcb(struct bufferevent *bev, short what, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, short what, void *arg)
+ev	./event.c	/^	struct event ev;$/;"	m	language:C	struct:event_once	typeref:struct:event_once::event	file:
+ev	./http-internal.h	/^	struct event ev;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::event
+ev	./test/regress.c	/^	struct event ev;$/;"	m	language:C	struct:both	typeref:struct:both::event	file:
+ev	./test/regress.c	/^	struct event ev;$/;"	m	language:C	struct:test_pri_event	typeref:struct:test_pri_event::event	file:
+ev	./test/test-time.c	/^struct event *ev[NEVENT];$/;"	v	language:C	typeref:struct:event
+ev_active_next	./event.h	/^	TAILQ_ENTRY (event) ev_active_next;     \/\/! zark: 自身在激活队列中的下一个event.$/;"	m	language:C++	struct:event
+ev_arg	./event.h	/^	void *ev_arg;                               \/\/! zark: 回调函数被调用时传入的参数.$/;"	m	language:C++	struct:event
+ev_base	./event.h	/^	struct event_base *ev_base;     \/\/! 指向所归属的event_base$/;"	m	language:C++	struct:event	typeref:struct:event::event_base
+ev_base	./event.h	/^	struct event_base *ev_base;$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::event_base
+ev_callback	./event.h	/^	void (*ev_callback)(int, short, void *arg); \/\/! zark: 事件激活时的回调函数.$/;"	m	language:C++	struct:event
+ev_events	./event.h	/^	short ev_events;$/;"	m	language:C++	struct:event
+ev_fd	./event.h	/^	int ev_fd;      \/\/! zark: 对应的监听的文件描述符$/;"	m	language:C++	struct:event
+ev_flags	./event.h	/^	int ev_flags;$/;"	m	language:C++	struct:event
+ev_int64_t	./evutil.h	57;"	d	language:C++
+ev_int64_t	./evutil.h	60;"	d	language:C++
+ev_int64_t	./evutil.h	63;"	d	language:C++
+ev_int64_t	./evutil.h	66;"	d	language:C++
+ev_ncalls	./event.h	/^	short ev_ncalls;    \/\/! zark: 活跃时回调callback func的次数, 目前本人看到源码中都是传递为1, 也就是只调一次callback func.$/;"	m	language:C++	struct:event
+ev_next	./event.h	/^	TAILQ_ENTRY (event) ev_next;            \/\/! zark: 自身在队列中的下一个event.$/;"	m	language:C++	struct:event
+ev_pncalls	./event.h	/^	short *ev_pncalls;	\/* Allows deletes in callback *\/$/;"	m	language:C++	struct:event
+ev_pri	./event.h	/^	int ev_pri;		\/* smaller numbers are higher priority *\/$/;"	m	language:C++	struct:event
+ev_read	./event.h	/^	struct event ev_read;$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::event
+ev_res	./event.h	/^	int ev_res;		\/* result passed to event callback *\/$/;"	m	language:C++	struct:event
+ev_sighandler_t	./evsignal.h	/^typedef void (*ev_sighandler_t)(int);$/;"	t	language:C++
+ev_signal	./evsignal.h	/^	struct event ev_signal;$/;"	m	language:C++	struct:evsignal_info	typeref:struct:evsignal_info::event
+ev_signal_added	./evsignal.h	/^	int ev_signal_added;$/;"	m	language:C++	struct:evsignal_info
+ev_signal_next	./event.h	/^	TAILQ_ENTRY (event) ev_signal_next;     \/\/! zark: 自身在激活队列中的下一个event.$/;"	m	language:C++	struct:event
+ev_signal_pair	./evsignal.h	/^	int ev_signal_pair[2];$/;"	m	language:C++	struct:evsignal_info
+ev_timeout	./event.h	/^	struct timeval ev_timeout;      \/\/! 超时的时间戳, 精确到微妙.$/;"	m	language:C++	struct:event	typeref:struct:event::timeval
+ev_timeout	./evrpc.h	/^	struct event ev_timeout;$/;"	m	language:C++	struct:evrpc_request_wrapper	typeref:struct:evrpc_request_wrapper::event
+ev_uint16_t	./evutil.h	84;"	d	language:C++
+ev_uint16_t	./evutil.h	86;"	d	language:C++
+ev_uint16_t	./evutil.h	88;"	d	language:C++
+ev_uint16_t	./evutil.h	90;"	d	language:C++
+ev_uint32_t	./evutil.h	72;"	d	language:C++
+ev_uint32_t	./evutil.h	74;"	d	language:C++
+ev_uint32_t	./evutil.h	76;"	d	language:C++
+ev_uint32_t	./evutil.h	78;"	d	language:C++
+ev_uint64_t	./evutil.h	56;"	d	language:C++
+ev_uint64_t	./evutil.h	59;"	d	language:C++
+ev_uint64_t	./evutil.h	62;"	d	language:C++
+ev_uint64_t	./evutil.h	65;"	d	language:C++
+ev_uint8_t	./evutil.h	96;"	d	language:C++
+ev_uint8_t	./evutil.h	98;"	d	language:C++
+ev_write	./event.h	/^	struct event ev_write;$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::event
+evbase	./event-internal.h	/^	void *evbase;$/;"	m	language:C++	struct:event_base
+evbuffer	./event.h	/^struct evbuffer {$/;"	s	language:C++
+evbuffer_add	./buffer.c	/^evbuffer_add(struct evbuffer *buf, const void *data, size_t datlen)$/;"	f	language:C	signature:(struct evbuffer *buf, const void *data, size_t datlen)
+evbuffer_add_buffer	./buffer.c	/^evbuffer_add_buffer(struct evbuffer *outbuf, struct evbuffer *inbuf)$/;"	f	language:C	signature:(struct evbuffer *outbuf, struct evbuffer *inbuf)
+evbuffer_add_printf	./buffer.c	/^evbuffer_add_printf(struct evbuffer *buf, const char *fmt, ...)$/;"	f	language:C	signature:(struct evbuffer *buf, const char *fmt, ...)
+evbuffer_add_vprintf	./buffer.c	/^evbuffer_add_vprintf(struct evbuffer *buf, const char *fmt, va_list ap)$/;"	f	language:C	signature:(struct evbuffer *buf, const char *fmt, va_list ap)
+evbuffer_align	./buffer.c	/^evbuffer_align(struct evbuffer *buf)$/;"	f	language:C	file:	signature:(struct evbuffer *buf)
+evbuffer_drain	./buffer.c	/^evbuffer_drain(struct evbuffer *buf, size_t len)$/;"	f	language:C	signature:(struct evbuffer *buf, size_t len)
+evbuffer_expand	./buffer.c	/^evbuffer_expand(struct evbuffer *buf, size_t datlen)$/;"	f	language:C	signature:(struct evbuffer *buf, size_t datlen)
+evbuffer_find	./buffer.c	/^evbuffer_find(struct evbuffer *buffer, const u_char *what, size_t len)$/;"	f	language:C	signature:(struct evbuffer *buffer, const u_char *what, size_t len)
+evbuffer_free	./buffer.c	/^evbuffer_free(struct evbuffer *buffer)$/;"	f	language:C	signature:(struct evbuffer *buffer)
+evbuffer_new	./buffer.c	/^evbuffer_new(void)$/;"	f	language:C	signature:(void)
+evbuffer_read	./buffer.c	/^evbuffer_read(struct evbuffer *buf, int fd, int howmuch)$/;"	f	language:C	signature:(struct evbuffer *buf, int fd, int howmuch)
+evbuffer_readline	./buffer.c	/^evbuffer_readline(struct evbuffer *buffer)$/;"	f	language:C	signature:(struct evbuffer *buffer)
+evbuffer_remove	./buffer.c	/^evbuffer_remove(struct evbuffer *buf, void *data, size_t datlen)$/;"	f	language:C	signature:(struct evbuffer *buf, void *data, size_t datlen)
+evbuffer_setcb	./buffer.c	/^void evbuffer_setcb(struct evbuffer *buffer,$/;"	f	language:C	signature:(struct evbuffer *buffer, void (*cb)(struct evbuffer *, size_t, size_t, void *), void *cbarg)
+evbuffer_write	./buffer.c	/^evbuffer_write(struct evbuffer *buffer, int fd)$/;"	f	language:C	signature:(struct evbuffer *buffer, int fd)
+evbuffercb	./event.h	/^typedef void (*evbuffercb)(struct bufferevent *, void *);$/;"	t	language:C++
+evcon	./evhttp.h	/^	struct evhttp_connection *evcon;$/;"	m	language:C++	struct:evhttp_request	typeref:struct:evhttp_request::evhttp_connection
+evcon	./evrpc.h	/^	struct evhttp_connection *evcon;$/;"	m	language:C++	struct:evrpc_request_wrapper	typeref:struct:evrpc_request_wrapper::evhttp_connection
+evdevpoll	./devpoll.c	/^struct evdevpoll {$/;"	s	language:C	file:
+evdns_add_server_port	./evdns.c	/^evdns_add_server_port(int socket, int is_tcp, evdns_request_callback_fn_type cb, void *user_data)$/;"	f	language:C	signature:(int socket, int is_tcp, evdns_request_callback_fn_type cb, void *user_data)
+evdns_callback_type	./evdns.h	/^typedef void (*evdns_callback_type) (int result, char type, int count, int ttl, void *addresses, void *arg);$/;"	t	language:C++
+evdns_clear_nameservers_and_suspend	./evdns.c	/^evdns_clear_nameservers_and_suspend(void)$/;"	f	language:C	signature:(void)
+evdns_close_server_port	./evdns.c	/^evdns_close_server_port(struct evdns_server_port *port)$/;"	f	language:C	signature:(struct evdns_server_port *port)
+evdns_config_windows_nameservers	./evdns.c	/^evdns_config_windows_nameservers(void)$/;"	f	language:C	signature:(void)
+evdns_count_nameservers	./evdns.c	/^evdns_count_nameservers(void)$/;"	f	language:C	signature:(void)
+evdns_debug_log_fn_type	./evdns.h	/^typedef void (*evdns_debug_log_fn_type)(int is_warning, const char *msg);$/;"	t	language:C++
+evdns_err_to_string	./evdns.c	/^evdns_err_to_string(int err)$/;"	f	language:C	signature:(int err)
+evdns_init	./evdns.c	/^evdns_init(void)$/;"	f	language:C	signature:(void)
+evdns_log_fn	./evdns.c	/^static evdns_debug_log_fn_type evdns_log_fn = NULL;$/;"	v	language:C	file:
+evdns_nameserver_add	./evdns.c	/^evdns_nameserver_add(unsigned long int address) {$/;"	f	language:C	signature:(unsigned long int address)
+evdns_nameserver_ip_add	./evdns.c	/^evdns_nameserver_ip_add(const char *ip_as_string) {$/;"	f	language:C	signature:(const char *ip_as_string)
+evdns_nameserver_ip_add_line	./evdns.c	/^evdns_nameserver_ip_add_line(const char *ips) {$/;"	f	language:C	file:	signature:(const char *ips)
+evdns_request_callback_fn_type	./evdns.h	/^typedef void (*evdns_request_callback_fn_type)(struct evdns_server_request *, void *);$/;"	t	language:C++
+evdns_request_data_build	./evdns.c	/^evdns_request_data_build(const char *const name, const int name_len,$/;"	f	language:C	file:	signature:(const char *const name, const int name_len, const u16 trans_id, const u16 type, const u16 class, u8 *const buf, size_t buf_len)
+evdns_request_insert	./evdns.c	/^evdns_request_insert(struct request *req, struct request **head) {$/;"	f	language:C	file:	signature:(struct request *req, struct request **head)
+evdns_request_len	./evdns.c	/^evdns_request_len(const int name_len) {$/;"	f	language:C	file:	signature:(const int name_len)
+evdns_request_timeout_callback	./evdns.c	/^evdns_request_timeout_callback(int fd, short events, void *arg) {$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+evdns_request_transmit	./evdns.c	/^evdns_request_transmit(struct request *req) {$/;"	f	language:C	file:	signature:(struct request *req)
+evdns_request_transmit_to	./evdns.c	/^evdns_request_transmit_to(struct request *req, struct nameserver *server) {$/;"	f	language:C	file:	signature:(struct request *req, struct nameserver *server)
+evdns_requests_pump_waiting_queue	./evdns.c	/^evdns_requests_pump_waiting_queue(void) {$/;"	f	language:C	file:	signature:(void)
+evdns_resolv_conf_parse	./evdns.c	/^evdns_resolv_conf_parse(int flags, const char *const filename) {$/;"	f	language:C	signature:(int flags, const char *const filename)
+evdns_resolv_set_defaults	./evdns.c	/^evdns_resolv_set_defaults(int flags) {$/;"	f	language:C	file:	signature:(int flags)
+evdns_resolve_ipv4	./evdns.c	/^int evdns_resolve_ipv4(const char *name, int flags,$/;"	f	language:C	signature:(const char *name, int flags, evdns_callback_type callback, void *ptr)
+evdns_resolve_ipv6	./evdns.c	/^int evdns_resolve_ipv6(const char *name, int flags,$/;"	f	language:C	signature:(const char *name, int flags, evdns_callback_type callback, void *ptr)
+evdns_resolve_reverse	./evdns.c	/^int evdns_resolve_reverse(const struct in_addr *in, int flags, evdns_callback_type callback, void *ptr) {$/;"	f	language:C	signature:(const struct in_addr *in, int flags, evdns_callback_type callback, void *ptr)
+evdns_resolve_reverse_ipv6	./evdns.c	/^int evdns_resolve_reverse_ipv6(const struct in6_addr *in, int flags, evdns_callback_type callback, void *ptr) {$/;"	f	language:C	signature:(const struct in6_addr *in, int flags, evdns_callback_type callback, void *ptr)
+evdns_resume	./evdns.c	/^evdns_resume(void)$/;"	f	language:C	signature:(void)
+evdns_search_add	./evdns.c	/^evdns_search_add(const char *domain) {$/;"	f	language:C	signature:(const char *domain)
+evdns_search_clear	./evdns.c	/^evdns_search_clear(void) {$/;"	f	language:C	signature:(void)
+evdns_search_ndots_set	./evdns.c	/^evdns_search_ndots_set(const int ndots) {$/;"	f	language:C	signature:(const int ndots)
+evdns_server_callback	./evdns.c	/^evdns_server_callback(struct evdns_server_request *req, void *data)$/;"	f	language:C	signature:(struct evdns_server_request *req, void *data)
+evdns_server_port	./evdns.c	/^struct evdns_server_port {$/;"	s	language:C	file:
+evdns_server_question	./evdns.h	/^struct evdns_server_question {$/;"	s	language:C++
+evdns_server_request	./evdns.h	/^struct evdns_server_request {$/;"	s	language:C++
+evdns_server_request_add_a_reply	./evdns.c	/^evdns_server_request_add_a_reply(struct evdns_server_request *req, const char *name, int n, void *addrs, int ttl)$/;"	f	language:C	signature:(struct evdns_server_request *req, const char *name, int n, void *addrs, int ttl)
+evdns_server_request_add_aaaa_reply	./evdns.c	/^evdns_server_request_add_aaaa_reply(struct evdns_server_request *req, const char *name, int n, void *addrs, int ttl)$/;"	f	language:C	signature:(struct evdns_server_request *req, const char *name, int n, void *addrs, int ttl)
+evdns_server_request_add_cname_reply	./evdns.c	/^evdns_server_request_add_cname_reply(struct evdns_server_request *req, const char *name, const char *cname, int ttl)$/;"	f	language:C	signature:(struct evdns_server_request *req, const char *name, const char *cname, int ttl)
+evdns_server_request_add_ptr_reply	./evdns.c	/^evdns_server_request_add_ptr_reply(struct evdns_server_request *req, struct in_addr *in, const char *inaddr_name, const char *hostname, int ttl)$/;"	f	language:C	signature:(struct evdns_server_request *req, struct in_addr *in, const char *inaddr_name, const char *hostname, int ttl)
+evdns_server_request_add_reply	./evdns.c	/^evdns_server_request_add_reply(struct evdns_server_request *_req, int section, const char *name, int type, int class, int ttl, int datalen, int is_name, const char *data)$/;"	f	language:C	signature:(struct evdns_server_request *_req, int section, const char *name, int type, int class, int ttl, int datalen, int is_name, const char *data)
+evdns_server_request_drop	./evdns.c	/^evdns_server_request_drop(struct evdns_server_request *_req)$/;"	f	language:C	signature:(struct evdns_server_request *_req)
+evdns_server_request_format_response	./evdns.c	/^evdns_server_request_format_response(struct server_request *req, int err)$/;"	f	language:C	file:	signature:(struct server_request *req, int err)
+evdns_server_request_get_requesting_addr	./evdns.c	/^evdns_server_request_get_requesting_addr(struct evdns_server_request *_req, struct sockaddr *sa, int addr_len)$/;"	f	language:C	signature:(struct evdns_server_request *_req, struct sockaddr *sa, int addr_len)
+evdns_server_request_respond	./evdns.c	/^evdns_server_request_respond(struct evdns_server_request *_req, int err)$/;"	f	language:C	signature:(struct evdns_server_request *_req, int err)
+evdns_set_log_fn	./evdns.c	/^evdns_set_log_fn(evdns_debug_log_fn_type fn)$/;"	f	language:C	signature:(evdns_debug_log_fn_type fn)
+evdns_set_option	./evdns.c	/^evdns_set_option(const char *option, const char *val, int flags)$/;"	f	language:C	signature:(const char *option, const char *val, int flags)
+evdns_set_transaction_id_fn	./evdns.c	/^evdns_set_transaction_id_fn(ev_uint16_t (*fn)(void))$/;"	f	language:C	signature:(ev_uint16_t (fn)void))
+evdns_shutdown	./evdns.c	/^evdns_shutdown(int fail_requests)$/;"	f	language:C	signature:(int fail_requests)
+evdns_transmit	./evdns.c	/^evdns_transmit(void) {$/;"	f	language:C	file:	signature:(void)
+event	./evdns.c	/^	struct event event; \/* Read\/write event *\/$/;"	m	language:C	struct:evdns_server_port	typeref:struct:evdns_server_port::event	file:
+event	./evdns.c	/^	struct event event;$/;"	m	language:C	struct:nameserver	typeref:struct:nameserver::event	file:
+event	./event.h	/^struct event {$/;"	s	language:C++
+event_active	./event.c	/^event_active(struct event *ev, int res, short ncalls)$/;"	f	language:C	signature:(struct event *ev, int res, short ncalls)
+event_add	./event.c	/^event_add(struct event *ev, const struct timeval *tv)$/;"	f	language:C	signature:(struct event *ev, const struct timeval *tv)
+event_base	./event-internal.h	/^struct event_base {$/;"	s	language:C++
+event_base_dispatch	./event.c	/^event_base_dispatch(struct event_base *event_base)$/;"	f	language:C	signature:(struct event_base *event_base)
+event_base_free	./event.c	/^event_base_free(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+event_base_get_method	./event.c	/^event_base_get_method(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+event_base_loop	./event.c	/^event_base_loop(struct event_base *base, int flags)$/;"	f	language:C	signature:(struct event_base *base, int flags)
+event_base_loopbreak	./event.c	/^event_base_loopbreak(struct event_base *event_base)$/;"	f	language:C	signature:(struct event_base *event_base)
+event_base_loopexit	./event.c	/^event_base_loopexit(struct event_base *event_base, const struct timeval *tv)$/;"	f	language:C	signature:(struct event_base *event_base, const struct timeval *tv)
+event_base_new	./event.c	/^event_base_new(void)$/;"	f	language:C	signature:(void)
+event_base_once	./event.c	/^event_base_once(struct event_base *base, int fd, short events,$/;"	f	language:C	signature:(struct event_base *base, int fd, short events, void (*callback)(int, short, void *), void *arg, const struct timeval *tv)
+event_base_priority_init	./event.c	/^event_base_priority_init(struct event_base *base, int npriorities)$/;"	f	language:C	signature:(struct event_base *base, int npriorities)
+event_base_set	./event.c	/^event_base_set(struct event_base *base, struct event *ev)$/;"	f	language:C	signature:(struct event_base *base, struct event *ev)
+event_break	./event-internal.h	/^	int event_break;		\/* Set to terminate loop immediately *\/$/;"	m	language:C++	struct:event_base
+event_count	./event-internal.h	/^	int event_count;		\/* counts number of total events *\/$/;"	m	language:C++	struct:event_base
+event_count	./poll.c	/^	int event_count;		\/* Highest number alloc *\/$/;"	m	language:C	struct:pollop	file:
+event_count_active	./event-internal.h	/^	int event_count_active;	\/* counts number of active events *\/$/;"	m	language:C++	struct:event_base
+event_debug	./log.h	44;"	d	language:C++
+event_debug	./log.h	46;"	d	language:C++
+event_del	./event.c	/^event_del(struct event *ev)$/;"	f	language:C	signature:(struct event *ev)
+event_dispatch	./event.c	/^event_dispatch(void)$/;"	f	language:C	signature:(void)
+event_entry	./WIN32-Code/win32.c	/^struct event_entry {$/;"	s	language:C	file:
+event_err	./log.c	/^event_err(int eval, const char *fmt, ...)$/;"	f	language:C	signature:(int eval, const char *fmt, ...)
+event_errx	./log.c	/^event_errx(int eval, const char *fmt, ...)$/;"	f	language:C	signature:(int eval, const char *fmt, ...)
+event_fds	./select.c	/^	int event_fds;		\/* Highest fd in fd set *\/$/;"	m	language:C	struct:selectop	file:
+event_fdsz	./select.c	/^	int event_fdsz;$/;"	m	language:C	struct:selectop	file:
+event_get_method	./event.c	/^event_get_method(void)$/;"	f	language:C	signature:(void)
+event_get_version	./event.c	/^event_get_version(void)$/;"	f	language:C	signature:(void)
+event_gotterm	./event-internal.h	/^	int event_gotterm;		\/* Set to terminate loop *\/$/;"	m	language:C++	struct:event_base
+event_haveevents	./event.c	/^event_haveevents(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+event_init	./event.c	/^event_init(void)$/;"	f	language:C	signature:(void)
+event_initialized	./event.h	667;"	d	language:C++
+event_initialized	./event.h	669;"	d	language:C++
+event_log	./log.c	/^event_log(int severity, const char *msg)$/;"	f	language:C	file:	signature:(int severity, const char *msg)
+event_log_cb	./event.h	/^typedef void (*event_log_cb)(int severity, const char *msg);$/;"	t	language:C++
+event_loop	./event.c	/^event_loop(int flags)$/;"	f	language:C	signature:(int flags)
+event_loopbreak	./event.c	/^event_loopbreak(void)$/;"	f	language:C	signature:(void)
+event_loopexit	./event.c	/^event_loopexit(const struct timeval *tv)$/;"	f	language:C	signature:(const struct timeval *tv)
+event_loopexit_cb	./event.c	/^event_loopexit_cb(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+event_msgx	./log.c	/^event_msgx(const char *fmt, ...)$/;"	f	language:C	signature:(const char *fmt, ...)
+event_once	./event.c	/^event_once(int fd, short events,$/;"	f	language:C	signature:(int fd, short events, void (*callback)(int, short, void *), void *arg, const struct timeval *tv)
+event_once	./event.c	/^struct event_once {$/;"	s	language:C	file:
+event_once_cb	./event.c	/^event_once_cb(int fd, short events, void *arg)$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+event_pending	./event.c	/^event_pending(struct event *ev, short event, struct timeval *tv)$/;"	f	language:C	signature:(struct event *ev, short event, struct timeval *tv)
+event_priority_init	./event.c	/^event_priority_init(int npriorities)$/;"	f	language:C	signature:(int npriorities)
+event_priority_set	./event.c	/^event_priority_set(struct event *ev, int pri)$/;"	f	language:C	signature:(struct event *ev, int pri)
+event_process_active	./event.c	/^event_process_active(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+event_queue_insert	./event.c	/^event_queue_insert(struct event_base *base, struct event *ev, int queue)$/;"	f	language:C	signature:(struct event_base *base, struct event *ev, int queue)
+event_queue_remove	./event.c	/^event_queue_remove(struct event_base *base, struct event *ev, int queue)$/;"	f	language:C	signature:(struct event_base *base, struct event *ev, int queue)
+event_r_back	./poll.c	/^	struct event **event_r_back;$/;"	m	language:C	struct:pollop	typeref:struct:pollop::event	file:
+event_r_by_fd	./select.c	/^	struct event **event_r_by_fd;$/;"	m	language:C	struct:selectop	typeref:struct:selectop::event	file:
+event_readset_in	./select.c	/^	fd_set *event_readset_in;$/;"	m	language:C	struct:selectop	file:
+event_readset_out	./select.c	/^	fd_set *event_readset_out;$/;"	m	language:C	struct:selectop	file:
+event_reinit	./event.c	/^event_reinit(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+event_set	./event.c	/^event_set(struct event *ev, int fd, short events,$/;"	f	language:C	signature:(struct event *ev, int fd, short events, void (*callback)(int, short, void *), void *arg)
+event_set	./poll.c	/^	struct pollfd *event_set;$/;"	m	language:C	struct:pollop	typeref:struct:pollop::pollfd	file:
+event_set_log_callback	./log.c	/^event_set_log_callback(event_log_cb cb)$/;"	f	language:C	signature:(event_log_cb cb)
+event_tv	./event-internal.h	/^	struct timeval event_tv;        \/\/! zark: TODO$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::timeval
+event_w_back	./poll.c	/^	struct event **event_w_back;$/;"	m	language:C	struct:pollop	typeref:struct:pollop::event	file:
+event_w_by_fd	./select.c	/^	struct event **event_w_by_fd;$/;"	m	language:C	struct:selectop	typeref:struct:selectop::event	file:
+event_warn	./log.c	/^event_warn(const char *fmt, ...)$/;"	f	language:C	signature:(const char *fmt, ...)
+event_warnx	./log.c	/^event_warnx(const char *fmt, ...)$/;"	f	language:C	signature:(const char *fmt, ...)
+event_watermark	./event.h	/^struct event_watermark {$/;"	s	language:C++
+event_writeset_in	./select.c	/^	fd_set *event_writeset_in;$/;"	m	language:C	struct:selectop	file:
+event_writeset_out	./select.c	/^	fd_set *event_writeset_out;$/;"	m	language:C	struct:selectop	file:
+eventop	./event-internal.h	/^struct eventop {$/;"	s	language:C++
+eventops	./event.c	/^static const struct eventop *eventops[] = {$/;"	v	language:C	typeref:struct:eventop	file:
+eventqueue	./event-internal.h	/^	struct event_list eventqueue;   \/\/! zark: event总队列.$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::event_list
+events	./devpoll.c	/^	struct pollfd *events;$/;"	m	language:C	struct:devpollop	typeref:struct:devpollop::pollfd	file:
+events	./epoll.c	/^	struct epoll_event *events;         \/\/! zark: 指向libevent为epoll_event分配的内存块(初始化时为INITIAL_NEVENTS个epoll_event).$/;"	m	language:C	struct:epollop	typeref:struct:epollop::epoll_event	file:
+events	./kqueue.c	/^	struct kevent *events;$/;"	m	language:C	struct:kqop	typeref:struct:kqop::kevent	file:
+events	./test/bench.c	/^static struct event *events;$/;"	v	language:C	typeref:struct:event	file:
+evepoll	./epoll.c	/^struct evepoll {$/;"	s	language:C	file:
+everrorcb	./event.h	/^typedef void (*everrorcb)(struct bufferevent *, short what, void *);$/;"	t	language:C++
+evhttp	./http-internal.h	/^struct evhttp {$/;"	s	language:C++
+evhttp_accept_socket	./http.c	/^evhttp_accept_socket(struct evhttp *http, int fd)$/;"	f	language:C	signature:(struct evhttp *http, int fd)
+evhttp_add_event	./http.c	/^evhttp_add_event(struct event *ev, int timeout, int default_timeout)$/;"	f	language:C	file:	signature:(struct event *ev, int timeout, int default_timeout)
+evhttp_add_header	./http.c	/^evhttp_add_header(struct evkeyvalq *headers,$/;"	f	language:C	signature:(struct evkeyvalq *headers, const char *key, const char *value)
+evhttp_add_header_internal	./http.c	/^evhttp_add_header_internal(struct evkeyvalq *headers,$/;"	f	language:C	file:	signature:(struct evkeyvalq *headers, const char *key, const char *value)
+evhttp_append_to_last_header	./http.c	/^evhttp_append_to_last_header(struct evkeyvalq *headers, const char *line)$/;"	f	language:C	file:	signature:(struct evkeyvalq *headers, const char *line)
+evhttp_associate_new_request_with_connection	./http.c	/^evhttp_associate_new_request_with_connection(struct evhttp_connection *evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon)
+evhttp_bind_socket	./http.c	/^evhttp_bind_socket(struct evhttp *http, const char *address, u_short port)$/;"	f	language:C	signature:(struct evhttp *http, const char *address, u_short port)
+evhttp_bound_socket	./http-internal.h	/^struct evhttp_bound_socket {$/;"	s	language:C++
+evhttp_cb	./http-internal.h	/^struct evhttp_cb {$/;"	s	language:C++
+evhttp_clear_headers	./http.c	/^evhttp_clear_headers(struct evkeyvalq *headers)$/;"	f	language:C	signature:(struct evkeyvalq *headers)
+evhttp_cmd_type	./evhttp.h	/^enum evhttp_cmd_type { EVHTTP_REQ_GET, EVHTTP_REQ_POST, EVHTTP_REQ_HEAD };$/;"	g	language:C++
+evhttp_connected	./http.c	/^evhttp_connected(struct evhttp_connection *evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon)
+evhttp_connection	./http-internal.h	/^struct evhttp_connection {$/;"	s	language:C++
+evhttp_connection_connect	./http.c	/^evhttp_connection_connect(struct evhttp_connection *evcon)$/;"	f	language:C	signature:(struct evhttp_connection *evcon)
+evhttp_connection_done	./http.c	/^evhttp_connection_done(struct evhttp_connection *evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon)
+evhttp_connection_error	./http-internal.h	/^enum evhttp_connection_error {$/;"	g	language:C++
+evhttp_connection_fail	./http.c	/^evhttp_connection_fail(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, enum evhttp_connection_error error)
+evhttp_connection_free	./http.c	/^evhttp_connection_free(struct evhttp_connection *evcon)$/;"	f	language:C	signature:(struct evhttp_connection *evcon)
+evhttp_connection_get_peer	./http.c	/^evhttp_connection_get_peer(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, char **address, u_short *port)
+evhttp_connection_incoming_fail	./http.c	/^evhttp_connection_incoming_fail(struct evhttp_request *req,$/;"	f	language:C	file:	signature:(struct evhttp_request *req, enum evhttp_connection_error error)
+evhttp_connection_new	./http.c	/^evhttp_connection_new(const char *address, unsigned short port)$/;"	f	language:C	signature:(const char *address, unsigned short port)
+evhttp_connection_reset	./http.c	/^evhttp_connection_reset(struct evhttp_connection *evcon)$/;"	f	language:C	signature:(struct evhttp_connection *evcon)
+evhttp_connection_retry	./http.c	/^evhttp_connection_retry(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+evhttp_connection_set_base	./http.c	/^void evhttp_connection_set_base(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, struct event_base *base)
+evhttp_connection_set_closecb	./http.c	/^evhttp_connection_set_closecb(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, void (*cb)(struct evhttp_connection *, void *), void *cbarg)
+evhttp_connection_set_local_address	./http.c	/^evhttp_connection_set_local_address(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, const char *address)
+evhttp_connection_set_local_port	./http.c	/^evhttp_connection_set_local_port(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, unsigned short port)
+evhttp_connection_set_retries	./http.c	/^evhttp_connection_set_retries(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, int retry_max)
+evhttp_connection_set_timeout	./http.c	/^evhttp_connection_set_timeout(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, int timeout_in_secs)
+evhttp_connection_start_detectclose	./http.c	/^evhttp_connection_start_detectclose(struct evhttp_connection *evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon)
+evhttp_connection_state	./http-internal.h	/^enum evhttp_connection_state {$/;"	g	language:C++
+evhttp_connection_stop_detectclose	./http.c	/^evhttp_connection_stop_detectclose(struct evhttp_connection *evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon)
+evhttp_connectioncb	./http.c	/^evhttp_connectioncb(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+evhttp_decode_uri	./http.c	/^evhttp_decode_uri(const char *uri)$/;"	f	language:C	signature:(const char *uri)
+evhttp_decode_uri_internal	./http.c	/^evhttp_decode_uri_internal($/;"	f	language:C	file:	signature:( const char *uri, size_t length, char *ret, int always_decode_plus)
+evhttp_del_cb	./http.c	/^evhttp_del_cb(struct evhttp *http, const char *uri)$/;"	f	language:C	signature:(struct evhttp *http, const char *uri)
+evhttp_detect_close_cb	./http.c	/^evhttp_detect_close_cb(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+evhttp_dispatch_callback	./http.c	/^evhttp_dispatch_callback(struct httpcbq *callbacks, struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct httpcbq *callbacks, struct evhttp_request *req)
+evhttp_encode_uri	./http.c	/^evhttp_encode_uri(const char *uri)$/;"	f	language:C	signature:(const char *uri)
+evhttp_find_header	./http.c	/^evhttp_find_header(const struct evkeyvalq *headers, const char *key)$/;"	f	language:C	signature:(const struct evkeyvalq *headers, const char *key)
+evhttp_free	./http.c	/^evhttp_free(struct evhttp* http)$/;"	f	language:C	signature:(struct evhttp* http)
+evhttp_get_body	./http.c	/^evhttp_get_body(struct evhttp_connection *evcon, struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_get_body_length	./http.c	/^evhttp_get_body_length(struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct evhttp_request *req)
+evhttp_get_request	./http.c	/^evhttp_get_request(struct evhttp *http, int fd,$/;"	f	language:C	signature:(struct evhttp *http, int fd, struct sockaddr *sa, socklen_t salen)
+evhttp_get_request_connection	./http.c	/^evhttp_get_request_connection($/;"	f	language:C	file:	signature:( struct evhttp* http, int fd, struct sockaddr *sa, socklen_t salen)
+evhttp_handle_chunked_read	./http.c	/^evhttp_handle_chunked_read(struct evhttp_request *req, struct evbuffer *buf)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, struct evbuffer *buf)
+evhttp_handle_request	./http.c	/^evhttp_handle_request(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+evhttp_header_is_valid_value	./http.c	/^evhttp_header_is_valid_value(const char *value)$/;"	f	language:C	file:	signature:(const char *value)
+evhttp_hostportfile	./http.c	/^evhttp_hostportfile(char *url, char **phost, u_short *pport, char **pfile)$/;"	f	language:C	signature:(char *url, char **phost, u_short *pport, char **pfile)
+evhttp_htmlescape	./http.c	/^evhttp_htmlescape(const char *html)$/;"	f	language:C	signature:(const char *html)
+evhttp_is_connection_close	./http.c	/^evhttp_is_connection_close(int flags, struct evkeyvalq* headers)$/;"	f	language:C	file:	signature:(int flags, struct evkeyvalq* headers)
+evhttp_is_connection_keepalive	./http.c	/^evhttp_is_connection_keepalive(struct evkeyvalq* headers)$/;"	f	language:C	file:	signature:(struct evkeyvalq* headers)
+evhttp_make_header	./http.c	/^evhttp_make_header(struct evhttp_connection *evcon, struct evhttp_request *req)$/;"	f	language:C	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_make_header_request	./http.c	/^evhttp_make_header_request(struct evhttp_connection *evcon,$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_make_header_response	./http.c	/^evhttp_make_header_response(struct evhttp_connection *evcon,$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_make_request	./http.c	/^evhttp_make_request(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, struct evhttp_request *req, enum evhttp_cmd_type type, const char *uri)
+evhttp_maybe_add_content_length_header	./http.c	/^evhttp_maybe_add_content_length_header(struct evkeyvalq *headers,$/;"	f	language:C	file:	signature:(struct evkeyvalq *headers, long content_length)
+evhttp_maybe_add_date_header	./http.c	/^evhttp_maybe_add_date_header(struct evkeyvalq *headers)$/;"	f	language:C	file:	signature:(struct evkeyvalq *headers)
+evhttp_method	./http.c	/^evhttp_method(enum evhttp_cmd_type type)$/;"	f	language:C	file:	signature:(enum evhttp_cmd_type type)
+evhttp_new	./http.c	/^evhttp_new(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+evhttp_new_object	./http.c	/^evhttp_new_object(void)$/;"	f	language:C	file:	signature:(void)
+evhttp_parse_firstline	./http.c	/^evhttp_parse_firstline(struct evhttp_request *req, struct evbuffer *buffer)$/;"	f	language:C	signature:(struct evhttp_request *req, struct evbuffer *buffer)
+evhttp_parse_headers	./http.c	/^evhttp_parse_headers(struct evhttp_request *req, struct evbuffer* buffer)$/;"	f	language:C	signature:(struct evhttp_request *req, struct evbuffer* buffer)
+evhttp_parse_query	./http.c	/^evhttp_parse_query(const char *uri, struct evkeyvalq *headers)$/;"	f	language:C	signature:(const char *uri, struct evkeyvalq *headers)
+evhttp_parse_request_line	./http.c	/^evhttp_parse_request_line(struct evhttp_request *req, char *line)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, char *line)
+evhttp_parse_response_line	./http.c	/^evhttp_parse_response_line(struct evhttp_request *req, char *line)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, char *line)
+evhttp_read	./http.c	/^evhttp_read(int fd, short what, void *arg)$/;"	f	language:C	signature:(int fd, short what, void *arg)
+evhttp_read_body	./http.c	/^evhttp_read_body(struct evhttp_connection *evcon, struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_read_firstline	./http.c	/^evhttp_read_firstline(struct evhttp_connection *evcon,$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_read_header	./http.c	/^evhttp_read_header(struct evhttp_connection *evcon, struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_read_trailer	./http.c	/^evhttp_read_trailer(struct evhttp_connection *evcon, struct evhttp_request *req)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, struct evhttp_request *req)
+evhttp_remove_header	./http.c	/^evhttp_remove_header(struct evkeyvalq *headers, const char *key)$/;"	f	language:C	signature:(struct evkeyvalq *headers, const char *key)
+evhttp_request	./evhttp.h	/^struct evhttp_request {$/;"	s	language:C++
+evhttp_request_dispatch	./http.c	/^evhttp_request_dispatch(struct evhttp_connection* evcon)$/;"	f	language:C	file:	signature:(struct evhttp_connection* evcon)
+evhttp_request_free	./http.c	/^evhttp_request_free(struct evhttp_request *req)$/;"	f	language:C	signature:(struct evhttp_request *req)
+evhttp_request_kind	./evhttp.h	/^enum evhttp_request_kind { EVHTTP_REQUEST, EVHTTP_RESPONSE };$/;"	g	language:C++
+evhttp_request_new	./http.c	/^evhttp_request_new(void (*cb)(struct evhttp_request *, void *), void *arg)$/;"	f	language:C	signature:(void (*cb)(struct evhttp_request *, void *), void *arg)
+evhttp_request_set_chunked_cb	./http.c	/^evhttp_request_set_chunked_cb(struct evhttp_request *req,$/;"	f	language:C	signature:(struct evhttp_request *req, void (*cb)(struct evhttp_request *, void *))
+evhttp_request_uri	./http.c	/^evhttp_request_uri(struct evhttp_request *req) {$/;"	f	language:C	signature:(struct evhttp_request *req)
+evhttp_response_code	./http.c	/^evhttp_response_code(struct evhttp_request *req, int code, const char *reason)$/;"	f	language:C	signature:(struct evhttp_request *req, int code, const char *reason)
+evhttp_send	./http.c	/^evhttp_send(struct evhttp_request *req, struct evbuffer *databuf)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, struct evbuffer *databuf)
+evhttp_send_done	./http.c	/^evhttp_send_done(struct evhttp_connection *evcon, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, void *arg)
+evhttp_send_error	./http.c	/^evhttp_send_error(struct evhttp_request *req, int error, const char *reason)$/;"	f	language:C	signature:(struct evhttp_request *req, int error, const char *reason)
+evhttp_send_page	./http.c	/^evhttp_send_page(struct evhttp_request *req, struct evbuffer *databuf)$/;"	f	language:C	signature:(struct evhttp_request *req, struct evbuffer *databuf)
+evhttp_send_reply	./http.c	/^evhttp_send_reply(struct evhttp_request *req, int code, const char *reason,$/;"	f	language:C	signature:(struct evhttp_request *req, int code, const char *reason, struct evbuffer *databuf)
+evhttp_send_reply_chunk	./http.c	/^evhttp_send_reply_chunk(struct evhttp_request *req, struct evbuffer *databuf)$/;"	f	language:C	signature:(struct evhttp_request *req, struct evbuffer *databuf)
+evhttp_send_reply_end	./http.c	/^evhttp_send_reply_end(struct evhttp_request *req)$/;"	f	language:C	signature:(struct evhttp_request *req)
+evhttp_send_reply_start	./http.c	/^evhttp_send_reply_start(struct evhttp_request *req, int code,$/;"	f	language:C	signature:(struct evhttp_request *req, int code, const char *reason)
+evhttp_set_cb	./http.c	/^evhttp_set_cb(struct evhttp *http, const char *uri,$/;"	f	language:C	signature:(struct evhttp *http, const char *uri, void (*cb)(struct evhttp_request *, void *), void *cbarg)
+evhttp_set_gencb	./http.c	/^evhttp_set_gencb(struct evhttp *http,$/;"	f	language:C	signature:(struct evhttp *http, void (*cb)(struct evhttp_request *, void *), void *cbarg)
+evhttp_set_timeout	./http.c	/^evhttp_set_timeout(struct evhttp* http, int timeout_in_secs)$/;"	f	language:C	signature:(struct evhttp* http, int timeout_in_secs)
+evhttp_start	./http.c	/^evhttp_start(const char *address, u_short port)$/;"	f	language:C	signature:(const char *address, u_short port)
+evhttp_start_read	./http.c	/^evhttp_start_read(struct evhttp_connection *evcon)$/;"	f	language:C	signature:(struct evhttp_connection *evcon)
+evhttp_valid_response_code	./http.c	/^evhttp_valid_response_code(int code)$/;"	f	language:C	file:	signature:(int code)
+evhttp_write	./http.c	/^evhttp_write(int fd, short what, void *arg)$/;"	f	language:C	signature:(int fd, short what, void *arg)
+evhttp_write_buffer	./http.c	/^evhttp_write_buffer(struct evhttp_connection *evcon,$/;"	f	language:C	signature:(struct evhttp_connection *evcon, void (*cb)(struct evhttp_connection *, void *), void *arg)
+evhttp_write_connectioncb	./http.c	/^evhttp_write_connectioncb(struct evhttp_connection *evcon, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_connection *evcon, void *arg)
+evkeyval	./event.h	/^struct evkeyval {$/;"	s	language:C++
+evport_add	./evport.c	/^evport_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+evport_data	./evport.c	/^struct evport_data {$/;"	s	language:C	file:
+evport_dealloc	./evport.c	/^evport_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+evport_del	./evport.c	/^evport_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+evport_dispatch	./evport.c	/^evport_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+evport_init	./evport.c	/^evport_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+evportops	./evport.c	/^const struct eventop evportops = {$/;"	v	language:C	typeref:struct:eventop
+evread	./devpoll.c	/^	struct event *evread;$/;"	m	language:C	struct:evdevpoll	typeref:struct:evdevpoll::event	file:
+evread	./epoll.c	/^	struct event *evread;$/;"	m	language:C	struct:evepoll	typeref:struct:evepoll::event	file:
+evrpc	./evrpc.h	/^struct evrpc {$/;"	s	language:C++
+evrpc_add_hook	./evrpc.c	/^evrpc_add_hook(void *vbase,$/;"	f	language:C	signature:(void *vbase, enum EVRPC_HOOK_TYPE hook_type, int (*cb)(struct evhttp_request *, struct evbuffer *, void *), void *cb_arg)
+evrpc_base	./evrpc-internal.h	/^struct evrpc_base {$/;"	s	language:C++
+evrpc_construct_uri	./evrpc.c	/^evrpc_construct_uri(const char *uri)$/;"	f	language:C	file:	signature:(const char *uri)
+evrpc_free	./evrpc.c	/^evrpc_free(struct evrpc_base *base)$/;"	f	language:C	signature:(struct evrpc_base *base)
+evrpc_hook	./evrpc-internal.h	/^struct evrpc_hook {$/;"	s	language:C++
+evrpc_init	./evrpc.c	/^evrpc_init(struct evhttp *http_server)$/;"	f	language:C	signature:(struct evhttp *http_server)
+evrpc_make_request	./evrpc.c	/^evrpc_make_request(struct evrpc_request_wrapper *ctx)$/;"	f	language:C	signature:(struct evrpc_request_wrapper *ctx)
+evrpc_pool	./evrpc-internal.h	/^struct evrpc_pool {$/;"	s	language:C++
+evrpc_pool_add_connection	./evrpc.c	/^evrpc_pool_add_connection(struct evrpc_pool *pool,$/;"	f	language:C	signature:(struct evrpc_pool *pool, struct evhttp_connection *connection)
+evrpc_pool_find_connection	./evrpc.c	/^evrpc_pool_find_connection(struct evrpc_pool *pool)$/;"	f	language:C	file:	signature:(struct evrpc_pool *pool)
+evrpc_pool_free	./evrpc.c	/^evrpc_pool_free(struct evrpc_pool *pool)$/;"	f	language:C	signature:(struct evrpc_pool *pool)
+evrpc_pool_new	./evrpc.c	/^evrpc_pool_new(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+evrpc_pool_schedule	./evrpc.c	/^evrpc_pool_schedule(struct evrpc_pool *pool)$/;"	f	language:C	file:	signature:(struct evrpc_pool *pool)
+evrpc_pool_set_timeout	./evrpc.c	/^evrpc_pool_set_timeout(struct evrpc_pool *pool, int timeout_in_secs)$/;"	f	language:C	signature:(struct evrpc_pool *pool, int timeout_in_secs)
+evrpc_process_hooks	./evrpc.c	/^evrpc_process_hooks(struct evrpc_hook_list *head,$/;"	f	language:C	file:	signature:(struct evrpc_hook_list *head, struct evhttp_request *req, struct evbuffer *evbuf)
+evrpc_register_rpc	./evrpc.c	/^evrpc_register_rpc(struct evrpc_base *base, struct evrpc *rpc,$/;"	f	language:C	signature:(struct evrpc_base *base, struct evrpc *rpc, void (*cb)(struct evrpc_req_generic *, void *), void *cb_arg)
+evrpc_remove_hook	./evrpc.c	/^evrpc_remove_hook(void *vbase, enum EVRPC_HOOK_TYPE hook_type, void *handle)$/;"	f	language:C	signature:(void *vbase, enum EVRPC_HOOK_TYPE hook_type, void *handle)
+evrpc_remove_hook_internal	./evrpc.c	/^evrpc_remove_hook_internal(struct evrpc_hook_list *head, void *handle)$/;"	f	language:C	file:	signature:(struct evrpc_hook_list *head, void *handle)
+evrpc_reply_done	./evrpc.c	/^evrpc_reply_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+evrpc_req_generic	./evrpc.h	/^struct evrpc_req_generic {$/;"	s	language:C++
+evrpc_reqstate_free	./evrpc.c	/^evrpc_reqstate_free(struct evrpc_req_generic* rpc_state)$/;"	f	language:C	signature:(struct evrpc_req_generic* rpc_state)
+evrpc_request_cb	./evrpc.c	/^evrpc_request_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+evrpc_request_done	./evrpc.c	/^evrpc_request_done(struct evrpc_req_generic* rpc_state)$/;"	f	language:C	signature:(struct evrpc_req_generic* rpc_state)
+evrpc_request_timeout	./evrpc.c	/^evrpc_request_timeout(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+evrpc_request_wrapper	./evrpc.h	/^struct evrpc_request_wrapper {$/;"	s	language:C++
+evrpc_request_wrapper_free	./evrpc.c	/^evrpc_request_wrapper_free(struct evrpc_request_wrapper *request)$/;"	f	language:C	file:	signature:(struct evrpc_request_wrapper *request)
+evrpc_schedule_request	./evrpc.c	/^evrpc_schedule_request(struct evhttp_connection *connection,$/;"	f	language:C	file:	signature:(struct evhttp_connection *connection, struct evrpc_request_wrapper *ctx)
+evrpc_status	./evrpc.h	/^struct evrpc_status {$/;"	s	language:C++
+evrpc_unregister_rpc	./evrpc.c	/^evrpc_unregister_rpc(struct evrpc_base *base, const char *name)$/;"	f	language:C	signature:(struct evrpc_base *base, const char *name)
+evsel	./event-internal.h	/^	const struct eventop *evsel;        \/\/! zark: 提供了当前适用的 I\/O 复用模型的接口.$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::eventop
+evsigcaught	./WIN32-Code/win32.c	/^int evsigcaught[NSIG];$/;"	v	language:C
+evsigcaught	./evsignal.h	/^	sig_atomic_t evsigcaught[NSIG];$/;"	m	language:C++	struct:evsignal_info
+evsigevents	./evsignal.h	/^	struct event_list evsigevents[NSIG];$/;"	m	language:C++	struct:evsignal_info	typeref:struct:evsignal_info::event_list
+evsigevents	./kqueue.c	/^	struct event_list evsigevents[NSIG];$/;"	m	language:C	struct:kqop	typeref:struct:kqop::event_list	file:
+evsignal_add	./signal.c	/^evsignal_add(struct event *ev)$/;"	f	language:C	signature:(struct event *ev)
+evsignal_base	./signal.c	/^struct event_base *evsignal_base = NULL;$/;"	v	language:C	typeref:struct:event_base
+evsignal_caught	./evsignal.h	/^	volatile sig_atomic_t evsignal_caught;$/;"	m	language:C++	struct:evsignal_info
+evsignal_cb	./signal.c	/^evsignal_cb(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+evsignal_dealloc	./signal.c	/^evsignal_dealloc(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+evsignal_del	./signal.c	/^evsignal_del(struct event *ev)$/;"	f	language:C	signature:(struct event *ev)
+evsignal_handler	./signal.c	/^evsignal_handler(int sig)$/;"	f	language:C	file:	signature:(int sig)
+evsignal_info	./evsignal.h	/^struct evsignal_info {$/;"	s	language:C++
+evsignal_init	./signal.c	/^evsignal_init(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+evsignal_process	./signal.c	/^evsignal_process(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+evtag_consume	./event_tagging.c	/^evtag_consume(struct evbuffer *evbuf)$/;"	f	language:C	signature:(struct evbuffer *evbuf)
+evtag_decode_int	./event_tagging.c	/^evtag_decode_int(ev_uint32_t *pnumber, struct evbuffer *evbuf)$/;"	f	language:C	signature:(ev_uint32_t *pnumber, struct evbuffer *evbuf)
+evtag_decode_tag	./event_tagging.c	/^evtag_decode_tag(ev_uint32_t *ptag, struct evbuffer *evbuf)$/;"	f	language:C	signature:(ev_uint32_t *ptag, struct evbuffer *evbuf)
+evtag_encode_tag	./event_tagging.c	/^evtag_encode_tag(struct evbuffer *evbuf, ev_uint32_t tag)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag)
+evtag_fuzz	./test/regress.c	/^evtag_fuzz(void)$/;"	f	language:C	file:	signature:(void)
+evtag_init	./event_tagging.c	/^evtag_init(void)$/;"	f	language:C	signature:(void)
+evtag_int_test	./test/regress.c	/^evtag_int_test(void)$/;"	f	language:C	file:	signature:(void)
+evtag_marshal	./event_tagging.c	/^evtag_marshal(struct evbuffer *evbuf, ev_uint32_t tag,$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, const void *data, ev_uint32_t len)
+evtag_marshal_int	./event_tagging.c	/^evtag_marshal_int(struct evbuffer *evbuf, ev_uint32_t tag, ev_uint32_t integer)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, ev_uint32_t integer)
+evtag_marshal_kill	./test/regress.gen.c	/^evtag_marshal_kill(struct evbuffer *evbuf, ev_uint32_t tag, const struct kill *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, const struct kill *msg)
+evtag_marshal_msg	./test/regress.gen.c	/^evtag_marshal_msg(struct evbuffer *evbuf, ev_uint32_t tag, const struct msg *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, const struct msg *msg)
+evtag_marshal_run	./test/regress.gen.c	/^evtag_marshal_run(struct evbuffer *evbuf, ev_uint32_t tag, const struct run *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, const struct run *msg)
+evtag_marshal_string	./event_tagging.c	/^evtag_marshal_string(struct evbuffer *buf, ev_uint32_t tag, const char *string)$/;"	f	language:C	signature:(struct evbuffer *buf, ev_uint32_t tag, const char *string)
+evtag_marshal_timeval	./event_tagging.c	/^evtag_marshal_timeval(struct evbuffer *evbuf, ev_uint32_t tag, struct timeval *tv)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t tag, struct timeval *tv)
+evtag_payload_length	./event_tagging.c	/^evtag_payload_length(struct evbuffer *evbuf, ev_uint32_t *plength)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t *plength)
+evtag_peek	./event_tagging.c	/^evtag_peek(struct evbuffer *evbuf, ev_uint32_t *ptag)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t *ptag)
+evtag_peek_length	./event_tagging.c	/^evtag_peek_length(struct evbuffer *evbuf, ev_uint32_t *plength)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t *plength)
+evtag_tag_encoding	./test/regress.c	/^evtag_tag_encoding(void)$/;"	f	language:C	file:	signature:(void)
+evtag_test	./test/regress.c	/^evtag_test(void)$/;"	f	language:C	file:	signature:(void)
+evtag_unmarshal	./event_tagging.c	/^evtag_unmarshal(struct evbuffer *src, ev_uint32_t *ptag, struct evbuffer *dst)$/;"	f	language:C	signature:(struct evbuffer *src, ev_uint32_t *ptag, struct evbuffer *dst)
+evtag_unmarshal_fixed	./event_tagging.c	/^evtag_unmarshal_fixed(struct evbuffer *src, ev_uint32_t need_tag, void *data,$/;"	f	language:C	signature:(struct evbuffer *src, ev_uint32_t need_tag, void *data, size_t len)
+evtag_unmarshal_int	./event_tagging.c	/^evtag_unmarshal_int(struct evbuffer *evbuf, ev_uint32_t need_tag,$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, ev_uint32_t *pinteger)
+evtag_unmarshal_kill	./test/regress.gen.c	/^evtag_unmarshal_kill(struct evbuffer *evbuf, ev_uint32_t need_tag, struct kill *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, struct kill *msg)
+evtag_unmarshal_msg	./test/regress.gen.c	/^evtag_unmarshal_msg(struct evbuffer *evbuf, ev_uint32_t need_tag, struct msg *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, struct msg *msg)
+evtag_unmarshal_run	./test/regress.gen.c	/^evtag_unmarshal_run(struct evbuffer *evbuf, ev_uint32_t need_tag, struct run *msg)$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, struct run *msg)
+evtag_unmarshal_string	./event_tagging.c	/^evtag_unmarshal_string(struct evbuffer *evbuf, ev_uint32_t need_tag,$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, char **pstring)
+evtag_unmarshal_timeval	./event_tagging.c	/^evtag_unmarshal_timeval(struct evbuffer *evbuf, ev_uint32_t need_tag,$/;"	f	language:C	signature:(struct evbuffer *evbuf, ev_uint32_t need_tag, struct timeval *ptv)
+evtimer_add	./event.h	474;"	d	language:C++
+evtimer_del	./event.h	492;"	d	language:C++
+evtimer_initialized	./event.h	494;"	d	language:C++
+evtimer_pending	./event.h	493;"	d	language:C++
+evtimer_set	./event.h	484;"	d	language:C++
+evutil_getenv	./evutil.c	/^evutil_getenv(const char *varname)$/;"	f	language:C	signature:(const char *varname)
+evutil_gettimeofday	./evutil.c	/^evutil_gettimeofday(struct timeval *tv, struct timezone *tz)$/;"	f	language:C	signature:(struct timeval *tv, struct timezone *tz)
+evutil_gettimeofday	./evutil.h	169;"	d	language:C++
+evutil_issetugid	./evutil.c	/^evutil_issetugid(void)$/;"	f	language:C	file:	signature:(void)
+evutil_make_socket_nonblocking	./evutil.c	/^evutil_make_socket_nonblocking(int fd)$/;"	f	language:C	signature:(int fd)
+evutil_snprintf	./evutil.c	/^evutil_snprintf(char *buf, size_t buflen, const char *format, ...)$/;"	f	language:C	signature:(char *buf, size_t buflen, const char *format, ...)
+evutil_socketpair	./evutil.c	/^evutil_socketpair(int family, int type, int protocol, int fd[2])$/;"	f	language:C	signature:(int family, int type, int protocol, int fd[2])
+evutil_strtoll	./evutil.c	/^evutil_strtoll(const char *s, char **endptr, int base)$/;"	f	language:C	signature:(const char *s, char **endptr, int base)
+evutil_timeradd	./evutil.h	123;"	d	language:C++
+evutil_timeradd	./evutil.h	126;"	d	language:C++
+evutil_timerclear	./evutil.h	147;"	d	language:C++
+evutil_timerclear	./evutil.h	149;"	d	language:C++
+evutil_timercmp	./evutil.h	152;"	d	language:C++
+evutil_timerisset	./evutil.h	158;"	d	language:C++
+evutil_timerisset	./evutil.h	160;"	d	language:C++
+evutil_timersub	./evutil.h	124;"	d	language:C++
+evutil_timersub	./evutil.h	135;"	d	language:C++
+evutil_vsnprintf	./evutil.c	/^evutil_vsnprintf(char *buf, size_t buflen, const char *format, va_list ap)$/;"	f	language:C	signature:(char *buf, size_t buflen, const char *format, va_list ap)
+evwrite	./devpoll.c	/^	struct event *evwrite;$/;"	m	language:C	struct:evdevpoll	typeref:struct:evdevpoll::event	file:
+evwrite	./epoll.c	/^	struct event *evwrite;$/;"	m	language:C	struct:evepoll	typeref:struct:evepoll::event	file:
+exset_out	./WIN32-Code/win32.c	/^	struct win_fd_set *exset_out;$/;"	m	language:C	struct:win32op	typeref:struct:win32op::win_fd_set	file:
+fail_cb	./test/regress.c	/^fail_cb(int fd, short events, void *arg)$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+failed_times	./evdns.c	/^	int failed_times;  \/* number of times which we have given this server a chance *\/$/;"	m	language:C	struct:nameserver	file:
+fake_freeaddrinfo	./http.c	/^fake_freeaddrinfo(struct addrinfo *ai)$/;"	f	language:C	file:	signature:(struct addrinfo *ai)
+fake_getaddrinfo	./http.c	/^fake_getaddrinfo(const char *hostname, struct addrinfo *ai)$/;"	f	language:C	file:	signature:(const char *hostname, struct addrinfo *ai)
+fake_getnameinfo	./http.c	/^fake_getnameinfo(const struct sockaddr *sa, size_t salen, char *host, $/;"	f	language:C	file:	signature:(const struct sockaddr *sa, size_t salen, char *host, size_t hostlen, char *serv, size_t servlen, int flags)
+fd	./http-internal.h	/^	int fd;$/;"	m	language:C++	struct:evhttp_connection
+fd_array	./WIN32-Code/win32.c	/^	SOCKET fd_array[1];$/;"	m	language:C	struct:win_fd_set	file:
+fd_count	./WIN32-Code/win32.c	/^	u_int fd_count;$/;"	m	language:C	struct:win_fd_set	file:
+fd_count	./poll.c	/^	int fd_count;                   \/* Size of idxplus1_by_fd *\/$/;"	m	language:C	struct:pollop	file:
+fd_info	./evport.c	/^struct fd_info {$/;"	s	language:C	file:
+fd_mask	./select.c	/^typedef unsigned long fd_mask;$/;"	t	language:C	file:
+fd_set_copy	./WIN32-Code/win32.c	/^fd_set_copy(struct win_fd_set *out, const struct win_fd_set *in)$/;"	f	language:C	file:	signature:(struct win_fd_set *out, const struct win_fd_set *in)
+fd_setsz	./WIN32-Code/win32.c	/^	int fd_setsz;$/;"	m	language:C	struct:win32op	file:
+fdi_revt	./evport.c	/^	struct event* fdi_revt; \/* the event responsible for the "read"  *\/$/;"	m	language:C	struct:fd_info	typeref:struct:fd_info::event	file:
+fdi_wevt	./evport.c	/^	struct event* fdi_wevt; \/* the event responsible for the "write" *\/$/;"	m	language:C	struct:fd_info	typeref:struct:fd_info::event	file:
+fds	./devpoll.c	/^	struct evdevpoll *fds;$/;"	m	language:C	struct:devpollop	typeref:struct:devpollop::evdevpoll	file:
+fds	./epoll.c	/^	struct evepoll *fds;                \/\/! zark: 一维数组, 以文件描述符(fd)为索引, 存放相应的evepoll, 当fd超出 nfds 时, 该数组将会成倍运算,如达标则扩张(则分配策略实乃霸气).$/;"	m	language:C	struct:epollop	typeref:struct:epollop::evepoll	file:
+fifo_read	./sample/event-test.c	/^fifo_read(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+fired	./test/bench.c	/^static int count, writes, fired;$/;"	v	language:C	file:
+fixed_bytes_assign	./test/regress.gen.h	/^  int (*fixed_bytes_assign)(struct run *, const ev_uint8_t *);$/;"	m	language:C++	struct:run_access_
+fixed_bytes_data	./test/regress.gen.h	/^  ev_uint8_t fixed_bytes_data[24];$/;"	m	language:C++	struct:run
+fixed_bytes_get	./test/regress.gen.h	/^  int (*fixed_bytes_get)(struct run *, ev_uint8_t **);$/;"	m	language:C++	struct:run_access_
+fixed_bytes_set	./test/regress.gen.h	/^  ev_uint8_t fixed_bytes_set;$/;"	m	language:C++	struct:run
+flags	./evdns.h	/^	int flags;$/;"	m	language:C++	struct:evdns_server_request
+flags	./evhttp.h	/^	int flags;$/;"	m	language:C++	struct:evhttp_request
+flags	./http-internal.h	/^	int flags;$/;"	m	language:C++	struct:evhttp_connection
+from_name_assign	./test/regress.gen.h	/^  int (*from_name_assign)(struct msg *, const char *);$/;"	m	language:C++	struct:msg_access_
+from_name_data	./test/regress.gen.h	/^  char *from_name_data;$/;"	m	language:C++	struct:msg
+from_name_get	./test/regress.gen.h	/^  int (*from_name_get)(struct msg *, char * *);$/;"	m	language:C++	struct:msg_access_
+from_name_set	./test/regress.gen.h	/^  ev_uint8_t from_name_set;$/;"	m	language:C++	struct:msg
+gencb	./http-internal.h	/^	void (*gencb)(struct evhttp_request *req, void *);$/;"	m	language:C++	struct:evhttp
+gencbarg	./http-internal.h	/^	void *gencbarg;$/;"	m	language:C++	struct:evhttp
+get_event_entry	./WIN32-Code/win32.c	/^get_event_entry(struct win32op *op, SOCKET s, int create)$/;"	f	language:C	file:	signature:(struct win32op *op, SOCKET s, int create)
+gettime	./event.c	/^gettime(struct event_base *base, struct timeval *tp)$/;"	f	language:C	file:	signature:(struct event_base *base, struct timeval *tp)
+global_base	./test/regress.c	/^static struct event_base *global_base;$/;"	v	language:C	typeref:struct:event_base	file:
+global_good_nameservers	./evdns.c	/^static int global_good_nameservers = 0;$/;"	v	language:C	file:
+global_max_nameserver_timeout	./evdns.c	/^static int global_max_nameserver_timeout = 3;$/;"	v	language:C	file:
+global_max_reissues	./evdns.c	/^static int global_max_reissues = 1;  \/* a reissue occurs when we get some errors from the server *\/$/;"	v	language:C	file:
+global_max_requests_inflight	./evdns.c	/^static int global_max_requests_inflight = 64;$/;"	v	language:C	file:
+global_max_retransmits	./evdns.c	/^static int global_max_retransmits = 3;  \/* number of times we'll retransmit a request which timed out *\/$/;"	v	language:C	file:
+global_nameserver_timeouts	./evdns.c	/^static const struct timeval global_nameserver_timeouts[] = {{10, 0}, {60, 0}, {300, 0}, {900, 0}, {3600, 0}};$/;"	v	language:C	typeref:struct:timeval	file:
+global_nameserver_timeouts_length	./evdns.c	/^static const int global_nameserver_timeouts_length = sizeof(global_nameserver_timeouts)\/sizeof(struct timeval);$/;"	v	language:C	file:
+global_requests_inflight	./evdns.c	/^static int global_requests_inflight = 0;$/;"	v	language:C	file:
+global_requests_waiting	./evdns.c	/^static int global_requests_waiting = 0;$/;"	v	language:C	file:
+global_search_state	./evdns.c	/^static struct search_state *global_search_state = NULL;$/;"	v	language:C	typeref:struct:search_state	file:
+global_timeout	./evdns.c	/^static struct timeval global_timeout = {5, 0};  \/* 5 seconds *\/$/;"	v	language:C	typeref:struct:timeval	file:
+grow	./evport.c	/^grow(struct evport_data *epdp, int factor)$/;"	f	language:C	file:	signature:(struct evport_data *epdp, int factor)
+have_answer	./evdns.c	/^	unsigned int have_answer;$/;"	m	language:C	struct:reply	file:
+head	./evdns.c	/^	struct search_domain *head;$/;"	m	language:C	struct:search_state	typeref:struct:search_state::search_domain	file:
+high	./event.h	/^	size_t high;$/;"	m	language:C++	struct:event_watermark
+how_assign	./test/regress.gen.h	/^  int (*how_assign)(struct run *, const char *);$/;"	m	language:C++	struct:run_access_
+how_data	./test/regress.gen.h	/^  char *how_data;$/;"	m	language:C++	struct:run
+how_get	./test/regress.gen.h	/^  int (*how_get)(struct run *, char * *);$/;"	m	language:C++	struct:run_access_
+how_often_assign	./test/regress.gen.h	/^  int (*how_often_assign)(struct kill *, const ev_uint32_t);$/;"	m	language:C++	struct:kill_access_
+how_often_data	./test/regress.gen.h	/^  ev_uint32_t how_often_data;$/;"	m	language:C++	struct:kill
+how_often_get	./test/regress.gen.h	/^  int (*how_often_get)(struct kill *, ev_uint32_t *);$/;"	m	language:C++	struct:kill_access_
+how_often_set	./test/regress.gen.h	/^  ev_uint8_t how_often_set;$/;"	m	language:C++	struct:kill
+how_set	./test/regress.gen.h	/^  ev_uint8_t how_set;$/;"	m	language:C++	struct:run
+howmany	./select.c	60;"	d	language:C	file:
+html_replace	./http.c	/^html_replace(char ch, char *buf)$/;"	f	language:C	file:	signature:(char ch, char *buf)
+http	./test/regress_http.c	/^static struct evhttp *http;$/;"	v	language:C	typeref:struct:evhttp	file:
+http_bad_header_test	./test/regress_http.c	/^http_bad_header_test(void)$/;"	f	language:C	file:	signature:(void)
+http_base_test	./test/regress_http.c	/^http_base_test(void)$/;"	f	language:C	file:	signature:(void)
+http_basic_cb	./test/regress_http.c	/^http_basic_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_basic_test	./test/regress_http.c	/^http_basic_test(void)$/;"	f	language:C	file:	signature:(void)
+http_chunked_cb	./test/regress_http.c	/^http_chunked_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+http_chunked_errorcb	./test/regress_http.c	/^http_chunked_errorcb(struct bufferevent *bev, short what, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, short what, void *arg)
+http_chunked_readcb	./test/regress_http.c	/^http_chunked_readcb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+http_chunked_request_done	./test/regress_http.c	/^http_chunked_request_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+http_chunked_test	./test/regress_http.c	/^http_chunked_test(void)$/;"	f	language:C	file:	signature:(void)
+http_chunked_trickle_cb	./test/regress_http.c	/^http_chunked_trickle_cb(int fd, short events, void *arg)$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+http_chunked_writecb	./test/regress_http.c	/^http_chunked_writecb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+http_close_detection	./test/regress_http.c	/^http_close_detection(int with_delay)$/;"	f	language:C	file:	signature:(int with_delay)
+http_complete_write	./test/regress_http.c	/^http_complete_write(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+http_connect	./test/regress_http.c	/^http_connect(const char *address, u_short port)$/;"	f	language:C	file:	signature:(const char *address, u_short port)
+http_connection_test	./test/regress_http.c	/^http_connection_test(int persistent)$/;"	f	language:C	file:	signature:(int persistent)
+http_delay_reply	./test/regress_http.c	/^http_delay_reply(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+http_dispatcher_cb	./test/regress_http.c	/^http_dispatcher_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_dispatcher_test	./test/regress_http.c	/^http_dispatcher_test(void)$/;"	f	language:C	file:	signature:(void)
+http_dispatcher_test_done	./test/regress_http.c	/^http_dispatcher_test_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+http_errorcb	./test/regress_http.c	/^http_errorcb(struct bufferevent *bev, short what, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, short what, void *arg)
+http_failure_readcb	./test/regress_http.c	/^http_failure_readcb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+http_failure_test	./test/regress_http.c	/^http_failure_test(void)$/;"	f	language:C	file:	signature:(void)
+http_highport_test	./test/regress_http.c	/^http_highport_test(void)$/;"	f	language:C	file:	signature:(void)
+http_large_delay_cb	./test/regress_http.c	/^http_large_delay_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+http_multi_line_header_test	./test/regress_http.c	/^http_multi_line_header_test(void)$/;"	f	language:C	file:	signature:(void)
+http_negative_content_length_test	./test/regress_http.c	/^http_negative_content_length_test(void)$/;"	f	language:C	file:	signature:(void)
+http_parse_query_test	./test/regress_http.c	/^http_parse_query_test(void)$/;"	f	language:C	file:	signature:(void)
+http_post_cb	./test/regress_http.c	/^http_post_cb(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_post_test	./test/regress_http.c	/^http_post_test(void)$/;"	f	language:C	file:	signature:(void)
+http_postrequest_done	./test/regress_http.c	/^http_postrequest_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_readcb	./test/regress_http.c	/^http_readcb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+http_req	./evrpc.h	/^	struct evhttp_request *http_req;$/;"	m	language:C++	struct:evrpc_status	typeref:struct:evrpc_status::evhttp_request
+http_req	./evrpc.h	/^	struct evhttp_request* http_req;$/;"	m	language:C++	struct:evrpc_req_generic	typeref:struct:evrpc_req_generic::evhttp_request
+http_request_bad	./test/regress_http.c	/^http_request_bad(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+http_request_done	./test/regress_http.c	/^http_request_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_request_empty_done	./test/regress_http.c	/^http_request_empty_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	signature:(struct evhttp_request *req, void *arg)
+http_server	./evrpc-internal.h	/^	struct evhttp* http_server;$/;"	m	language:C++	struct:evrpc_base	typeref:struct:evrpc_base::evhttp
+http_server	./http-internal.h	/^	struct evhttp *http_server;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::evhttp
+http_setup	./test/regress_http.c	/^http_setup(short *pport, struct event_base *base)$/;"	f	language:C	file:	signature:(short *pport, struct event_base *base)
+http_setup	./test/regress_rpc.c	/^http_setup(short *pport)$/;"	f	language:C	file:	signature:(short *pport)
+http_suite	./test/regress_http.c	/^http_suite(void)$/;"	f	language:C	signature:(void)
+http_writecb	./test/regress_http.c	/^http_writecb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+hz	./compat/sys/_libevent_time.h	/^	int	hz;		\/* clock frequency *\/$/;"	m	language:C++	struct:clockinfo
+i	./test/regress_http.c	/^	int i;$/;"	m	language:C	struct:chunk_req_state	file:
+idxplus1_by_fd	./poll.c	/^	int *idxplus1_by_fd; \/* Index into event_set by fd; we add 1 so$/;"	m	language:C	struct:pollop	file:
+in6_addr	./evdns.c	/^struct in6_addr {$/;"	s	language:C	file:
+in_hooks	./evrpc-internal.h	/^	struct evrpc_hook_list in_hooks;$/;"	m	language:C++	struct:_evrpc_hooks	typeref:struct:_evrpc_hooks::evrpc_hook_list
+inet_aton	./evdns.c	/^inet_aton(const char *c, struct in_addr *addr)$/;"	f	language:C	file:	signature:(const char *c, struct in_addr *addr)
+init	./event-internal.h	/^	void *(*init)(struct event_base *);$/;"	m	language:C++	struct:eventop
+inline	./WIN32-Code/config.h	221;"	d	language:C++
+input	./event.h	/^	struct evbuffer *input;     \/\/! zark: 输入缓冲区.$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::evbuffer
+input_buffer	./evhttp.h	/^	struct evbuffer *input_buffer;	\/* read data *\/$/;"	m	language:C++	struct:evhttp_request	typeref:struct:evhttp_request::evbuffer
+input_buffer	./http-internal.h	/^	struct evbuffer *input_buffer;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::evbuffer
+input_headers	./evhttp.h	/^	struct evkeyvalq *input_headers;$/;"	m	language:C++	struct:evhttp_request	typeref:struct:evhttp_request::evkeyvalq
+input_hooks	./evrpc-internal.h	57;"	d	language:C++
+is_name	./evdns.c	/^	char is_name; \/* True iff data is a label *\/$/;"	m	language:C	struct:server_reply_item	file:
+it_interval	./compat/sys/_libevent_time.h	/^	struct	timeval it_interval;	\/* timer interval *\/$/;"	m	language:C++	struct:itimerval	typeref:struct:itimerval::timeval
+it_value	./compat/sys/_libevent_time.h	/^	struct	timeval it_value;	\/* current value *\/$/;"	m	language:C++	struct:itimerval	typeref:struct:itimerval::timeval
+itimerval	./compat/sys/_libevent_time.h	/^struct	itimerval {$/;"	s	language:C++
+key	./event.h	/^	char *key;$/;"	m	language:C++	struct:evkeyval
+kill	./test/regress.gen.h	/^struct kill {$/;"	s	language:C++
+kill_	./test/regress.gen.h	/^enum kill_ {$/;"	g	language:C++
+kill_access_	./test/regress.gen.h	/^struct kill_access_ {$/;"	s	language:C++
+kill_action_assign	./test/regress.gen.c	/^kill_action_assign(struct kill *msg,$/;"	f	language:C	signature:(struct kill *msg, const char * value)
+kill_action_get	./test/regress.gen.c	/^kill_action_get(struct kill *msg, char * *value)$/;"	f	language:C	signature:(struct kill *msg, char * *value)
+kill_clear	./test/regress.gen.c	/^kill_clear(struct kill *tmp)$/;"	f	language:C	signature:(struct kill *tmp)
+kill_complete	./test/regress.gen.c	/^kill_complete(struct kill *msg)$/;"	f	language:C	signature:(struct kill *msg)
+kill_free	./test/regress.gen.c	/^kill_free(struct kill *tmp)$/;"	f	language:C	signature:(struct kill *tmp)
+kill_how_often_assign	./test/regress.gen.c	/^kill_how_often_assign(struct kill *msg, const ev_uint32_t value)$/;"	f	language:C	signature:(struct kill *msg, const ev_uint32_t value)
+kill_how_often_get	./test/regress.gen.c	/^kill_how_often_get(struct kill *msg, ev_uint32_t *value)$/;"	f	language:C	signature:(struct kill *msg, ev_uint32_t *value)
+kill_marshal	./test/regress.gen.c	/^kill_marshal(struct evbuffer *evbuf, const struct kill *tmp){$/;"	f	language:C	signature:(struct evbuffer *evbuf, const struct kill *tmp)
+kill_new	./test/regress.gen.c	/^kill_new(void)$/;"	f	language:C	signature:(void)
+kill_unmarshal	./test/regress.gen.c	/^kill_unmarshal(struct kill *tmp,  struct evbuffer *evbuf)$/;"	f	language:C	signature:(struct kill *tmp, struct evbuffer *evbuf)
+kill_weapon_assign	./test/regress.gen.c	/^kill_weapon_assign(struct kill *msg,$/;"	f	language:C	signature:(struct kill *msg, const char * value)
+kill_weapon_get	./test/regress.gen.c	/^kill_weapon_get(struct kill *msg, char * *value)$/;"	f	language:C	signature:(struct kill *msg, char * *value)
+kind	./evhttp.h	/^	enum evhttp_request_kind kind;$/;"	m	language:C++	struct:evhttp_request	typeref:enum:evhttp_request::evhttp_request_kind
+kq	./kqueue.c	/^	int kq;$/;"	m	language:C	struct:kqop	file:
+kq_add	./kqueue.c	/^kq_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+kq_dealloc	./kqueue.c	/^kq_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+kq_del	./kqueue.c	/^kq_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+kq_dispatch	./kqueue.c	/^kq_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+kq_init	./kqueue.c	/^kq_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+kq_insert	./kqueue.c	/^kq_insert(struct kqop *kqop, struct kevent *kev)$/;"	f	language:C	file:	signature:(struct kqop *kqop, struct kevent *kev)
+kq_sighandler	./kqueue.c	/^kq_sighandler(int sig)$/;"	f	language:C	file:	signature:(int sig)
+kqop	./kqueue.c	/^struct kqop {$/;"	s	language:C	file:
+kqops	./kqueue.c	/^const struct eventop kqops = {$/;"	v	language:C	typeref:struct:eventop
+labels	./evdns.c	/^	struct dnslabel_entry labels[MAX_LABELS];$/;"	m	language:C	struct:dnslabel_table	typeref:struct:dnslabel_table::dnslabel_entry	file:
+last_error	./evdns.c	/^last_error(int sock)$/;"	f	language:C	file:	signature:(int sock)
+last_error	./evdns.c	377;"	d	language:C	file:
+lasttime	./sample/time-test.c	/^int lasttime;$/;"	v	language:C
+len	./evdns.c	/^	int len;$/;"	m	language:C	struct:search_domain	file:
+load_nameservers_from_registry	./evdns.c	/^load_nameservers_from_registry(void)$/;"	f	language:C	file:	signature:(void)
+load_nameservers_with_getnetworkparams	./evdns.c	/^load_nameservers_with_getnetworkparams(void)$/;"	f	language:C	file:	signature:(void)
+log	./evdns.c	427;"	d	language:C	file:
+log_fn	./log.c	/^static event_log_cb log_fn = NULL;$/;"	v	language:C	file:
+logfn	./evdns.c	/^logfn(int is_warn, const char *msg) {$/;"	f	language:C	signature:(int is_warn, const char *msg)
+low	./event.h	/^	size_t low;$/;"	m	language:C++	struct:event_watermark
+main	./evdns.c	/^main(int c, char **v) {$/;"	f	language:C	signature:(int c, char **v)
+main	./sample/event-test.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./sample/signal-test.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./sample/time-test.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/bench.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/regress.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/test-eof.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/test-init.c	/^main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/test-time.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	./test/test-weof.c	/^main (int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main_callback	./evdns.c	/^main_callback(int result, char type, int count, int ttl,$/;"	f	language:C	signature:(int result, char type, int count, int ttl, void *addrs, void *orig)
+major	./evhttp.h	/^	char major;			\/* HTTP Major number *\/$/;"	m	language:C++	struct:evhttp_request
+make_addrinfo	./http.c	/^make_addrinfo(const char *address, u_short port)$/;"	f	language:C	file:	signature:(const char *address, u_short port)
+message_read_status	./http-internal.h	/^enum message_read_status {$/;"	g	language:C++
+min_heap	./min_heap.h	/^typedef struct min_heap$/;"	s	language:C++
+min_heap_ctor	./min_heap.h	/^void min_heap_ctor(min_heap_t* s) { s->p = 0; s->n = 0; s->a = 0; }$/;"	f	language:C++	signature:(min_heap_t* s)
+min_heap_dtor	./min_heap.h	/^void min_heap_dtor(min_heap_t* s) { free(s->p); }$/;"	f	language:C++	signature:(min_heap_t* s)
+min_heap_elem_greater	./min_heap.h	/^int min_heap_elem_greater(struct event *a, struct event *b)$/;"	f	language:C++	signature:(struct event *a, struct event *b)
+min_heap_elem_init	./min_heap.h	/^void min_heap_elem_init(struct event* e) { e->min_heap_idx = -1; }$/;"	f	language:C++	signature:(struct event* e)
+min_heap_empty	./min_heap.h	/^int min_heap_empty(min_heap_t* s) { return 0u == s->n; }$/;"	f	language:C++	signature:(min_heap_t* s)
+min_heap_erase	./min_heap.h	/^int min_heap_erase(min_heap_t* s, struct event* e)$/;"	f	language:C++	signature:(min_heap_t* s, struct event* e)
+min_heap_idx	./event.h	/^	unsigned int min_heap_idx;	\/* for managing timeouts *\/$/;"	m	language:C++	struct:event
+min_heap_pop	./min_heap.h	/^struct event* min_heap_pop(min_heap_t* s)$/;"	f	language:C++	signature:(min_heap_t* s)
+min_heap_push	./min_heap.h	/^int min_heap_push(min_heap_t* s, struct event* e)$/;"	f	language:C++	signature:(min_heap_t* s, struct event* e)
+min_heap_reserve	./min_heap.h	/^int min_heap_reserve(min_heap_t* s, unsigned n)$/;"	f	language:C++	signature:(min_heap_t* s, unsigned n)
+min_heap_shift_down_	./min_heap.h	/^void min_heap_shift_down_(min_heap_t* s, unsigned hole_index, struct event* e)$/;"	f	language:C++	signature:(min_heap_t* s, unsigned hole_index, struct event* e)
+min_heap_shift_up_	./min_heap.h	/^void min_heap_shift_up_(min_heap_t* s, unsigned hole_index, struct event* e)$/;"	f	language:C++	signature:(min_heap_t* s, unsigned hole_index, struct event* e)
+min_heap_size	./min_heap.h	/^unsigned min_heap_size(min_heap_t* s) { return s->n; }$/;"	f	language:C++	signature:(min_heap_t* s)
+min_heap_t	./min_heap.h	/^} min_heap_t;$/;"	t	language:C++	typeref:struct:min_heap
+min_heap_top	./min_heap.h	/^struct event* min_heap_top(min_heap_t* s) { return s->n ? *s->p : 0; }$/;"	f	language:C++	signature:(min_heap_t* s)
+minor	./evhttp.h	/^	char minor;			\/* HTTP Minor number *\/$/;"	m	language:C++	struct:evhttp_request
+misalign	./event.h	/^	size_t misalign;        \/\/! zark: misalign表示buffer相对于orig_buffer的偏移.$/;"	m	language:C++	struct:evbuffer
+msg	./test/regress.gen.h	/^struct msg {$/;"	s	language:C++
+msg_	./test/regress.gen.h	/^enum msg_ {$/;"	g	language:C++
+msg_access_	./test/regress.gen.h	/^struct msg_access_ {$/;"	s	language:C++
+msg_attack_assign	./test/regress.gen.c	/^msg_attack_assign(struct msg *msg,$/;"	f	language:C	signature:(struct msg *msg, const struct kill* value)
+msg_attack_get	./test/regress.gen.c	/^msg_attack_get(struct msg *msg, struct kill* *value)$/;"	f	language:C	signature:(struct msg *msg, struct kill* *value)
+msg_clear	./test/regress.gen.c	/^msg_clear(struct msg *tmp)$/;"	f	language:C	signature:(struct msg *tmp)
+msg_complete	./test/regress.gen.c	/^msg_complete(struct msg *msg)$/;"	f	language:C	signature:(struct msg *msg)
+msg_free	./test/regress.gen.c	/^msg_free(struct msg *tmp)$/;"	f	language:C	signature:(struct msg *tmp)
+msg_from_name_assign	./test/regress.gen.c	/^msg_from_name_assign(struct msg *msg,$/;"	f	language:C	signature:(struct msg *msg, const char * value)
+msg_from_name_get	./test/regress.gen.c	/^msg_from_name_get(struct msg *msg, char * *value)$/;"	f	language:C	signature:(struct msg *msg, char * *value)
+msg_marshal	./test/regress.gen.c	/^msg_marshal(struct evbuffer *evbuf, const struct msg *tmp){$/;"	f	language:C	signature:(struct evbuffer *evbuf, const struct msg *tmp)
+msg_new	./test/regress.gen.c	/^msg_new(void)$/;"	f	language:C	signature:(void)
+msg_run_add	./test/regress.gen.c	/^msg_run_add(struct msg *msg)$/;"	f	language:C	signature:(struct msg *msg)
+msg_run_assign	./test/regress.gen.c	/^msg_run_assign(struct msg *msg, int off,$/;"	f	language:C	signature:(struct msg *msg, int off, const struct run * value)
+msg_run_get	./test/regress.gen.c	/^msg_run_get(struct msg *msg, int offset,$/;"	f	language:C	signature:(struct msg *msg, int offset, struct run * *value)
+msg_to_name_assign	./test/regress.gen.c	/^msg_to_name_assign(struct msg *msg,$/;"	f	language:C	signature:(struct msg *msg, const char * value)
+msg_to_name_get	./test/regress.gen.c	/^msg_to_name_get(struct msg *msg, char * *value)$/;"	f	language:C	signature:(struct msg *msg, char * *value)
+msg_unmarshal	./test/regress.gen.c	/^msg_unmarshal(struct msg *tmp,  struct evbuffer *evbuf)$/;"	f	language:C	signature:(struct msg *tmp, struct evbuffer *evbuf)
+multiple_read_cb	./test/regress.c	/^multiple_read_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+multiple_write_cb	./test/regress.c	/^multiple_write_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+n	./min_heap.h	/^    unsigned n, a;$/;"	m	language:C++	struct:min_heap
+n_additional	./evdns.c	/^	int n_additional; \/* how many additional RRs have been set? *\/$/;"	m	language:C	struct:server_request	file:
+n_answer	./evdns.c	/^	int n_answer; \/* how many answer RRs have been set? *\/$/;"	m	language:C	struct:server_request	file:
+n_authority	./evdns.c	/^	int n_authority; \/* how many authority RRs have been set? *\/$/;"	m	language:C	struct:server_request	file:
+n_labels	./evdns.c	/^	int n_labels; \/* number of current entries *\/$/;"	m	language:C	struct:dnslabel_table	file:
+n_server_responses	./test/regress_dns.c	/^static int n_server_responses = 0;$/;"	v	language:C	file:
+nactivequeues	./event-internal.h	/^	int nactivequeues;              \/\/! zark: 激活队列的数量(注意:是激活队列的数量, 而不是激活事件的数量).$/;"	m	language:C++	struct:event_base
+name	./evdns.c	/^			char name[HOST_NAME_MAX];$/;"	m	language:C	struct:reply::__anon1::__anon4	file:
+name	./evdns.c	/^	char *name; \/* name part of the RR *\/$/;"	m	language:C	struct:server_reply_item	file:
+name	./evdns.h	/^	char name[1];$/;"	m	language:C++	struct:evdns_server_question
+name	./event-internal.h	/^	const char *name;$/;"	m	language:C++	struct:eventop
+name	./evrpc.h	/^	char *name;$/;"	m	language:C++	struct:evrpc_request_wrapper
+name_from_addr	./http.c	/^name_from_addr(struct sockaddr *sa, socklen_t salen,$/;"	f	language:C	file:	signature:(struct sockaddr *sa, socklen_t salen, char **phost, char **pport)
+name_parse	./evdns.c	/^name_parse(u8 *packet, int length, int *idx, char *name_out, int name_out_len) {$/;"	f	language:C	file:	signature:(u8 *packet, int length, int *idx, char *name_out, int name_out_len)
+nameserver	./evdns.c	/^struct nameserver {$/;"	s	language:C	file:
+nameserver_failed	./evdns.c	/^nameserver_failed(struct nameserver *const ns, const char *msg) {$/;"	f	language:C	file:	signature:(struct nameserver *const ns, const char *msg)
+nameserver_pick	./evdns.c	/^nameserver_pick(void) {$/;"	f	language:C	file:	signature:(void)
+nameserver_probe_callback	./evdns.c	/^nameserver_probe_callback(int result, char type, int count, int ttl, void *addresses, void *arg) {$/;"	f	language:C	file:	signature:(int result, char type, int count, int ttl, void *addresses, void *arg)
+nameserver_probe_failed	./evdns.c	/^nameserver_probe_failed(struct nameserver *const ns) {$/;"	f	language:C	file:	signature:(struct nameserver *const ns)
+nameserver_prod_callback	./evdns.c	/^nameserver_prod_callback(int fd, short events, void *arg) {$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+nameserver_read	./evdns.c	/^nameserver_read(struct nameserver *ns) {$/;"	f	language:C	file:	signature:(struct nameserver *ns)
+nameserver_ready_callback	./evdns.c	/^nameserver_ready_callback(int fd, short events, void *arg) {$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+nameserver_send_probe	./evdns.c	/^nameserver_send_probe(struct nameserver *const ns) {$/;"	f	language:C	file:	signature:(struct nameserver *const ns)
+nameserver_up	./evdns.c	/^nameserver_up(struct nameserver *const ns) {$/;"	f	language:C	file:	signature:(struct nameserver *const ns)
+nameserver_write_waiting	./evdns.c	/^nameserver_write_waiting(struct nameserver *ns, char waiting) {$/;"	f	language:C	file:	signature:(struct nameserver *ns, char waiting)
+nchanges	./devpoll.c	/^	int nchanges;$/;"	m	language:C	struct:devpollop	file:
+nchanges	./kqueue.c	/^	int nchanges;$/;"	m	language:C	struct:kqop	file:
+ndots	./evdns.c	/^	int ndots;$/;"	m	language:C	struct:search_state	file:
+need_input_hook	./test/regress_rpc.c	/^static int need_input_hook = 0;$/;"	v	language:C	file:
+need_output_hook	./test/regress_rpc.c	/^static int need_output_hook = 0;$/;"	v	language:C	file:
+need_reinit	./event-internal.h	/^	int need_reinit;$/;"	m	language:C++	struct:eventop
+nevents	./devpoll.c	/^	int nevents;$/;"	m	language:C	struct:devpollop	file:
+nevents	./epoll.c	/^	int nevents;                        \/\/! zark: 已分配的epoll_event的数量(初始化时为INITIAL_NEVENTS).$/;"	m	language:C	struct:epollop	file:
+nevents	./kqueue.c	/^	int nevents;$/;"	m	language:C	struct:kqop	file:
+next	./evdns.c	/^	struct nameserver *next, *prev;$/;"	m	language:C	struct:nameserver	typeref:struct:nameserver::nameserver	file:
+next	./evdns.c	/^	struct request *next, *prev;$/;"	m	language:C	struct:request	typeref:struct:request::request	file:
+next	./evdns.c	/^	struct search_domain *next;$/;"	m	language:C	struct:search_domain	typeref:struct:search_domain::search_domain	file:
+next	./evdns.c	/^	struct server_reply_item *next; \/* next item in sequence. *\/$/;"	m	language:C	struct:server_reply_item	typeref:struct:server_reply_item::server_reply_item	file:
+next	./event.h	/^	TAILQ_ENTRY(evkeyval) next;$/;"	m	language:C++	struct:evkeyval
+next	./evhttp.h	/^	TAILQ_ENTRY(evhttp_request) next;$/;"	m	language:C++	struct:evhttp_request
+next	./evrpc.h	/^	TAILQ_ENTRY(evrpc) next;$/;"	m	language:C++	struct:evrpc
+next	./evrpc.h	/^	TAILQ_ENTRY(evrpc_request_wrapper) next;$/;"	m	language:C++	struct:evrpc_request_wrapper
+next	./http-internal.h	/^	TAILQ_ENTRY(evhttp_cb) next;$/;"	m	language:C++	struct:evhttp_cb
+next_pending	./evdns.c	/^	struct server_request *next_pending;$/;"	m	language:C	struct:server_request	typeref:struct:server_request::server_request	file:
+nfds	./devpoll.c	/^	int nfds;$/;"	m	language:C	struct:devpollop	file:
+nfds	./epoll.c	/^	int nfds;                           \/\/! zark: 已分配的fd个数, 初始化时为IINITIAL_NFILES(注: 是已分配的, 而不是已使用的).$/;"	m	language:C	struct:epollop	file:
+nfds	./poll.c	/^	int nfds;                       \/* Size of event_* *\/$/;"	m	language:C	struct:pollop	file:
+nquestions	./evdns.h	/^	int nquestions;$/;"	m	language:C++	struct:evdns_server_request
+nread	./test/regress.c	/^	int nread;$/;"	m	language:C	struct:both	file:
+ns	./evdns.c	/^	struct nameserver *ns;  \/* the server which we last sent it *\/$/;"	m	language:C	struct:request	typeref:struct:request::nameserver	file:
+ntoread	./evhttp.h	/^	ev_int64_t ntoread;$/;"	m	language:C++	struct:evhttp_request
+num_active	./test/bench.c	/^static int num_pipes, num_active, num_writes;$/;"	v	language:C	file:
+num_domains	./evdns.c	/^	int num_domains;$/;"	m	language:C	struct:search_state	file:
+num_pipes	./test/bench.c	/^static int num_pipes, num_active, num_writes;$/;"	v	language:C	file:
+num_writes	./test/bench.c	/^static int num_pipes, num_active, num_writes;$/;"	v	language:C	file:
+off	./event.h	/^	size_t off;             \/\/! zark: off表示有效数据的长度.$/;"	m	language:C++	struct:evbuffer
+open	./evdns.c	145;"	d	language:C	file:
+orig_buffer	./event.h	/^	u_char *orig_buffer;    \/\/! zark: orig_buffer指向由realloc分配的连续内存区域.$/;"	m	language:C++	struct:evbuffer
+out_hooks	./evrpc-internal.h	/^	struct evrpc_hook_list out_hooks;$/;"	m	language:C++	struct:_evrpc_hooks	typeref:struct:_evrpc_hooks::evrpc_hook_list
+output	./event.h	/^	struct evbuffer *output;    \/\/! zark: 输出缓冲区.$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::evbuffer
+output_buffer	./evhttp.h	/^	struct evbuffer *output_buffer;	\/* outgoing post or data *\/$/;"	m	language:C++	struct:evhttp_request	typeref:struct:evhttp_request::evbuffer
+output_buffer	./http-internal.h	/^	struct evbuffer *output_buffer;$/;"	m	language:C++	struct:evhttp_connection	typeref:struct:evhttp_connection::evbuffer
+output_headers	./evhttp.h	/^	struct evkeyvalq *output_headers;$/;"	m	language:C++	struct:evhttp_request	typeref:struct:evhttp_request::evkeyvalq
+output_hooks	./evrpc-internal.h	58;"	d	language:C++
+p	./min_heap.h	/^    struct event** p;$/;"	m	language:C++	struct:min_heap	typeref:struct:min_heap::event
+pair	./test/regress.c	/^int pair[2];$/;"	v	language:C
+pair	./test/test-weof.c	/^int pair[2];$/;"	v	language:C
+pending_replies	./evdns.c	/^	struct server_request *pending_replies;$/;"	m	language:C	struct:evdns_server_port	typeref:struct:evdns_server_port::server_request	file:
+pid	./kqueue.c	/^	pid_t pid;$/;"	m	language:C	struct:kqop	file:
+pipes	./test/bench.c	/^static int *pipes;$/;"	v	language:C	file:
+poll_add	./poll.c	/^poll_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+poll_check_ok	./poll.c	/^poll_check_ok(struct pollop *pop)$/;"	f	language:C	file:	signature:(struct pollop *pop)
+poll_check_ok	./poll.c	132;"	d	language:C	file:
+poll_dealloc	./poll.c	/^poll_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+poll_del	./poll.c	/^poll_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+poll_dispatch	./poll.c	/^poll_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+poll_init	./poll.c	/^poll_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+pollop	./poll.c	/^struct pollop {$/;"	s	language:C	file:
+pollops	./poll.c	/^const struct eventop pollops = {$/;"	v	language:C	typeref:struct:eventop
+pool	./evrpc.h	/^        struct evrpc_pool *pool;$/;"	m	language:C++	struct:evrpc_request_wrapper	typeref:struct:evrpc_request_wrapper::evrpc_pool
+port	./evdns.c	/^	struct evdns_server_port *port; \/* Which port received this request on? *\/$/;"	m	language:C	struct:server_request	typeref:struct:server_request::evdns_server_port	file:
+port	./evdns.c	/^	u16 port;$/;"	m	language:C	struct:nameserver	file:
+port	./http-internal.h	/^	u_short port;$/;"	m	language:C++	struct:evhttp_connection
+pos	./evdns.c	/^struct dnslabel_entry { char *v; off_t pos; };$/;"	m	language:C	struct:dnslabel_entry	file:
+prev	./evdns.c	/^	struct nameserver *next, *prev;$/;"	m	language:C	struct:nameserver	typeref:struct:nameserver::	file:
+prev	./evdns.c	/^	struct request *next, *prev;$/;"	m	language:C	struct:request	typeref:struct:request::	file:
+prev_pending	./evdns.c	/^	struct server_request *prev_pending;$/;"	m	language:C	struct:server_request	typeref:struct:server_request::server_request	file:
+process	./evrpc-internal.h	/^	int (*process)(struct evhttp_request *, struct evbuffer *, void *);$/;"	m	language:C++	struct:evrpc_hook
+process_arg	./evrpc-internal.h	/^	void *process_arg;$/;"	m	language:C++	struct:evrpc_hook
+profhz	./compat/sys/_libevent_time.h	/^	int	profhz;		\/* profiling clock frequency *\/$/;"	m	language:C++	struct:clockinfo
+ptr	./evdns.c	/^		} ptr;$/;"	m	language:C	union:reply::__anon1	typeref:struct:reply::__anon1::__anon4	file:
+questions	./evdns.h	/^	struct evdns_server_question **questions;$/;"	m	language:C++	struct:evdns_server_request	typeref:struct:evdns_server_request::evdns_server_question
+rand_int	./test/test-time.c	/^rand_int(int n)$/;"	f	language:C	file:	signature:(int n)
+rbuf	./test/regress.c	/^static char rbuf[4096];$/;"	v	language:C	file:
+rcsid	./strlcpy.c	/^static char *rcsid = "$OpenBSD: strlcpy.c,v 1.5 2001\/05\/13 15:40:16 deraadt Exp $";$/;"	v	language:C	file:
+read	./evdns.c	146;"	d	language:C	file:
+read	./test/regress.c	89;"	d	language:C	file:
+read_cb	./test/bench.c	/^read_cb(int fd, short which, void *arg)$/;"	f	language:C	file:	signature:(int fd, short which, void *arg)
+read_cb	./test/test-eof.c	/^read_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+read_event	./WIN32-Code/win32.c	/^	struct event *read_event;$/;"	m	language:C	struct:event_entry	typeref:struct:event_entry::event	file:
+read_once_cb	./test/regress.c	/^read_once_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+read_pos	./WIN32-Code/win32.c	/^	int read_pos;$/;"	m	language:C	struct:event_entry	file:
+readcb	./event.h	/^	evbuffercb readcb;$/;"	m	language:C++	struct:bufferevent
+readcb	./test/regress.c	/^readcb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+readset_in	./WIN32-Code/win32.c	/^	struct win_fd_set *readset_in;$/;"	m	language:C	struct:win32op	typeref:struct:win32op::win_fd_set	file:
+readset_out	./WIN32-Code/win32.c	/^	struct win_fd_set *readset_out;$/;"	m	language:C	struct:win32op	typeref:struct:win32op::win_fd_set	file:
+realloc_fd_sets	./WIN32-Code/win32.c	/^realloc_fd_sets(struct win32op *op, size_t new_size)$/;"	f	language:C	file:	signature:(struct win32op *op, size_t new_size)
+reassociate	./evport.c	/^reassociate(struct evport_data *epdp, struct fd_info *fdip, int fd)$/;"	f	language:C	file:	signature:(struct evport_data *epdp, struct fd_info *fdip, int fd)
+refcnt	./evdns.c	/^	int refcnt; \/* reference count. *\/$/;"	m	language:C	struct:evdns_server_port	file:
+refcount	./evdns.c	/^	int refcount;$/;"	m	language:C	struct:search_state	file:
+registered_rpcs	./evrpc-internal.h	/^	TAILQ_HEAD(evrpc_list, evrpc) registered_rpcs;$/;"	m	language:C++	struct:evrpc_base
+reissue_count	./evdns.c	/^	int reissue_count;$/;"	m	language:C	struct:request	file:
+remote_host	./evhttp.h	/^	char *remote_host;$/;"	m	language:C++	struct:evhttp_request
+remote_port	./evhttp.h	/^	u_short remote_port;$/;"	m	language:C++	struct:evhttp_request
+reply	./evdns.c	/^struct reply {$/;"	s	language:C	file:
+reply	./evrpc.h	/^	void *reply;$/;"	m	language:C++	struct:evrpc_req_generic
+reply	./evrpc.h	/^	void *reply;$/;"	m	language:C++	struct:evrpc_request_wrapper
+reply_callback	./evdns.c	/^reply_callback(struct request *const req, u32 ttl, u32 err, struct reply *reply) {$/;"	f	language:C	file:	signature:(struct request *const req, u32 ttl, u32 err, struct reply *reply)
+reply_clear	./evrpc.h	/^	void (*reply_clear)(void *);$/;"	m	language:C++	struct:evrpc_request_wrapper
+reply_complete	./evrpc.h	/^	int (*reply_complete)(void *);$/;"	m	language:C++	struct:evrpc
+reply_free	./evrpc.h	/^	void (*reply_free)(void *);$/;"	m	language:C++	struct:evrpc
+reply_handle	./evdns.c	/^reply_handle(struct request *const req, u16 flags, u32 ttl, struct reply *reply) {$/;"	f	language:C	file:	signature:(struct request *const req, u16 flags, u32 ttl, struct reply *reply)
+reply_marshal	./evrpc.h	/^	void (*reply_marshal)(struct evbuffer*, void *);$/;"	m	language:C++	struct:evrpc
+reply_new	./evrpc.h	/^	void *(*reply_new)(void);$/;"	m	language:C++	struct:evrpc
+reply_parse	./evdns.c	/^reply_parse(u8 *packet, int length) {$/;"	f	language:C	file:	signature:(u8 *packet, int length)
+reply_unmarshal	./evrpc.h	/^	int (*reply_unmarshal)(void *, struct evbuffer*);$/;"	m	language:C++	struct:evrpc_request_wrapper
+req	./test/regress_http.c	/^	struct evhttp_request *req;$/;"	m	language:C	struct:chunk_req_state	typeref:struct:chunk_req_state::evhttp_request	file:
+req_head	./evdns.c	/^static struct request *req_head = NULL, *req_waiting_head = NULL;$/;"	v	language:C	typeref:struct:request	file:
+req_waiting_head	./evdns.c	/^static struct request *req_head = NULL, *req_waiting_head = NULL;$/;"	v	language:C	typeref:struct:	file:
+request	./evdns.c	/^	u8 *request;  \/* the dns packet data *\/$/;"	m	language:C	struct:request	file:
+request	./evdns.c	/^struct request {$/;"	s	language:C	file:
+request	./evrpc.h	/^	void *request;$/;"	m	language:C++	struct:evrpc_req_generic
+request	./evrpc.h	/^	void *request;$/;"	m	language:C++	struct:evrpc_request_wrapper
+request_appended	./evdns.c	/^	char request_appended;  \/* true if the request pointer is data which follows this struct *\/$/;"	m	language:C	struct:request	file:
+request_find_from_trans_id	./evdns.c	/^request_find_from_trans_id(u16 trans_id) {$/;"	f	language:C	file:	signature:(u16 trans_id)
+request_finished	./evdns.c	/^request_finished(struct request *const req, struct request **head) {$/;"	f	language:C	file:	signature:(struct request *const req, struct request **head)
+request_free	./evrpc.h	/^	void (*request_free)(void *);$/;"	m	language:C++	struct:evrpc
+request_len	./evdns.c	/^	unsigned int request_len;$/;"	m	language:C	struct:request	file:
+request_marshal	./evrpc.h	/^	void (*request_marshal)(struct evbuffer *, void *);$/;"	m	language:C++	struct:evrpc_request_wrapper
+request_new	./evdns.c	/^request_new(int type, const char *name, int flags,$/;"	f	language:C	file:	signature:(int type, const char *name, int flags, evdns_callback_type callback, void *user_ptr)
+request_new	./evrpc.h	/^	void *(*request_new)(void);$/;"	m	language:C++	struct:evrpc
+request_parse	./evdns.c	/^request_parse(u8 *packet, int length, struct evdns_server_port *port, struct sockaddr *addr, socklen_t addrlen)$/;"	f	language:C	file:	signature:(u8 *packet, int length, struct evdns_server_port *port, struct sockaddr *addr, socklen_t addrlen)
+request_reissue	./evdns.c	/^request_reissue(struct request *req) {$/;"	f	language:C	file:	signature:(struct request *req)
+request_submit	./evdns.c	/^request_submit(struct request *const req) {$/;"	f	language:C	file:	signature:(struct request *const req)
+request_trans_id_set	./evdns.c	/^request_trans_id_set(struct request *const req, const u16 trans_id) {$/;"	f	language:C	file:	signature:(struct request *const req, const u16 trans_id)
+request_type	./evdns.c	/^	unsigned int request_type; \/* TYPE_PTR or TYPE_A *\/$/;"	m	language:C	struct:request	file:
+request_unmarshal	./evrpc.h	/^	int (*request_unmarshal)(void *, struct evbuffer *);$/;"	m	language:C++	struct:evrpc
+requests	./evrpc-internal.h	/^	TAILQ_HEAD(evrpc_requestq, evrpc_request_wrapper) requests;$/;"	m	language:C++	struct:evrpc_pool
+requests	./http-internal.h	/^	TAILQ_HEAD(evcon_requestq, evhttp_request) requests;$/;"	m	language:C++	struct:evhttp_connection
+resolv_conf_parse_line	./evdns.c	/^resolv_conf_parse_line(char *const start, int flags) {$/;"	f	language:C	file:	signature:(char *const start, int flags)
+response	./evdns.c	/^	char *response;$/;"	m	language:C	struct:server_request	file:
+response_code	./evhttp.h	/^	int response_code;		\/* HTTP Response code *\/$/;"	m	language:C++	struct:evhttp_request
+response_code_line	./evhttp.h	/^	char *response_code_line;	\/* Readable response *\/$/;"	m	language:C++	struct:evhttp_request
+response_len	./evdns.c	/^	size_t response_len;$/;"	m	language:C	struct:server_request	file:
+retry_cnt	./http-internal.h	/^	int retry_cnt;			\/* retry count *\/$/;"	m	language:C++	struct:evhttp_connection
+retry_max	./http-internal.h	/^	int retry_max;			\/* maximum number of retries *\/$/;"	m	language:C++	struct:evhttp_connection
+roff	./test/regress.c	/^static int roff;$/;"	v	language:C	file:
+rpc	./evrpc.h	/^	struct evrpc *rpc;$/;"	m	language:C++	struct:evrpc_req_generic	typeref:struct:evrpc_req_generic::evrpc
+rpc_basic_client	./test/regress_rpc.c	/^rpc_basic_client(void)$/;"	f	language:C	file:	signature:(void)
+rpc_basic_message	./test/regress_rpc.c	/^rpc_basic_message(void)$/;"	f	language:C	file:	signature:(void)
+rpc_basic_queued_client	./test/regress_rpc.c	/^rpc_basic_queued_client(void)$/;"	f	language:C	file:	signature:(void)
+rpc_basic_test	./test/regress_rpc.c	/^rpc_basic_test(void)$/;"	f	language:C	file:	signature:(void)
+rpc_client_timeout	./test/regress_rpc.c	/^rpc_client_timeout(void)$/;"	f	language:C	file:	signature:(void)
+rpc_hook_add_header	./test/regress_rpc.c	/^rpc_hook_add_header(struct evhttp_request *req,$/;"	f	language:C	file:	signature:(struct evhttp_request *req, struct evbuffer *evbuf, void *arg)
+rpc_hook_remove_header	./test/regress_rpc.c	/^rpc_hook_remove_header(struct evhttp_request *req,$/;"	f	language:C	file:	signature:(struct evhttp_request *req, struct evbuffer *evbuf, void *arg)
+rpc_pool_with_connection	./test/regress_rpc.c	/^rpc_pool_with_connection(short port)$/;"	f	language:C	file:	signature:(short port)
+rpc_postrequest_done	./test/regress_rpc.c	/^rpc_postrequest_done(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+rpc_postrequest_failure	./test/regress_rpc.c	/^rpc_postrequest_failure(struct evhttp_request *req, void *arg)$/;"	f	language:C	file:	signature:(struct evhttp_request *req, void *arg)
+rpc_setup	./test/regress_rpc.c	/^rpc_setup(struct evhttp **phttp, short *pport, struct evrpc_base **pbase)$/;"	f	language:C	file:	signature:(struct evhttp **phttp, short *pport, struct evrpc_base **pbase)
+rpc_suite	./test/regress_rpc.c	/^rpc_suite(void)$/;"	f	language:C	signature:(void)
+rpc_teardown	./test/regress_rpc.c	/^rpc_teardown(struct evrpc_base *base)$/;"	f	language:C	file:	signature:(struct evrpc_base *base)
+rpc_test	./test/regress.c	/^rpc_test(void)$/;"	f	language:C	file:	signature:(void)
+run	./test/regress.gen.h	/^struct run {$/;"	s	language:C++
+run_	./test/regress.gen.h	/^enum run_ {$/;"	g	language:C++
+run_access_	./test/regress.gen.h	/^struct run_access_ {$/;"	s	language:C++
+run_add	./test/regress.gen.h	/^  struct run * (*run_add)(struct msg *);$/;"	m	language:C++	struct:msg_access_	typeref:struct:msg_access_::run_add
+run_assign	./test/regress.gen.h	/^  int (*run_assign)(struct msg *, int, const struct run *);$/;"	m	language:C++	struct:msg_access_
+run_clear	./test/regress.gen.c	/^run_clear(struct run *tmp)$/;"	f	language:C	signature:(struct run *tmp)
+run_complete	./test/regress.gen.c	/^run_complete(struct run *msg)$/;"	f	language:C	signature:(struct run *msg)
+run_data	./test/regress.gen.h	/^  struct run **run_data;$/;"	m	language:C++	struct:msg	typeref:struct:msg::run
+run_fixed_bytes_assign	./test/regress.gen.c	/^run_fixed_bytes_assign(struct run *msg, const ev_uint8_t *value)$/;"	f	language:C	signature:(struct run *msg, const ev_uint8_t *value)
+run_fixed_bytes_get	./test/regress.gen.c	/^run_fixed_bytes_get(struct run *msg, ev_uint8_t **value)$/;"	f	language:C	signature:(struct run *msg, ev_uint8_t **value)
+run_free	./test/regress.gen.c	/^run_free(struct run *tmp)$/;"	f	language:C	signature:(struct run *tmp)
+run_get	./test/regress.gen.h	/^  int (*run_get)(struct msg *, int, struct run * *);$/;"	m	language:C++	struct:msg_access_
+run_how_assign	./test/regress.gen.c	/^run_how_assign(struct run *msg,$/;"	f	language:C	signature:(struct run *msg, const char * value)
+run_how_get	./test/regress.gen.c	/^run_how_get(struct run *msg, char * *value)$/;"	f	language:C	signature:(struct run *msg, char * *value)
+run_length	./test/regress.gen.h	/^  int run_length;$/;"	m	language:C++	struct:msg
+run_marshal	./test/regress.gen.c	/^run_marshal(struct evbuffer *evbuf, const struct run *tmp){$/;"	f	language:C	signature:(struct evbuffer *evbuf, const struct run *tmp)
+run_new	./test/regress.gen.c	/^run_new(void)$/;"	f	language:C	signature:(void)
+run_num_allocated	./test/regress.gen.h	/^  int run_num_allocated;$/;"	m	language:C++	struct:msg
+run_once	./test/bench.c	/^run_once(void)$/;"	f	language:C	file:	signature:(void)
+run_set	./test/regress.gen.h	/^  ev_uint8_t run_set;$/;"	m	language:C++	struct:msg
+run_some_bytes_assign	./test/regress.gen.c	/^run_some_bytes_assign(struct run *msg, const ev_uint8_t * value, ev_uint32_t len)$/;"	f	language:C	signature:(struct run *msg, const ev_uint8_t * value, ev_uint32_t len)
+run_some_bytes_get	./test/regress.gen.c	/^run_some_bytes_get(struct run *msg, ev_uint8_t * *value, ev_uint32_t *plen)$/;"	f	language:C	signature:(struct run *msg, ev_uint8_t * *value, ev_uint32_t *plen)
+run_unmarshal	./test/regress.gen.c	/^run_unmarshal(struct run *tmp,  struct evbuffer *evbuf)$/;"	f	language:C	signature:(struct run *tmp, struct evbuffer *evbuf)
+s6_addr	./evdns.c	/^	u8 s6_addr[16];$/;"	m	language:C	struct:in6_addr	file:
+search_domain	./evdns.c	/^struct search_domain {$/;"	s	language:C	file:
+search_flags	./evdns.c	/^	int search_flags;$/;"	m	language:C	struct:request	file:
+search_index	./evdns.c	/^	int search_index;$/;"	m	language:C	struct:request	file:
+search_make_new	./evdns.c	/^search_make_new(const struct search_state *const state, int n, const char *const base_name) {$/;"	f	language:C	file:	signature:(const struct search_state *const state, int n, const char *const base_name)
+search_origname	./evdns.c	/^	char *search_origname;  \/* needs to be free()ed *\/$/;"	m	language:C	struct:request	file:
+search_postfix_add	./evdns.c	/^search_postfix_add(const char *domain) {$/;"	f	language:C	file:	signature:(const char *domain)
+search_postfix_clear	./evdns.c	/^search_postfix_clear(void) {$/;"	f	language:C	file:	signature:(void)
+search_request_finished	./evdns.c	/^search_request_finished(struct request *const req) {$/;"	f	language:C	file:	signature:(struct request *const req)
+search_request_new	./evdns.c	/^search_request_new(int type, const char *const name, int flags, evdns_callback_type user_callback, void *user_arg) {$/;"	f	language:C	file:	signature:(int type, const char *const name, int flags, evdns_callback_type user_callback, void *user_arg)
+search_reverse	./evdns.c	/^search_reverse(void) {$/;"	f	language:C	file:	signature:(void)
+search_set_from_hostname	./evdns.c	/^search_set_from_hostname(void) {$/;"	f	language:C	file:	signature:(void)
+search_state	./evdns.c	/^	struct search_state *search_state;$/;"	m	language:C	struct:request	typeref:struct:request::search_state	file:
+search_state	./evdns.c	/^struct search_state {$/;"	s	language:C	file:
+search_state_decref	./evdns.c	/^search_state_decref(struct search_state *const state) {$/;"	f	language:C	file:	signature:(struct search_state *const state)
+search_state_new	./evdns.c	/^search_state_new(void) {$/;"	f	language:C	file:	signature:(void)
+search_try_next	./evdns.c	/^search_try_next(struct request *const req) {$/;"	f	language:C	file:	signature:(struct request *const req)
+select_add	./select.c	/^select_add(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+select_dealloc	./select.c	/^select_dealloc(struct event_base *base, void *arg)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg)
+select_del	./select.c	/^select_del(void *arg, struct event *ev)$/;"	f	language:C	file:	signature:(void *arg, struct event *ev)
+select_dispatch	./select.c	/^select_dispatch(struct event_base *base, void *arg, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, void *arg, struct timeval *tv)
+select_init	./select.c	/^select_init(struct event_base *base)$/;"	f	language:C	file:	signature:(struct event_base *base)
+select_resize	./select.c	/^select_resize(struct selectop *sop, int fdsz)$/;"	f	language:C	file:	signature:(struct selectop *sop, int fdsz)
+selectop	./select.c	/^struct selectop {$/;"	s	language:C	file:
+selectops	./select.c	/^const struct eventop selectops = {$/;"	v	language:C	typeref:struct:eventop
+server_head	./evdns.c	/^static struct nameserver *server_head = NULL;$/;"	v	language:C	typeref:struct:nameserver	file:
+server_port_flush	./evdns.c	/^server_port_flush(struct evdns_server_port *port)$/;"	f	language:C	file:	signature:(struct evdns_server_port *port)
+server_port_free	./evdns.c	/^server_port_free(struct evdns_server_port *port)$/;"	f	language:C	file:	signature:(struct evdns_server_port *port)
+server_port_read	./evdns.c	/^server_port_read(struct evdns_server_port *s) {$/;"	f	language:C	file:	signature:(struct evdns_server_port *s)
+server_port_ready_callback	./evdns.c	/^server_port_ready_callback(int fd, short events, void *arg) {$/;"	f	language:C	file:	signature:(int fd, short events, void *arg)
+server_reply_item	./evdns.c	/^struct server_reply_item {$/;"	s	language:C	file:
+server_request	./evdns.c	/^struct server_request {$/;"	s	language:C	file:
+server_request_free	./evdns.c	/^server_request_free(struct server_request *req)$/;"	f	language:C	file:	signature:(struct server_request *req)
+server_request_free_answers	./evdns.c	/^server_request_free_answers(struct server_request *req)$/;"	f	language:C	file:	signature:(struct server_request *req)
+setup_test	./test/regress.c	/^setup_test(const char *name)$/;"	f	language:C	file:	signature:(const char *name)
+sh_old	./evsignal.h	/^	ev_sighandler_t **sh_old;$/;"	m	language:C++	struct:evsignal_info
+sh_old	./evsignal.h	/^	struct sigaction **sh_old;$/;"	m	language:C++	struct:evsignal_info	typeref:struct:evsignal_info::sigaction
+sh_old_max	./evsignal.h	/^	int sh_old_max;$/;"	m	language:C++	struct:evsignal_info
+sig	./event-internal.h	/^	struct evsignal_info sig;$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::evsignal_info
+signal_add	./event.h	525;"	d	language:C++
+signal_caught	./WIN32-Code/win32.c	/^volatile sig_atomic_t signal_caught = 0;$/;"	v	language:C
+signal_cb	./sample/signal-test.c	/^signal_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+signal_cb	./test/regress.c	/^signal_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+signal_cb_sa	./test/regress.c	/^signal_cb_sa(int sig)$/;"	f	language:C	file:	signature:(int sig)
+signal_cb_swp	./test/regress.c	/^signal_cb_swp(int sig, short event, void *arg)$/;"	f	language:C	file:	signature:(int sig, short event, void *arg)
+signal_del	./event.h	528;"	d	language:C++
+signal_initialized	./event.h	530;"	d	language:C++
+signal_pending	./event.h	529;"	d	language:C++
+signal_set	./event.h	526;"	d	language:C++
+signals_are_broken	./WIN32-Code/win32.c	/^	unsigned signals_are_broken : 1;$/;"	m	language:C	struct:win32op	file:
+simple_read_cb	./test/regress.c	/^simple_read_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+simple_write_cb	./test/regress.c	/^simple_write_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+sock	./WIN32-Code/win32.c	/^	SOCKET sock;$/;"	m	language:C	struct:event_entry	file:
+socket	./evdns.c	/^	int socket;  \/* a connected UDP socket *\/$/;"	m	language:C	struct:nameserver	file:
+socket	./evdns.c	/^	int socket; \/* socket we use to read queries and write replies. *\/$/;"	m	language:C	struct:evdns_server_port	file:
+socket_connect	./http.c	/^socket_connect(int fd, const char *address, unsigned short port)$/;"	f	language:C	file:	signature:(int fd, const char *address, unsigned short port)
+sockets	./http-internal.h	/^	TAILQ_HEAD(boundq, evhttp_bound_socket) sockets;$/;"	m	language:C++	struct:evhttp
+socklen_t	./WIN32-Code/config.h	231;"	d	language:C++
+some_bytes_assign	./test/regress.gen.h	/^  int (*some_bytes_assign)(struct run *, const ev_uint8_t *, ev_uint32_t);$/;"	m	language:C++	struct:run_access_
+some_bytes_data	./test/regress.gen.h	/^  ev_uint8_t *some_bytes_data;$/;"	m	language:C++	struct:run
+some_bytes_get	./test/regress.gen.h	/^  int (*some_bytes_get)(struct run *, ev_uint8_t * *, ev_uint32_t *);$/;"	m	language:C++	struct:run_access_
+some_bytes_length	./test/regress.gen.h	/^  ev_uint32_t some_bytes_length;$/;"	m	language:C++	struct:run
+some_bytes_set	./test/regress.gen.h	/^  ev_uint8_t some_bytes_set;$/;"	m	language:C++	struct:run
+state	./evdns.c	/^	char state;  \/* zero if we think that this server is down *\/$/;"	m	language:C	struct:nameserver	file:
+state	./http-internal.h	/^	enum evhttp_connection_state state;$/;"	m	language:C++	struct:evhttp_connection	typeref:enum:evhttp_connection::evhttp_connection_state
+stathz	./compat/sys/_libevent_time.h	/^	int	stathz;		\/* statistics clock frequency *\/$/;"	m	language:C++	struct:clockinfo
+strcasecmp	./http.c	93;"	d	language:C	file:
+strdup	./evdns.c	148;"	d	language:C	file:
+strdup	./http.c	95;"	d	language:C	file:
+string_num_dots	./evdns.c	/^string_num_dots(const char *s) {$/;"	f	language:C	file:	signature:(const char *s)
+strlcpy	./strlcpy-internal.h	15;"	d	language:C++
+strncasecmp	./http.c	94;"	d	language:C	file:
+strsep	./http.c	/^strsep(char **s, const char *del)$/;"	f	language:C	file:	signature:(char **s, const char *del)
+strtoint	./evdns.c	/^strtoint(const char *const str) {$/;"	f	language:C	file:	signature:(const char *const str)
+strtoint_clipped	./evdns.c	/^strtoint_clipped(const char *const str, int min, int max)$/;"	f	language:C	file:	signature:(const char *const str, int min, int max)
+strtok_r	./evdns.c	/^strtok_r(char *s, const char *delim, char **state) {$/;"	f	language:C	file:	signature:(char *s, const char *delim, char **state)
+tcalled	./test/regress.c	/^static struct timeval tcalled;$/;"	v	language:C	typeref:struct:timeval	file:
+test_bufferevent	./test/regress.c	/^test_bufferevent(void)$/;"	f	language:C	file:	signature:(void)
+test_bufferevent_watermarks	./test/regress.c	/^test_bufferevent_watermarks(void)$/;"	f	language:C	file:	signature:(void)
+test_combined	./test/regress.c	/^test_combined(void)$/;"	f	language:C	file:	signature:(void)
+test_evbuffer	./test/regress.c	/^test_evbuffer(void) {$/;"	f	language:C	file:	signature:(void)
+test_evbuffer_find	./test/regress.c	/^test_evbuffer_find(void)$/;"	f	language:C	file:	signature:(void)
+test_event_base_new	./test/regress.c	/^test_event_base_new(void)$/;"	f	language:C	file:	signature:(void)
+test_evutil_strtoll	./test/regress.c	/^test_evutil_strtoll(void)$/;"	f	language:C	file:	signature:(void)
+test_fork	./test/regress.c	/^test_fork(void)$/;"	f	language:C	file:	signature:(void)
+test_free_active_base	./test/regress.c	/^test_free_active_base(void)$/;"	f	language:C	file:	signature:(void)
+test_immediatesignal	./test/regress.c	/^test_immediatesignal(void)$/;"	f	language:C	file:	signature:(void)
+test_loopbreak	./test/regress.c	/^test_loopbreak(void)$/;"	f	language:C	file:	signature:(void)
+test_loopexit	./test/regress.c	/^test_loopexit(void)$/;"	f	language:C	file:	signature:(void)
+test_loopexit_multiple	./test/regress.c	/^test_loopexit_multiple(void)$/;"	f	language:C	file:	signature:(void)
+test_multiple	./test/regress.c	/^test_multiple(void)$/;"	f	language:C	file:	signature:(void)
+test_multiple_cb	./test/regress.c	/^test_multiple_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+test_multiple_events_for_same_fd	./test/regress.c	/^test_multiple_events_for_same_fd(void)$/;"	f	language:C	file:	signature:(void)
+test_multiplesignal	./test/regress.c	/^test_multiplesignal(void)$/;"	f	language:C	file:	signature:(void)
+test_ok	./test/regress.c	/^int test_ok;$/;"	v	language:C
+test_okay	./test/test-eof.c	/^int test_okay = 1;$/;"	v	language:C
+test_okay	./test/test-weof.c	/^int test_okay = 1;$/;"	v	language:C
+test_persistent	./test/regress.c	/^test_persistent(void)$/;"	f	language:C	file:	signature:(void)
+test_pri_event	./test/regress.c	/^struct test_pri_event {$/;"	s	language:C	file:
+test_priorities	./test/regress.c	/^test_priorities(int npriorities)$/;"	f	language:C	file:	signature:(int npriorities)
+test_priorities_cb	./test/regress.c	/^test_priorities_cb(int fd, short what, void *arg)$/;"	f	language:C	file:	signature:(int fd, short what, void *arg)
+test_registerfds	./test/regress.c	/^test_registerfds(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_assert	./test/regress.c	/^test_signal_assert(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_dealloc	./test/regress.c	/^test_signal_dealloc(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_pipeloss	./test/regress.c	/^test_signal_pipeloss(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_restore	./test/regress.c	/^test_signal_restore(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_switchbase	./test/regress.c	/^test_signal_switchbase(void)$/;"	f	language:C	file:	signature:(void)
+test_signal_while_processing	./test/regress.c	/^test_signal_while_processing(void)$/;"	f	language:C	file:	signature:(void)
+test_simpleread	./test/regress.c	/^test_simpleread(void)$/;"	f	language:C	file:	signature:(void)
+test_simplesignal	./test/regress.c	/^test_simplesignal(void)$/;"	f	language:C	file:	signature:(void)
+test_simpletimeout	./test/regress.c	/^test_simpletimeout(void)$/;"	f	language:C	file:	signature:(void)
+test_simplewrite	./test/regress.c	/^test_simplewrite(void)$/;"	f	language:C	file:	signature:(void)
+test_want_only_once	./test/regress.c	/^test_want_only_once(void)$/;"	f	language:C	file:	signature:(void)
+tick	./compat/sys/_libevent_time.h	/^	int	tick;		\/* micro-seconds per hz tick *\/$/;"	m	language:C++	struct:clockinfo
+tickadj	./compat/sys/_libevent_time.h	/^	int	tickadj;	\/* clock skew rate for adjtime() *\/$/;"	m	language:C++	struct:clockinfo
+time_cb	./test/test-time.c	/^time_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+timedout	./evdns.c	/^	int timedout;  \/* number of times in a row a request has timed out *\/$/;"	m	language:C	struct:nameserver	file:
+timeheap	./event-internal.h	/^	struct min_heap timeheap;       \/\/! zark: 管理着时间事件的最小堆集合.$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::min_heap
+timeout	./evrpc-internal.h	/^	int timeout;$/;"	m	language:C++	struct:evrpc_pool
+timeout	./http-internal.h	/^	int timeout;			\/* timeout in seconds for events *\/$/;"	m	language:C++	struct:evhttp_connection
+timeout	./http-internal.h	/^        int timeout;$/;"	m	language:C++	struct:evhttp
+timeout_add	./event.h	502;"	d	language:C++
+timeout_cb	./sample/time-test.c	/^timeout_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+timeout_cb	./test/regress.c	/^timeout_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+timeout_cb_swp	./test/regress.c	/^timeout_cb_swp(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+timeout_correct	./event.c	/^timeout_correct(struct event_base *base, struct timeval *tv)$/;"	f	language:C	file:	signature:(struct event_base *base, struct timeval *tv)
+timeout_del	./event.h	520;"	d	language:C++
+timeout_event	./evdns.c	/^	struct event timeout_event;  \/* used to keep the timeout for *\/$/;"	m	language:C	struct:nameserver	typeref:struct:nameserver::event	file:
+timeout_event	./evdns.c	/^	struct event timeout_event;$/;"	m	language:C	struct:request	typeref:struct:request::event	file:
+timeout_initialized	./event.h	523;"	d	language:C++
+timeout_initialized	./http.c	83;"	d	language:C	file:
+timeout_next	./event.c	/^timeout_next(struct event_base *base, struct timeval **tv_p)$/;"	f	language:C	file:	signature:(struct event_base *base, struct timeval **tv_p)
+timeout_pending	./event.h	522;"	d	language:C++
+timeout_pending	./http.c	82;"	d	language:C	file:
+timeout_process	./event.c	/^timeout_process(struct event_base *base)$/;"	f	language:C	signature:(struct event_base *base)
+timeout_read	./event.h	/^	int timeout_read;	\/* in seconds *\/$/;"	m	language:C++	struct:bufferevent
+timeout_set	./event.h	512;"	d	language:C++
+timeout_write	./event.h	/^	int timeout_write;	\/* in seconds *\/$/;"	m	language:C++	struct:bufferevent
+timeradd	./compat/sys/_libevent_time.h	85;"	d	language:C++
+timerclear	./compat/sys/_libevent_time.h	79;"	d	language:C++
+timercmp	./compat/sys/_libevent_time.h	81;"	d	language:C++
+timerisset	./compat/sys/_libevent_time.h	80;"	d	language:C++
+timersub	./compat/sys/_libevent_time.h	94;"	d	language:C++
+timespec	./compat/sys/_libevent_time.h	/^struct timespec {$/;"	s	language:C++
+timespecadd	./compat/sys/_libevent_time.h	111;"	d	language:C++
+timespecclear	./compat/sys/_libevent_time.h	105;"	d	language:C++
+timespeccmp	./compat/sys/_libevent_time.h	107;"	d	language:C++
+timespecisset	./compat/sys/_libevent_time.h	106;"	d	language:C++
+timespecsub	./compat/sys/_libevent_time.h	120;"	d	language:C++
+timeval	./compat/sys/_libevent_time.h	/^struct timeval {$/;"	s	language:C++
+timeval_to_ms	./WIN32-Code/win32.c	/^timeval_to_ms(struct timeval *tv)$/;"	f	language:C	file:	signature:(struct timeval *tv)
+timezone	./compat/sys/_libevent_time.h	/^struct timezone {$/;"	s	language:C++
+to_name_assign	./test/regress.gen.h	/^  int (*to_name_assign)(struct msg *, const char *);$/;"	m	language:C++	struct:msg_access_
+to_name_data	./test/regress.gen.h	/^  char *to_name_data;$/;"	m	language:C++	struct:msg
+to_name_get	./test/regress.gen.h	/^  int (*to_name_get)(struct msg *, char * *);$/;"	m	language:C++	struct:msg_access_
+to_name_set	./test/regress.gen.h	/^  ev_uint8_t to_name_set;$/;"	m	language:C++	struct:msg
+totallen	./event.h	/^	size_t totallen;        \/\/! zark: totallen表示orig_buffer指向的内存区域的大小.$/;"	m	language:C++	struct:evbuffer
+trans_id	./evdns.c	/^	u16 trans_id;  \/* the transaction id *\/$/;"	m	language:C	struct:request	file:
+trans_id	./evdns.c	/^	u16 trans_id; \/* Transaction id. *\/$/;"	m	language:C	struct:server_request	file:
+trans_id_function	./evdns.c	/^static ev_uint16_t (*trans_id_function)(void) = default_transaction_id_fn;$/;"	v	language:C	file:
+transaction_id_pick	./evdns.c	/^transaction_id_pick(void) {$/;"	f	language:C	file:	signature:(void)
+transmit_me	./evdns.c	/^	char transmit_me;  \/* needs to be transmitted *\/$/;"	m	language:C	struct:request	file:
+tset	./test/regress.c	/^static struct timeval tset;$/;"	v	language:C	typeref:struct:timeval	file:
+ttl	./evdns.c	/^	u32 ttl; \/* The RR TTL *\/$/;"	m	language:C	struct:server_reply_item	file:
+tv_cache	./event-internal.h	/^	struct timeval tv_cache;        \/\/! zark: 缓存着的时间戳.$/;"	m	language:C++	struct:event_base	typeref:struct:event_base::timeval
+tv_nsec	./compat/sys/_libevent_time.h	/^	long	tv_nsec;	\/* and nanoseconds *\/$/;"	m	language:C++	struct:timespec
+tv_sec	./compat/sys/_libevent_time.h	/^	long	tv_sec;		\/* seconds *\/$/;"	m	language:C++	struct:timeval
+tv_sec	./compat/sys/_libevent_time.h	/^	time_t	tv_sec;		\/* seconds *\/$/;"	m	language:C++	struct:timespec
+tv_usec	./compat/sys/_libevent_time.h	/^	long	tv_usec;	\/* and microseconds *\/$/;"	m	language:C++	struct:timeval
+tx_count	./evdns.c	/^	int tx_count;  \/* the number of times that this packet has been sent *\/$/;"	m	language:C	struct:request	file:
+type	./evdns.c	/^	u16 type : 16; \/* The RR type *\/$/;"	m	language:C	struct:server_reply_item	file:
+type	./evdns.c	/^	unsigned int type;$/;"	m	language:C	struct:reply	file:
+type	./evdns.h	/^	int type;$/;"	m	language:C++	struct:evdns_server_question
+type	./evhttp.h	/^	enum evhttp_cmd_type type;$/;"	m	language:C++	struct:evhttp_request	typeref:enum:evhttp_request::evhttp_cmd_type
+tz_dsttime	./compat/sys/_libevent_time.h	/^	int	tz_dsttime;	\/* type of dst correction *\/$/;"	m	language:C++	struct:timezone
+tz_minuteswest	./compat/sys/_libevent_time.h	/^	int	tz_minuteswest;	\/* minutes west of Greenwich *\/$/;"	m	language:C++	struct:timezone
+u16	./evdns.c	141;"	d	language:C	file:
+u32	./evdns.c	140;"	d	language:C	file:
+u64	./evdns.c	139;"	d	language:C	file:
+u8	./evdns.c	142;"	d	language:C	file:
+u_char	./evdns.c	/^typedef ev_uint8_t u_char;$/;"	t	language:C	file:
+u_char	./event.h	/^typedef unsigned char u_char;$/;"	t	language:C++
+u_short	./event.h	/^typedef unsigned short u_short;$/;"	t	language:C++
+uint	./evdns.c	/^typedef unsigned int uint;$/;"	t	language:C	file:
+uint16_t	./WIN32-Code/config.h	234;"	d	language:C++
+uint32_t	./WIN32-Code/config.h	237;"	d	language:C++
+uint64_t	./WIN32-Code/config.h	240;"	d	language:C++
+uint8_t	./WIN32-Code/config.h	243;"	d	language:C++
+uri	./evhttp.h	/^	char *uri;			\/* uri after HTTP request was parsed *\/$/;"	m	language:C++	struct:evhttp_request
+uri	./evrpc.h	/^	const char* uri;$/;"	m	language:C++	struct:evrpc
+uri_chars	./http.c	/^static const char uri_chars[256] = {$/;"	v	language:C	file:
+use_monotonic	./event.c	/^static int use_monotonic;$/;"	v	language:C	file:
+usepersist	./test/regress.c	/^static int usepersist;$/;"	v	language:C	file:
+user_callback	./evdns.c	/^	evdns_callback_type user_callback;$/;"	m	language:C	struct:request	file:
+user_callback	./evdns.c	/^	evdns_request_callback_fn_type user_callback; \/* Fn to handle requests *\/$/;"	m	language:C	struct:evdns_server_port	file:
+user_data	./evdns.c	/^	void *user_data; \/* Opaque pointer passed to user_callback *\/$/;"	m	language:C	struct:evdns_server_port	file:
+user_pointer	./evdns.c	/^	void *user_pointer;  \/* the pointer given to us for this request *\/$/;"	m	language:C	struct:request	file:
+v	./evdns.c	/^struct dnslabel_entry { char *v; off_t pos; };$/;"	m	language:C	struct:dnslabel_entry	file:
+va_copy	./buffer.c	154;"	d	language:C	file:
+validate_header	./test/regress_http.c	/^static int validate_header($/;"	f	language:C	file:	signature:( const struct evkeyvalq* headers, const char *key, const char *value)
+value	./event.h	/^	char *value;$/;"	m	language:C++	struct:evkeyval
+wbuf	./test/regress.c	/^static char wbuf[4096];$/;"	v	language:C	file:
+weapon_assign	./test/regress.gen.h	/^  int (*weapon_assign)(struct kill *, const char *);$/;"	m	language:C++	struct:kill_access_
+weapon_data	./test/regress.gen.h	/^  char *weapon_data;$/;"	m	language:C++	struct:kill
+weapon_get	./test/regress.gen.h	/^  int (*weapon_get)(struct kill *, char * *);$/;"	m	language:C++	struct:kill_access_
+weapon_set	./test/regress.gen.h	/^  ev_uint8_t weapon_set;$/;"	m	language:C++	struct:kill
+what	./http-internal.h	/^	char *what;$/;"	m	language:C++	struct:evhttp_cb
+win32_dealloc	./WIN32-Code/win32.c	/^win32_dealloc(struct event_base *_base, void *arg)$/;"	f	language:C	signature:(struct event_base *_base, void *arg)
+win32_del	./WIN32-Code/win32.c	/^win32_del(void *op, struct event *ev)$/;"	f	language:C	signature:(void *op, struct event *ev)
+win32_dispatch	./WIN32-Code/win32.c	/^win32_dispatch(struct event_base *base, void *op,$/;"	f	language:C	signature:(struct event_base *base, void *op, struct timeval *tv)
+win32_init	./WIN32-Code/win32.c	/^win32_init(struct event_base *_base)$/;"	f	language:C	signature:(struct event_base *_base)
+win32_insert	./WIN32-Code/win32.c	/^win32_insert(void *op, struct event *ev)$/;"	f	language:C	signature:(void *op, struct event *ev)
+win32op	./WIN32-Code/win32.c	/^struct win32op {$/;"	s	language:C	file:
+win32ops	./WIN32-Code/win32.c	/^struct eventop win32ops = {$/;"	v	language:C	typeref:struct:eventop
+win_fd_set	./WIN32-Code/win32.c	/^struct win_fd_set {$/;"	s	language:C	file:
+wm_errorcb	./test/regress.c	/^wm_errorcb(struct bufferevent *bev, short what, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, short what, void *arg)
+wm_read	./event.h	/^	struct event_watermark wm_read;$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::event_watermark
+wm_readcb	./test/regress.c	/^wm_readcb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+wm_write	./event.h	/^	struct event_watermark wm_write;$/;"	m	language:C++	struct:bufferevent	typeref:struct:bufferevent::event_watermark
+wm_writecb	./test/regress.c	/^wm_writecb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+woff	./test/regress.c	/^static int woff;$/;"	v	language:C	file:
+write	./test/regress.c	88;"	d	language:C	file:
+write_cb	./test/test-weof.c	/^write_cb(int fd, short event, void *arg)$/;"	f	language:C	file:	signature:(int fd, short event, void *arg)
+write_event	./WIN32-Code/win32.c	/^	struct event *write_event;$/;"	m	language:C	struct:event_entry	typeref:struct:event_entry::event	file:
+write_pos	./WIN32-Code/win32.c	/^	int write_pos;$/;"	m	language:C	struct:event_entry	file:
+write_waiting	./evdns.c	/^	char write_waiting;  \/* true if we are waiting for EV_WRITE events *\/$/;"	m	language:C	struct:nameserver	file:
+writecb	./event.h	/^	evbuffercb writecb;$/;"	m	language:C++	struct:bufferevent
+writecb	./test/regress.c	/^writecb(struct bufferevent *bev, void *arg)$/;"	f	language:C	file:	signature:(struct bufferevent *bev, void *arg)
+writes	./test/bench.c	/^static int count, writes, fired;$/;"	v	language:C	file:
+writeset_in	./WIN32-Code/win32.c	/^	struct win_fd_set *writeset_in;$/;"	m	language:C	struct:win32op	typeref:struct:win32op::win_fd_set	file:
+writeset_out	./WIN32-Code/win32.c	/^	struct win_fd_set *writeset_out;$/;"	m	language:C	struct:win32op	typeref:struct:win32op::win_fd_set	file:
