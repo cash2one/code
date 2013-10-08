@@ -168,7 +168,7 @@ event_init(void)
 	struct event_base *base = event_base_new();
 
 	if (base != NULL)
-		current_base = base;
+		current_base = base;    //! elec: 赋值到全局变量
 
 	return (base);
 }
@@ -341,23 +341,23 @@ event_base_priority_init(struct event_base *base, int npriorities)
 
 	if (base->nactivequeues && npriorities != base->nactivequeues) {
 		for (i = 0; i < base->nactivequeues; ++i) {
-			free(base->activequeues[i]);
+			free(base->activequeues[i]);        //! elec: 释放事件指针所指向的内存
 		}
-		free(base->activequeues);
+		free(base->activequeues);               //! elec:释放存储事件指针的内存
 	}
 
 	/* Allocate our priority queues */
 	base->nactivequeues = npriorities;
 	base->activequeues = (struct event_list **)
-	    calloc(base->nactivequeues, sizeof(struct event_list *));
+	    calloc(base->nactivequeues, sizeof(struct event_list *));   //! elec:activequeues所存的是事件队列指针
 	if (base->activequeues == NULL)
 		event_err(1, "%s: calloc", __func__);
 
 	for (i = 0; i < base->nactivequeues; ++i) {
-		base->activequeues[i] = malloc(sizeof(struct event_list));
+		base->activequeues[i] = malloc(sizeof(struct event_list)); //! elec:activequeues[]所存的是事件队列
 		if (base->activequeues[i] == NULL)
 			event_err(1, "%s: malloc", __func__);
-		TAILQ_INIT(base->activequeues[i]);
+		TAILQ_INIT(base->activequeues[i]);      //! elec:初始化事件队列
 	}
 
 	return (0);
@@ -834,7 +834,7 @@ event_add(struct event *ev, const struct timeval *tv)
          *       相应状态位.
          */
 		if ((ev->ev_flags & EVLIST_ACTIVE) &&
-		    (ev->ev_res & EV_TIMEOUT)) {
+		    (ev->ev_res & EV_TIMEOUT)) {        //! elec: TODO
 			/* See if we are just active executing this
 			 * event in a loop
 			 */
@@ -847,13 +847,13 @@ event_add(struct event *ev, const struct timeval *tv)
 		}
 
 		gettime(base, &now);
-		evutil_timeradd(&now, tv, &ev->ev_timeout);     //! elec: 设置事件超时时间戳
+		evutil_timeradd(&now, tv, &ev->ev_timeout);     //! elec: 设置ev_timeout事件超时时间戳 tv:时间间隔 
 
 		event_debug((
 			 "event_add: timeout in %ld seconds, call %p",
 			 tv->tv_sec, ev->ev_callback));
 
-		event_queue_insert(base, ev, EVLIST_TIMEOUT);
+		event_queue_insert(base, ev, EVLIST_TIMEOUT);   //! elec: 添加到超时队列
 	}
 
 	return (res);

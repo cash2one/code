@@ -62,7 +62,7 @@ struct event_base {
      *       储存着该优先级的所有激活事件, 等待着被callback.
      */
 	struct event_list **activequeues;
-	int nactivequeues;              //! zark: 激活队列的数量(注意:是激活队列的数量, 而不是激活事件的数量).
+	int nactivequeues;              //! zark: 激活事件队列的数量(注意:是激活队列的数量, 而不是激活事件的数量).
 
 	/* signal handling info */
 	struct evsignal_info sig;
