@@ -1,0 +1,152 @@
+<root>
+	<file md5="633a0ec357bdcc4a86123b9995de73d5" name="boost_filesystem-vc100-mt-1_48.dll" size="139648" timestamp="1374434366"/>
+	<file md5="553b2d2a57cd5488746be4ed7335317a" name="boost_system-vc100-mt-1_48.dll" size="18304" timestamp="1374434366"/>
+	<file md5="bb32e301dd1ff6157c3879273ee7501c" name="boost_thread-vc100-mt-1_48.dll" size="48128" timestamp="1374434366"/>
+	<dir name="config">
+		<file md5="c8bf98aedeb4ca1116a200c1d32b2a0e" name="PLALauncher.xml" size="3057" timestamp="1379450007">
+			<history md5="e91d5b1131a906555eecfebd5bff795e" patch="PLALauncher.xml.patch.0" patch_md5="1aaa75f34ad13ea1fb9b1e7b50e2384a" patch_size="709" size="1909" timestamp="1374451530"/>
+		<history md5="dc0cefe76d96b01825e535ccf74dfb2f" patch="PLALauncher.xml.patch.1" patch_md5="e429085d74c96d59430cb26b99c48c50" patch_size="610" size="2695" timestamp="1374464756"/>
+		<history md5="b1df03179db38770719e71892fdd9a99" patch="PLALauncher.xml.patch.2" patch_md5="ee9c5eae869563f347bff0744852ddf4" patch_size="773" size="2641" timestamp="1374466476"/>
+		<history md5="dc0cefe76d96b01825e535ccf74dfb2f" patch="PLALauncher.xml.patch.3" patch_md5="82a7a660c8f9407da370c4ef0ecc0134" patch_size="610" size="2695" timestamp="1374591229"/>
+		<history md5="721cf1bf9e1e06c5791f289a9e89a95d" patch="PLALauncher.xml.patch.4" patch_md5="99e8916deaa6d8f0c5133817971e56a9" patch_size="610" size="2695" timestamp="1374668073"/>
+		<history md5="e82b2555f28ca6a338dc8a004ccacff7" patch="PLALauncher.xml.patch.5" patch_md5="6b9ea4d0f07e07cbc3bfbc688e8bf2f0" patch_size="607" size="2696" timestamp="1375363514"/>
+		<history md5="c42f42199f3ea38dd6621d55f0ea4160" patch="PLALauncher.xml.patch.6" patch_md5="9e7f6d53fcae03c88d1feac825e4d5a6" patch_size="604" size="2695" timestamp="1375363791"/>
+		<history md5="1a6f4b4fc3d747a83fee38f1878499b7" patch="PLALauncher.xml.patch.7" patch_md5="f3ce1206b1d20b7297cd73963f186570" patch_size="619" size="2694" timestamp="1375913277"/>
+		<history md5="755be4e52a2c1a722c6e8570d0ada4c5" patch="PLALauncher.xml.patch.8" patch_md5="c3c6fabf253ce1a7e543c37f472c5d29" patch_size="611" size="2678" timestamp="1375953207"/>
+		<history md5="d4355137ad74f2f66cc8f585b2acfcb2" patch="PLALauncher.xml.patch.9" patch_md5="5534dc927adf8d6ce3f4902f06435354" patch_size="578" size="2678" timestamp="1379450007"/>
+		</file>
+	</dir>
+	<dir name="iSkin">
+		<file md5="66179ad7b275a7e12946665e12a6ca0e" name="Account.png" size="4640" timestamp="1374434366"/>
+		<file md5="bbce1076c5bd70ef4830f16fb30d32e8" name="Advertising.png" size="2881" timestamp="1374434366"/>
+		<file md5="084dc9e84e5286fb1ae16fdb1bc06802" name="AreaPop.png" size="3112" timestamp="1374451530">
+			<history md5="89ca9ddc7f327faaea6e6a828fbeb4cb" patch="AreaPop.png.patch.0" patch_md5="3d1ceb9175a3ebc575410729ffe506ad" patch_size="3059" size="1308" timestamp="1374451530"/>
+		</file>
+		<file md5="f76d68cca21216f986e7cebc0aed3fd6" name="Back.png" size="266316" timestamp="1379450008">
+			<history md5="b68cd3e78f3054a63dcedcf5a9dff977" patch="Back.png.patch.0" patch_md5="f6c4079998860254fa810515661533d8" patch_size="265521" size="261405" timestamp="1375913278"/>
+		<history md5="609631cd4cb29a92b635ab6748a5a682" patch="Back.png.patch.1" patch_md5="94196e31cfb984c400d0696db1dbd3d7" patch_size="264858" size="261222" timestamp="1375964685"/>
+		<history md5="b68cd3e78f3054a63dcedcf5a9dff977" patch="Back.png.patch.2" patch_md5="fa29f839d290af98f09fd7c928642642" patch_size="265501" size="261405" timestamp="1379450008"/>
+		</file>
+		
+		
+		<file md5="dc09d4c7a04f8d2b0e20856aced438e8" name="Cancel.png" size="4830" timestamp="1374434366"/>
+		<file md5="e5c84f8fcdc4111a8bafab046d346963" name="CancelUpdate.png" size="18581" timestamp="1374434366"/>
+		
+		
+		
+		<file md5="3d194e9480c2c9ee94c417c361ae6674" name="Confirm.png" size="4473" timestamp="1374434366"/>
+		
+		<dir name="default">
+			
+			
+			
+			
+			<dir name="DlgMask.png">
+				<file md5="afa6ea2aefd0715d50ebd236c77a3d66" name="bottom.png" size="130" timestamp="1374434366"/>
+				<file md5="b921df2a86e041bf1318956166b95a14" name="Bottomleft.png" size="191" timestamp="1374434366"/>
+				<file md5="ffbe9b017675b9acb5d0ea6b2742ca51" name="BottomRight.png" size="200" timestamp="1374434366"/>
+				<file md5="7e974991b8c4d4fe0e62a11ee64fff7d" name="left.png" size="125" timestamp="1374434366"/>
+				<file md5="3c0845487a18db422407ebbafc9840b7" name="right.png" size="125" timestamp="1374434366"/>
+				<file md5="8129543da18d790d3e0a38afe5d52ddf" name="top.png" size="130" timestamp="1374434366"/>
+				<file md5="f28025537befd2c9dff55496a837bfe4" name="topleft.png" size="213" timestamp="1374434366"/>
+				<file md5="6e15a3c7c26c1a0832190c590ab149a4" name="topright.png" size="216" timestamp="1374434366"/>
+			</dir>
+			
+			
+			
+			
+			
+		</dir>
+		
+		
+		
+		
+		<file md5="206d517edf3177e4b703a92161abf06d" name="Dx11.png" size="4922" timestamp="1379450008">
+			<history md5="056ffd376040b4ff60bec6df5604f721" patch="Dx11.png.patch.0" patch_md5="61a190b2fb26724bae84ba423c1cef0c" patch_size="4233" size="15737" timestamp="1375913279"/>
+		<history md5="206d517edf3177e4b703a92161abf06d" patch="Dx11.png.patch.1" patch_md5="5509fdc861df1b43cf838074177f7f7f" patch_size="105" size="4922" timestamp="1375964686"/>
+		<history md5="056ffd376040b4ff60bec6df5604f721" patch="Dx11.png.patch.2" patch_md5="80729b66c99a965cc3f1fc2d16bc9347" patch_size="4213" size="15737" timestamp="1379450008"/>
+		</file>
+		<file md5="73d3532a1c9d7563947decf0438eb27b" name="Exit.png" size="4525" timestamp="1374434366"/>
+		<file md5="3ac4de786ad15b6997cc9166e12cff84" name="Forum.png" size="4511" timestamp="1374434366"/>
+		
+		
+		
+		
+		
+		
+		
+		<file md5="f1cd54287920dc5d0e3b2d53bd95b938" name="Guide.png" size="4702" timestamp="1374434366"/>
+		<file md5="51ad6fb71a09b572a043485c76335806" name="Hide.png" size="3202" timestamp="1374434366"/>
+		
+		
+		
+		
+		
+		
+		
+		<file md5="e9c368406ed55ba37c9d959380b23b78" name="Message.png" size="62150" timestamp="1374434366"/>
+		<file md5="ed7ecb4b24abb361c391111156d9508f" name="Message2.png" size="3284" timestamp="1379450008">
+			<history md5="a472bcd33adf773c26d521636333286d" patch="Message2.png.patch.0" patch_md5="daff7b3bb2c9d6905135db59adce0a1f" patch_size="2986" size="1222" timestamp="1379450008"/>
+		</file>
+		<file md5="3a9aeb9a3370d66feb8fb6aec8e3f63e" name="MessageAsk.png" size="1653" timestamp="1374434366"/>
+		<file md5="1dc748fe51fb388032c7c42719679282" name="MessageCancel.png" size="4830" timestamp="1374434366"/>
+		<file md5="d2effd25c79c0bb642ba5f9a84507d45" name="MessageError.png" size="1543" timestamp="1374434366"/>
+		<file md5="c45443d34c027b625209fa9fa7b3ee22" name="MessageInfo.png" size="1291" timestamp="1374434366"/>
+		<file md5="21bb27c12bbd6e20dabb52395e7c7083" name="MessageNo.png" size="3037" timestamp="1374434366"/>
+		<file md5="eeb600aaff8c56b439b223fb4ef4bad3" name="MessageOK.png" size="4473" timestamp="1374434366"/>
+		<file md5="969972d93691ef4688dbd8ad96f93ddd" name="messageYes.png" size="2912" timestamp="1374434366"/>
+		<file md5="6dc669c92e9d8c66afe0e428ce4edb75" name="MiniMize.png" size="2084" timestamp="1374434366"/>
+		
+		
+		
+		
+		
+		<file md5="ff2de89fac4c5d6885afd7f695e61af7" name="OfficialWebsite.png" size="4437" timestamp="1374434366"/>
+		
+		<file md5="c8cf99094aa0f3ba3c677cabf17a267d" name="Progress.png" size="2898" timestamp="1374434366"/>
+		<file md5="4010ec1dd827287c9a3d9205a3f2bacd" name="Repair.png" size="5092" timestamp="1379450008">
+			<history md5="3ca64118dc767895d3bb692bffab54f3" patch="Repair.png.patch.0" patch_md5="bc0bd725111891c58fdc8177e324b03f" patch_size="4430" size="13252" timestamp="1375913279"/>
+		<history md5="4010ec1dd827287c9a3d9205a3f2bacd" patch="Repair.png.patch.1" patch_md5="5b1ba7358cef363412f0aeadcd4274ea" patch_size="111" size="5092" timestamp="1375964687"/>
+		<history md5="3ca64118dc767895d3bb692bffab54f3" patch="Repair.png.patch.2" patch_md5="1516770e1f955c8482f9224abab6acce" patch_size="4408" size="13252" timestamp="1379450008"/>
+		</file>
+		
+		
+		<file md5="767a7cccc759a635de2b418f19a8d243" name="StartGame.png" size="15048" timestamp="1374434366"/>
+		<file md5="e103816a90be8f5c15edfb1dc48ff81d" name="StartUpdate.png" size="14895" timestamp="1374434366"/>
+		
+		
+		
+	
+		
+	<file md5="b9535bdf59ca7ce7592977cadf4a7f5d" name="360Area.png" size="28262" timestamp="1379450007"/>
+		<file md5="9c63af1a541c2c25d2eac5ea43ddc8b8" name="AreaBack1.png" size="3272" timestamp="1379450007"/>
+		<file md5="04bb4cd7a6562c3c8db19928ce0fa8fa" name="AreaBack2.png" size="3209" timestamp="1379450008"/>
+		<file md5="9d972080f4cba3114c813920bd355036" name="AreaBack3.png" size="3250" timestamp="1379450008"/>
+		<file md5="7e67f9ea4fd3b6843faccec630d83bdb" name="AreaBack4.png" size="3274" timestamp="1379450008"/>
+		<file md5="19ca71a5ac68278eca858d33f199319b" name="AreaClose.png" size="3905" timestamp="1379450008"/>
+		<file md5="dd804b637ba0fc98cedca26b0331366d" name="Back360.png" size="263425" timestamp="1379450008"/>
+		<file md5="f3dfa74d81965af9b69fcfbb43a68db3" name="GamePay.png" size="4905" timestamp="1379450008"/>
+		<file md5="a74d197d636408acf7b3938110fd8a30" name="OfficialArea.png" size="17298" timestamp="1379450008"/>
+		<file md5="55d46b1de1e43e66faf0888afc99f33e" name="Pay.png" size="4659" timestamp="1379450008"/>
+		<file md5="e5420ea8754be51f8954d3f3aeab213e" name="SelectArea.png" size="34238" timestamp="1379450008"/>
+		<file md5="858d9b904a2fe67ff23ca8569d06d231" name="Service.png" size="5064" timestamp="1379450008"/>
+	</dir>
+	<file md5="dc0d50760fc6c0e8a6fdc43236d0bb8a" name="libcurl.dll" size="237568" timestamp="1374668074">
+		<history md5="d0f3b3aaa109a1ea8978c83d23055eb1" patch="libcurl.dll.patch.0" patch_md5="9c72dfd41dbea1fa27295a149e050ddf" patch_size="92890" size="270336" timestamp="1374668074"/>
+	</file>
+	<file md5="b1ed2ebc02707e305f860baaa57a55ad" name="mfc100.dll" size="4342600" timestamp="1374434366"/>
+	<file md5="1115d360c2162208c0199d31c834c458" name="patch_tool_shared.dll" size="551296" timestamp="1374467058">
+		<history md5="707acd8bf238f7fa0fdf94c2b8b5ea34" patch="patch_tool_shared.dll.patch.0" patch_md5="ebd824bed4b60c4239823e9d6ed5da87" patch_size="1730" size="549376" timestamp="1374464757"/>
+	<history md5="1115d360c2162208c0199d31c834c458" patch="patch_tool_shared.dll.patch.1" patch_md5="1a3e1828225cb6a09925af614ff8e22e" patch_size="135" size="551296" timestamp="1374466477"/>
+	<history md5="707acd8bf238f7fa0fdf94c2b8b5ea34" patch="patch_tool_shared.dll.patch.2" patch_md5="9c751c9b13ffee102f849cb2cf7437b8" patch_size="1697" size="549376" timestamp="1374467058"/>
+	</file>
+	<file md5="b9cb3f1368a4044a3562ae0c4539661b" name="PLALauncher.exe" size="389504" timestamp="1379521201">
+		<history md5="bd910d7b48e93ef3893352ef1a23e691" patch="PLALauncher.exe.patch.0" patch_md5="feb1407fc2cee3cab5b98a9232e6d4cf" patch_size="96343" size="382976" timestamp="1374451531"/>
+	<history md5="04f7a9ad56d837b0923ad224aa7677c7" patch="PLALauncher.exe.patch.1" patch_md5="23b1a6958578eaf275fd08b2769829a8" patch_size="93270" size="396288" timestamp="1374464757"/>
+	<history md5="70dde3634015fbae585b368220f0697c" patch="PLALauncher.exe.patch.2" patch_md5="5dc5be11aa3ce991bbd515ee31557083" patch_size="92020" size="398208" timestamp="1374466477"/>
+	<history md5="04f7a9ad56d837b0923ad224aa7677c7" patch="PLALauncher.exe.patch.3" patch_md5="c805494683da89b5a4417bb3b81c3c6f" patch_size="93270" size="396288" timestamp="1374467058"/>
+	<history md5="70dde3634015fbae585b368220f0697c" patch="PLALauncher.exe.patch.4" patch_md5="012faa21ecca429574ae5f150900ebbf" patch_size="92020" size="398208" timestamp="1375913280"/>
+	<history md5="6f4f21b171d1174b35d1eba65e6e2778" patch="PLALauncher.exe.patch.5" patch_md5="ea7bbe794b69a0079fdf83e3f3ba50fc" patch_size="92455" size="400256" timestamp="1375964687"/>
+	<history md5="70dde3634015fbae585b368220f0697c" patch="PLALauncher.exe.patch.6" patch_md5="8058ae82c2bfc8c935b61bbd16d7c82c" patch_size="92020" size="398208" timestamp="1379450008"/>
+	<history md5="56839395fcc2e0941efc6a28389cb52d" patch="PLALauncher.exe.patch.7" patch_md5="cf0bb54c32000770df3741ad6ca09e61" patch_size="35505" size="389504" timestamp="1379518596"/>
+	<history md5="8c923fa9671e8cfafb55412600b94247" patch="PLALauncher.exe.patch.8" patch_md5="1520cc22137ea21e94b0211699d650f7" patch_size="
