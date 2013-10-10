@@ -22,7 +22,7 @@ int main()
     struct sockaddr_in cl_addr;
     float version = 0.0;
     int status = 0;
-    int length = 0;
+    int total_size = 0;
     char dest[301];
     //char ss[20],sx[20];
     memset(dest,0,sizeof(dest));
@@ -60,9 +60,9 @@ int main()
     printf("recv:\n%s\n********************************\n",recvbuf);
 
     sscanf(strstr(recvbuf,"HTTP/"),"HTTP/%f %d",&version,&status);
-    sscanf(strstr(recvbuf,"Content-Length"),"Content-Length: %d",&length);
-    printf("status=%d length=%d\n",status,length);
-    if(status != 200 || length == 0)
+    sscanf(strstr(recvbuf,"Content-Length"),"Content-Length: %d",&total_size);
+    printf("status=%d total_size=%d\n", status, total_size);
+    if(status != 200 || total_size == 0)
     {
         printf("http connect failed!\n");
         exit(1);
@@ -88,29 +88,29 @@ int main()
 
         char buffer[BUFFER_SIZE];
         bzero(buffer,BUFFER_SIZE);
-        length=0;
 
         while(1)
         {
-            length=recv(sockcl,buffer,BUFFER_SIZE,0);
-            printf("------------------------\nrecv length:%d\n", length);
-            cout << "buffer: " << buffer << endl;
-            if(length <= 0)
+            recv_len = recv(sockcl,buffer,BUFFER_SIZE,0);
+            printf("------------------------\nrecv recv_len:%d\n", recv_len);
+            printf("buffer:%s\n", buffer);
+            if(recv_len <= 0)
             {
-                printf("Recieve Data From Server [%s] Failed!\n",ip);
+                printf("Recieve Data From Server [%s] Failed!\n", ip);
                 break;
             }
-            //int write_length = write(fp, buffer,length);
-            int write_length=fwrite(buffer,sizeof(char),length,fp);
+            int write_length = fwrite(buffer, sizeof(char), recv_len, fp);
             printf("recv write_length:%d\n", write_length);
-            if(write_length<length)
+            if(write_length < recv_len)
             {
-                printf("File:\t%s Write Failed\n",filename);
+                printf("File:\t%s Write Failed\n", filename);
                 break;
             }
-            bzero(buffer,BUFFER_SIZE);
-            progress += length;
+            bzero(buffer, BUFFER_SIZE);
+            progress += recv_len;
             printf("progress:%d\n", progress);
+            if(progress >= total_size)
+                break;
         }
         printf("Recieve File:%s From Server [%s] Finished\n",filename,ip);
     }   
