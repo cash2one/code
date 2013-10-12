@@ -3,6 +3,7 @@
 
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <arpa/inet.h>
 
 using namespace std;
 
@@ -10,6 +11,7 @@ class sock_info_t
 {
 	private:
 		int		    m_listen_fd;
+        int         m_cli_fd;
 		socklen_t   m_len;
 		struct sockaddr_in m_serv_addr;
 		struct sockaddr_in m_cli_addr;
@@ -30,8 +32,13 @@ class sock_info_t
 			return m_cli_addr;
 		}
 
+        inline int get_cli_sock()
+        {
+            return m_cli_fd;
+        }
+
 		virtual void init();   
-        virtual void http_init();
+        virtual bool http_init(char* ip, int port);
 };
 
 #endif
