@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include <fcntl.h>
 #include "socket_manager.h"
 

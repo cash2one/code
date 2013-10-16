@@ -8,6 +8,7 @@
 #include <iostream>
 #include <unistd.h>
 #include <log.h>
+#include <memory.h>
 #include <socket_manager.h>
 #include <http_manager.h>
 
