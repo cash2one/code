@@ -4,13 +4,14 @@ SRC_DIR = .
 INC_DIR = .
 OBJ_DIR = objs/
 INCLUDE = -I $(SRC_DIR) -I $(INC_DIR) -I $(OBJ_DIR)
+LIBS = -lrt
 
 vpath %.h $(INC_DIR)
 vpath %.cpp $(SRC_DIR)
 vpath %.o $(OBJ_DIR)
 
 server : main.o $(OBJS)
-	$(CC) $(addprefix $(OBJ_DIR), $(OBJS)) -o server.o 
+	$(CC) $(addprefix $(OBJ_DIR), $(OBJS)) -o server.o $(LIBS)
 	
 main.o : main.cpp socket_manager.h http_manager.h
 	$(CC) -c $< $(INCLUDE) -o $(OBJ_DIR)$@ 

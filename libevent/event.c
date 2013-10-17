@@ -559,7 +559,7 @@ event_base_loop(struct event_base *base, int flags)
 		/* clear time cache */
 		base->tv_cache.tv_sec = 0;
 
-		res = evsel->dispatch(base, evbase, tv_p);
+		res = evsel->dispatch(base, evbase, tv_p);  //! elec：根据timeout_next算出的tv_p来设置最大等待时间
 
 		if (res == -1)
 			return (-1);
@@ -915,7 +915,7 @@ event_active(struct event *ev, int res, short ncalls)
 }
 
 static int
-timeout_next(struct event_base *base, struct timeval **tv_p)
+timeout_next(struct event_base *base, struct timeval **tv_p)    //! elec:TODO
 {
 	struct timeval now;
 	struct event *ev;
@@ -946,7 +946,7 @@ timeout_next(struct event_base *base, struct timeval **tv_p)
      * zark: 根据timer事件计算evsel->dispatch的最大等待时间,
      *       外部将用这个值提供给epoll_wait的timeout参数.
      */
-	evutil_timersub(&ev->ev_timeout, &now, tv);
+	evutil_timersub(&ev->ev_timeout, &now, tv);     //! elec: tv = timeout - now
 
 	assert(tv->tv_sec >= 0);
 	assert(tv->tv_usec >= 0);

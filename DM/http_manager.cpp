@@ -9,12 +9,13 @@
 #include <sys/wait.h>
 #include <iostream>
 #include <unistd.h>
+#include <time.h>
 #include <http_manager.h>
 
 using namespace std;
 
 #define PORT 80
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 1024*10
 
 void http_info_t::http_get(int sockcl, char* buffer_)
 {
@@ -23,9 +24,9 @@ void http_info_t::http_get(int sockcl, char* buffer_)
     char dest[301];
     memset(dest,0,sizeof(dest));
 
-    char filename[] = "launcher_server.xml";
+    char filename[] = "PLAGame-Win32-Shipping.exe";//"launcher_server.xml";
     char net_name[] = "updategrsm.ztgame.com.cn";
-    char path[] = "/xml/";
+    char path[] = "/PLAGameDis/Binaries/Win32/";
 
     sprintf(buffer_,"GET %s%s HTTP/1.1\r\nHost:%s\r\nAccept:*/*\r\nConection:Keep-Alive\r\n\r\n",path,filename, net_name);   
     send(sockcl,buffer_,strlen(buffer_),0);
@@ -35,7 +36,7 @@ void http_info_t::http_get(int sockcl, char* buffer_)
     printf("pack_head_len = %d\n", recv_len);
     printf("recv:\n%s\n********************************\n",buffer_);
 
-    sscanf(strstr(buffer_,"HTTP/"),"HTTP/%f %d",&version,&status);
+    sscanf(strstr(buffer_,"HTTP/"), "HTTP/%f %d", &version, &status);
     sscanf(strstr(buffer_,"Content-Length"),"Content-Length: %d",&total_size);
     printf("status=%d total_size=%d\n", status, total_size);
     if(status != 200 || total_size == 0)
@@ -47,8 +48,7 @@ void http_info_t::http_get(int sockcl, char* buffer_)
     {   
         strcpy(dest,strstr(buffer_,"\r\n\r\n")+sizeof("\r\n\r\n")-1);
         int pack_head_len = strstr(buffer_,"\r\n\r\n") - buffer_ + sizeof("\r\n\r\n") - 1;
-        printf("pack_head_len ##### :%d\n",pack_head_len);
-        int progress = recv_len - pack_head_len;
+        long progress = recv_len - pack_head_len;
         FILE *fp=fopen(filename,"wb");
         if(NULL==fp)
         {
@@ -60,18 +60,22 @@ void http_info_t::http_get(int sockcl, char* buffer_)
         char buffer[BUFFER_SIZE];
         bzero(buffer,BUFFER_SIZE);
 
+        struct timespec time_start;
+        struct timespec time_end;
+        struct timespec total_time_start;
+        struct timespec total_time_end;
+        clock_gettime(CLOCK_MONOTONIC, &total_time_start); 
         while(1)
         {
+            clock_gettime(CLOCK_MONOTONIC, &time_start);
             recv_len = recv(sockcl,buffer,BUFFER_SIZE,0);
-            printf("------------------------\nrecv recv_len:%d\n", recv_len);
-            //printf("buffer:%s\n", buffer);
             if(recv_len <= 0)
             {
                 printf("Recieve Data From Server Failed!\n");
                 break;
             }
+
             int write_length = fwrite(buffer, sizeof(char), recv_len, fp);
-            printf("recv write_length:%d\n", write_length);
             if(write_length < recv_len)
             {
                 printf("File:\t%s Write Failed\n", filename);
@@ -79,10 +83,25 @@ void http_info_t::http_get(int sockcl, char* buffer_)
             }
             bzero(buffer, BUFFER_SIZE);
             progress += recv_len;
-            printf("progress:%d\n", progress);
+
+            int percent = progress * 100 / total_size;
+            printf("%d%%\[", percent);
+            for(int i = 0; i < percent; i++)
+                printf("=");
+            printf(">]");
+
+            clock_gettime(CLOCK_MONOTONIC, &time_end);
+            int use_time_ns = time_end.tv_nsec - time_start.tv_nsec;
+            int speed = recv_len * 1000 / (use_time_ns / 1000);
+            printf(" recv_len=%d  use_time_ns=%d  %dK/s\n", recv_len, use_time_ns, speed);
             if(progress >= total_size)
                 break;
         }
-        printf("Recieve File:%s From Server Finished\n",filename);
+        clock_gettime(CLOCK_MONOTONIC, &total_time_end);
+        int total_time_s = total_time_end.tv_sec - total_time_start.tv_sec; 
+        printf("Recieve File [%s]\n",filename);
+        printf("Recieve Size [%dKb]\n", progress/1000);
+        printf("Consume Time [%ds]\n",total_time_s);
+        printf("Average Speed[%dKb/s]\n",total_size/1000/total_time_s);
     }   
 }

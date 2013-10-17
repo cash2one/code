@@ -1,4 +1,6 @@
 *.swo
 *.swp
+*.out
+*.o
 script
 objs/
