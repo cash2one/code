@@ -18,26 +18,19 @@
 using namespace std;
 
 sock_info_t g_sock_info;
-http_info_t g_http_info;
 
 int main()
 {
-    char recvbuf[301];
-    struct sockaddr_in cl_addr;
-    float version = 0.0;
-    int status = 0;
-    int total_size = 0;
-    char dest[301];
     int sockcl;
-    
-    memset(dest,0,sizeof(dest));
-
-    // socket init
+    url_info_t url_info;
+    url_info.net_name = "updategrsm.ztgame.com.cn";
+    url_info.path = "/PLAGameDis/Binaries/Win32/";
+    url_info.file_name = "PLAGame-Win32-Shipping.exe";
     char ip[] = "218.92.1.21";
     g_sock_info.http_init(ip, PORT); 
     sockcl = g_sock_info.get_cli_sock(); 
-    // http download
-    g_http_info.http_get(sockcl, recvbuf);
+    http_info_t g_http_info(url_info);
+    g_http_info.http_get(sockcl);
 
     exit(1);
 }
