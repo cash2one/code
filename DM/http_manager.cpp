@@ -8,6 +8,9 @@
 #include <netinet/in.h>
 #include <sys/wait.h>
 #include <sys/queue.h>
+#include <arpa/inet.h>
+#include <netdb.h>
+#include <sys/types.h>
 #include <iostream>
 #include <unistd.h>
 #include <time.h>
@@ -18,9 +21,18 @@ using namespace std;
 #define PORT 80
 #define BUFFER_SIZE 4096
 
-void http_info_t::begin_download()
+string http_info_t::url_ip(const string& url)
 {
-     
+    //  域名ip转换 分离
+    struct hostent *host = gethostbyname(url.data());
+    string ret(inet_ntoa(*((struct in_addr *)host->h_addr)));
+    printf("IP Address:%s\n", ret.data());
+
+    return ret;
+}
+
+void http_info_t::begin_download()
+{     
 }
 
 void http_info_t::http_get(int sockcl)

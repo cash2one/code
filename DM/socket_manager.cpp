@@ -37,7 +37,7 @@ void sock_info_t::init()
 	cout << "server init succeed" << endl;
 }
 
-bool sock_info_t::http_init(char* ip, int port)
+bool sock_info_t::http_init(const char* ip, int port)
 {
     if((m_cli_fd = socket(AF_INET, SOCK_STREAM, 0)) == -1)
     {

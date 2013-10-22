@@ -38,7 +38,7 @@ class sock_info_t
         }
 
 		virtual void init();   
-        virtual bool http_init(char* ip, int port);
+        virtual bool http_init(const char* ip, int port);
 };
 
 #endif

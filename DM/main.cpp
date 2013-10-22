@@ -13,7 +13,6 @@
 #include <http_manager.h>
 
 #define PORT 80
-#define BUFFER_SIZE 1024
 
 using namespace std;
 
@@ -21,16 +20,19 @@ sock_info_t g_sock_info;
 
 int main()
 {
-    int sockcl;
+    http_info_t http_info;
+    const char *url_ip = http_info.url_ip("updategrsm.ztgame.com.cn").data();
+
+    g_sock_info.http_init(url_ip, PORT); 
+    int fd = g_sock_info.get_cli_sock(); 
+
     url_info_t url_info;
     url_info.net_name = "updategrsm.ztgame.com.cn";
     url_info.path = "/PLAGameDis/Binaries/Win32/";
     url_info.file_name = "PLAGame-Win32-Shipping.exe";
-    char ip[] = "218.92.1.21";
-    g_sock_info.http_init(ip, PORT); 
-    sockcl = g_sock_info.get_cli_sock(); 
-    http_info_t g_http_info(url_info);
-    g_http_info.http_get(sockcl);
 
+    http_info_t g_http_info(url_info);
+    g_http_info.http_get(fd);
+    
     exit(1);
 }
