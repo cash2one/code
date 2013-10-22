@@ -81,6 +81,8 @@ void http_info_t::http_get(int sockcl)
         struct timespec total_time_start;
         struct timespec total_time_end;
         clock_gettime(CLOCK_MONOTONIC, &total_time_start); 
+        int percent = 0;
+        int percent_o = -1;
         while(1)
         {
             clock_gettime(CLOCK_MONOTONIC, &time_start);
@@ -100,24 +102,42 @@ void http_info_t::http_get(int sockcl)
             bzero(buffer, BUFFER_SIZE);
             progress += recv_len;
 
-            int percent = progress * 100 / total_size;
+            percent = progress * 100 / total_size;
+            if(percent <= percent_o)
+                continue;
+
             printf("%d%%\[", percent);
-            for(int i = 0; i < percent; i++)
-                printf("=");
-            printf(">]");
+            for(int i = 0; i <= 150; i++)
+            {
+                if(i <= (percent * 1.5))
+                    printf("=");
+                else if(i == 150)
+                    printf(">");
+                else
+                    printf(" ");
+            }
+            printf("]");
 
             clock_gettime(CLOCK_MONOTONIC, &time_end);
             int use_time_ns = time_end.tv_nsec - time_start.tv_nsec;
             int speed = recv_len * 1000 / (use_time_ns / 1000);
-            printf(" recv_len=%d  use_time_ns=%d  %dK/s\n", recv_len, use_time_ns, speed);
+            printf(" recv_len=%d\buse_time_ns=%d\b%dK/s\r", recv_len, use_time_ns, speed);
+            percent_o = percent;
+            fflush ( stdout ) ;
+            // download finish
             if(progress >= total_size)
+            {
+                printf("\n");
                 break;
+            }
         }
+        /*
         clock_gettime(CLOCK_MONOTONIC, &total_time_end);
         int total_time_s = total_time_end.tv_sec - total_time_start.tv_sec; 
         printf("Recieve File [%s]\n",file_name);
         printf("Recieve Size [%dKb]\n", progress/1000);
         printf("Consume Time [%ds]\n",total_time_s);
         printf("Average Speed[%dKb/s]\n",total_size/1000/total_time_s);
+        */
     }   
 }
