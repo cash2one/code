@@ -26,25 +26,26 @@ struct url_info_t
     }
 };
 
+struct http_head_info_t
+{
+    int state;
+    int file_size;
+    long cur_progress;
+
+    http_head_info_t(int state_, int file_size_, int cur_progress_)
+        :state(state_), file_size(file_size_), cur_progress(cur_progress_){}
+};
+
 class http_info_t
 {
 public:
     http_info_t(){}
 
-    http_info_t(url_info_t url_info_)
-        :url_info(url_info_){}
-        
-    void http_get(int sockcl_);
+    http_head_info_t http_get_head(int fd);
+    static void http_get(int fd, short ev, void* arg);
     string url_ip(const string& url);
     void begin_download();
-    void set_url_info(url_info_t url_info_)
-    {
-       url_info = url_info_;
-    }
 private:
-    url_info_t  url_info;
-    int         total_size;
-    int         progress;
 };
 
 #endif

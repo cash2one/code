@@ -1,4 +1,5 @@
 OBJS = main.o socket_manager.o http_manager.o log.o util.o
+LIBEVENT = -Wl,-rpath,/usr/lib/ -L/usr/lib/ -levent -I/usr/include/
 CC = g++
 SRC_DIR = .
 INC_DIR = .
@@ -11,7 +12,7 @@ vpath %.cpp $(SRC_DIR)
 vpath %.o $(OBJ_DIR)
 
 server : main.o $(OBJS)
-	$(CC) $(addprefix $(OBJ_DIR), $(OBJS)) -o server.o $(LIBS)
+	$(CC) $(addprefix $(OBJ_DIR), $(OBJS)) $(LIBEVENT) -o server.o $(LIBS)
 	
 main.o : main.cpp socket_manager.h http_manager.h
 	$(CC) -c $< $(INCLUDE) -o $(OBJ_DIR)$@ 
