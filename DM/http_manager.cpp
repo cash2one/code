@@ -69,7 +69,7 @@ http_head_info_t http_info_t::http_get_head(int fd)
     }
     strcpy(dest,strstr(head_buf,"\r\n\r\n")+sizeof("\r\n\r\n")-1);
     int pack_head_len = strstr(head_buf,"\r\n\r\n") - head_buf + sizeof("\r\n\r\n") - 1;
-    long progress = recv_len - pack_head_len;
+    int progress = recv_len - pack_head_len;
     cur_fp = fopen(g_url_info.file_name.data(),"wb");
     if(NULL==cur_fp)
     {
@@ -88,18 +88,20 @@ void http_info_t::http_get(int fd, short ev, void* arg)
     char buffer[BUFFER_SIZE];
     bzero(buffer,BUFFER_SIZE);
 
-    struct timespec time_start;
+    struct timespec time_begin;
     struct timespec time_end;
     struct timespec total_time_start;
     struct timespec total_time_end;
     clock_gettime(CLOCK_MONOTONIC, &total_time_start); 
     int percent = 0;
     int percent_o = -1;
-    long progress = head->cur_progress;
+    unsigned long progress = head->cur_progress;
     int total_size = head->file_size;
+    int recv_tmp = 0;
+    int time_s_tmp = 0;
     while(1)
     {
-        clock_gettime(CLOCK_MONOTONIC, &time_start);
+        clock_gettime(CLOCK_MONOTONIC, &time_begin);
         int recv_len = recv(fd,buffer,BUFFER_SIZE,0);
         if(recv_len <= 0)
         {
@@ -118,27 +120,31 @@ void http_info_t::http_get(int fd, short ev, void* arg)
 
         percent = progress * 100 / total_size;
         int bar = progress * 150 / total_size;
-        if(percent <= percent_o)
-            continue;
 
-        printf("%d%%\[", percent);
-        for(int i = 0; i <= 150; i++)
+        recv_tmp += recv_len;
+        int begin_s = time_begin.tv_sec;
+        //printf("begin_tv_sec = %d, end_ev_sec = %d\n", begin_s, end_s); 
+        if(time_s_tmp != begin_s || progress >= total_size)
         {
-            if(i == bar)
-                printf(">");
-            else if(i < bar)
-                printf("=");
-            else
-                printf(" ");
-        }
-        printf("]");
+            printf("%d%%\[", percent);
+            for(int i = 0; i <= 150; i++)
+            {
+                if(i == bar)
+                    printf(">");
+                else if(i < bar)
+                    printf("=");
+                else
+                    printf(" ");
+            }
+            printf("]");
 
-        clock_gettime(CLOCK_MONOTONIC, &time_end);
-        int use_time_ns = time_end.tv_nsec - time_start.tv_nsec;
-        int speed = recv_len * 1000 / (use_time_ns / 1000);
-        printf(" recv_len=%d\buse_time_ns=%d\b%dK/s\r", recv_len, use_time_ns, speed);
-        percent_o = percent;
-        fflush ( stdout ) ;
+            int speed = recv_tmp / 1000;
+            printf("    %dK/s\r", speed);
+            fflush ( stdout ) ;
+            recv_tmp = 0;
+            time_s_tmp = begin_s;
+        }
+
         // download finish
         if(progress >= total_size)
         {

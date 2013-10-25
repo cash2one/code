@@ -30,7 +30,7 @@ struct http_head_info_t
 {
     int state;
     int file_size;
-    long cur_progress;
+    int cur_progress;
 
     http_head_info_t(int state_, int file_size_, int cur_progress_)
         :state(state_), file_size(file_size_), cur_progress(cur_progress_){}
