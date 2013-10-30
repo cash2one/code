@@ -45,3 +45,35 @@ void file::copy_file(const char* org_name, const char* des_name)
     }
     ofs.close();
 }
+
+void file::insert_word(const char* org_name, const char* des_name,\
+    const char* new_word, const char* des_word)
+{
+    string read_buf;
+    ifstream ifs(org_name);
+    ofstream ofs;
+    ofs.open(des_name, ios::app);
+    while(getline(ifs, read_buf))
+    {
+        int loc = read_buf.find(des_word);
+        if(loc >0)
+        {
+            read_buf.insert(loc + strlen(des_word), new_word);
+        }
+        ofs << read_buf << endl;
+    }
+    ofs.close();
+}
+
+void file::insert_word(const char* file_name, const char* new_word, const char* des_word)
+{
+    insert_word(file_name, "temp", new_word, des_word);
+    remove(file_name);
+    copy_file("temp", file_name);
+    remove("temp");
+}
+
+void file::delete_file(const char* file_name)
+{
+    remove(file_name); 
+}
