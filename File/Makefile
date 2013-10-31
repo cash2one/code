@@ -1,4 +1,4 @@
-OBJS = main.o file.o 
+OBJS = main.o file.o log.o util.o
 CC = g++
 SRC_DIR = .
 INC_DIR = .
@@ -18,5 +18,11 @@ main.o : main.cpp file.h
 file.o : file.cpp file.h
 	$(CC) -c $< $(INCLUDE) -o $(OBJ_DIR)$@ 
 	
+log.o : log.cpp log.h 
+	$(CC) -c $< $(INCLUDE) -o $(OBJ_DIR)$@
+
+util.o : util.cpp util.h
+	$(CC) -c $< $(INCLUDE) -o $(OBJ_DIR)$@
+
 clean:
 	-rm $(OBJ_DIR)*.o file.o

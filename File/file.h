@@ -18,6 +18,9 @@ public:
     static void insert_word(const char* org_name, const char* des_name,\
             const char* new_word, const char* des_word);
     static void insert_word(const char* file_name, const char* new_word, const char* des_word);
+    static void replace_word(const char* org_name, const char* des_name,\
+            const char* new_word, const char* des_word);
+    static void replace_word(const char* file_name, const char* new_word, const char* des_word);
     static void delete_file(const char* file_name);
 };
 
