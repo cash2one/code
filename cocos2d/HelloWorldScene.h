@@ -12,17 +12,6 @@
 #include "cocos2d.h"
 #include "Box2D.h"
 
-class PhysicsSprite : public cocos2d::CCSprite
-{
-public:
-    PhysicsSprite();
-    void setPhysicsBody(b2Body * body);
-    virtual bool isDirty(void);
-    //virtual cocos2d::CCAffineTransform nodeToParentTransform(void);
-private:
-    b2Body* m_pBody;    // strong ref
-};
-
 class HelloWorld : public cocos2d::CCLayer {
 public:
     ~HelloWorld();
@@ -30,26 +19,25 @@ public:
     
     // returns a Scene that contains the HelloWorld as the only child
     static cocos2d::CCScene* scene();
-    
-    void initPhysics();
-    // adds a new sprite at a given coordinate
-    void addNewSpriteAtPosition(cocos2d::CCPoint p);
 
-    virtual void draw();
-    virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
-    void update(float dt);
+    // touch event
+    virtual void ccTouchesBegan(cocos2d::CCSet* pTouches, cocos2d::CCEvent* pEvent);
+    virtual void ccTouchesMoved(cocos2d::CCSet* pTouches, cocos2d::CCEvent* pEvent);
+    virtual void ccTouchesEnded(cocos2d::CCSet* pTouches, cocos2d::CCEvent* pEvent);
+    virtual void ccTouchesCancelled(cocos2d::CCSet* pTouches, cocos2d::CCEvent* pEvent);
+    
     // add method begin
+    void initPhysics();
     void addBall();
+    void update(float dt);
     
 private:
-    b2World*    _world;
-    b2Body*     _groundBody;
-    b2Fixture*  _bottomFixture;
-    b2Fixture*  _ballFixture;
-    b2Body*     _paddleBody;
-    b2Fixture*  _paddleFixture;
-    b2World*    world;
-    cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
+    b2World*        m_world;
+    b2Body*         m_edgeBody;
+    b2Fixture*      m_ballFixture;
+    b2Body*         m_paddleBody;
+    b2Fixture*      m_paddleFixture;
+    b2MouseJoint*   m_mouseJoint;
 };
 
 #endif // __HELLO_WORLD_H__
