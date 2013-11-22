@@ -47,7 +47,7 @@ static inline int            min_heap_reserve(min_heap_t* s, unsigned n);
 static inline int            min_heap_push(min_heap_t* s, struct event* e);
 static inline struct event*  min_heap_pop(min_heap_t* s);
 static inline int            min_heap_erase(min_heap_t* s, struct event* e);
-static inline void           min_heap_shift_up_(min_heap_t* s, unsigned hole_index, struct event* e);
+static inline void           min_heap_shift_up_(min_heap_t* s, unsigned hole_index, struct event* e);   
 static inline void           min_heap_shift_down_(min_heap_t* s, unsigned hole_index, struct event* e);
 
 int min_heap_elem_greater(struct event *a, struct event *b)
@@ -65,9 +65,9 @@ struct event* min_heap_top(min_heap_t* s) { return s->n ? *s->p : 0; }
 
 int min_heap_push(min_heap_t* s, struct event* e)
 {
-    if(min_heap_reserve(s, s->n + 1))
+    if(min_heap_reserve(s, s->n + 1))   //!elec: 内存分配
         return -1;
-    min_heap_shift_up_(s, s->n++, e);
+    min_heap_shift_up_(s, s->n++, e);   //!elec: 注意传入函数 s->n, 节点插入完n++
     return 0;
 }
 
@@ -95,7 +95,7 @@ int min_heap_erase(min_heap_t* s, struct event* e)
 	   to be less than the parent, it can't need to shift both up and
 	   down. */
         if (e->min_heap_idx > 0 && min_heap_elem_greater(s->p[parent], last))
-             min_heap_shift_up_(s, e->min_heap_idx, last);
+             min_heap_shift_up_(s, e->min_heap_idx, last);  //!elec:如果用downward,最后尾节点填空的位置肯定在min_heap_idx的下面.用upward直接覆盖min_heap_idx位置,可以避免几次可能的节点覆盖
         else
              min_heap_shift_down_(s, e->min_heap_idx, last);
         e->min_heap_idx = -1;
@@ -119,33 +119,33 @@ int min_heap_reserve(min_heap_t* s, unsigned n)
     }
     return 0;
 }
-
+//!elec:每次从堆尾插入,与父节点比较,比父节点小,用父节点覆盖.知道比父节点大,用插入事件覆盖
 void min_heap_shift_up_(min_heap_t* s, unsigned hole_index, struct event* e)
-{
+{              //!elec:(插入的堆,插入位置,插入事件)
     unsigned parent = (hole_index - 1) / 2;
     while(hole_index && min_heap_elem_greater(s->p[parent], e))
     {
-        (s->p[hole_index] = s->p[parent])->min_heap_idx = hole_index;
+        (s->p[hole_index] = s->p[parent])->min_heap_idx = hole_index;   //!elec:用父节点覆盖
         hole_index = parent;
         parent = (hole_index - 1) / 2;
     }
-    (s->p[hole_index] = e)->min_heap_idx = hole_index;
+    (s->p[hole_index] = e)->min_heap_idx = hole_index;  //!elec: 用插入事件覆盖
 }
 
 void min_heap_shift_down_(min_heap_t* s, unsigned hole_index, struct event* e)
-{
+{                //!elec:(取出的堆,取出节点位置,堆尾节点的事件)
     unsigned min_child = 2 * (hole_index + 1);
     while(min_child <= s->n)
 	{
-        //!elec:    1.当右子节点等于n,说明右子结点不存在,取左子节点 2.取左,右子节点中较小的一个
+        //!elec:1.当右子节点等于n,说明右子结点不存在,取左子节点 2.取左,右子节点中较小的一个
         min_child -= min_child == s->n || min_heap_elem_greater(s->p[min_child], s->p[min_child - 1]);
-        if(!(min_heap_elem_greater(e, s->p[min_child])))
+        if(!(min_heap_elem_greater(e, s->p[min_child]))) //!elec:只存在 尾节点事件等于min_child事件,直接break,把尾节点插入取出节点的位置
             break;
         (s->p[hole_index] = s->p[min_child])->min_heap_idx = hole_index;
         hole_index = min_child;
         min_child = 2 * (hole_index + 1);
 	}
-    min_heap_shift_up_(s, hole_index,  e);
+    min_heap_shift_up_(s, hole_index,  e);  //!elec:用尾节点填补空缺位置
 }
 
 #endif /* _MIN_HEAP_H_ */
